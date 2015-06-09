@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class AlphaOut : MonoBehaviour {
 	public Image black;
+	public GameObject menuCanvas;
 	//public Color startingColor;
 	public GameObject pepperoni;
 	public GameObject payoff;
@@ -31,6 +32,7 @@ public class AlphaOut : MonoBehaviour {
 			progress += increment;
 			yield return new WaitForSeconds(smoothness);
 		}
+		menuCanvas.SetActive (false);
 		return true;
 	}
 
