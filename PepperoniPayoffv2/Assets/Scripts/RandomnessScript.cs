@@ -25,7 +25,7 @@ public class RandomnessScript : MonoBehaviour {
 
 	private int[] newNumbers = new int[9];
 
-	private int[] numbersForMatrix = new int[9];
+	public int[] numbersForMatrix = new int[9];
 
 	private int rangeHeight;
 
@@ -70,6 +70,7 @@ public class RandomnessScript : MonoBehaviour {
 		//DoubleCheck();
 		
 		prize0 = numbersForMatrix [0];
+		//prize0 = 800;
 		prize1 = numbersForMatrix [1];
 		prize2 = numbersForMatrix [2];
 		prize3 = numbersForMatrix [3];

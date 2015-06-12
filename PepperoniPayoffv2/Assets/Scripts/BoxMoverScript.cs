@@ -9,6 +9,9 @@ public class BoxMoverScript : MonoBehaviour {
 	public Transform target0;
 	public GameObject pizza0;
 
+	public int BoxNum;
+
+	private bool shutting;
 
 	float duration = 2.5f; // This will be your time in seconds.
 	float smoothness = 0.02f; // This will determine the smoothness of the lerp. Smaller values are smoother. Really it's the time between updates.
@@ -16,7 +19,7 @@ public class BoxMoverScript : MonoBehaviour {
 	void Start () {
 		buttonName = null;
 		boxName = null;
-
+		shutting = false;
 	}
 	
 	// Update is called once per frame
@@ -28,6 +31,11 @@ public class BoxMoverScript : MonoBehaviour {
 		float increment = smoothness/duration; //The amount of change to apply.
 		GameObject selectedBox = GameObject.Find (boxName);
 		while (progress < 1) {
+			if(shutting)
+			{
+				yield return new WaitForSeconds(.6f);
+				shutting = false;
+			}
 			selectedBox.transform.position = Vector3.Lerp (selectedBox.transform.position, target0.position, progress);		//Lerps selected box to the target location
 			selectedBox.transform.rotation = Quaternion.Slerp(selectedBox.transform.rotation, target0.rotation, progress);	//Slerps the rotation for cool spinny effect
 			progress += increment;
@@ -42,6 +50,7 @@ public class BoxMoverScript : MonoBehaviour {
 		buttonName = "PizzaButton" + boxNumber;				//Sets the button name so that we can shut it off (this got rid of null reference after already clicked)
 		GameObject button = GameObject.Find (buttonName);	//Sets the selected button to the button gameobject allowing us to deactivate it.
 		button.SetActive (false);
+		shutting = true;
 		StartCoroutine ("PizzaCoroutine");					//Start PizzaCoroutine, lerping out the corect box.
 	}
 }
