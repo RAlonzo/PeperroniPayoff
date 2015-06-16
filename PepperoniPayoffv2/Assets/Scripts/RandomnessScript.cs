@@ -6,7 +6,8 @@ public class RandomnessScript : MonoBehaviour {
 	private int currentNumber;
 
 	public int prize0,prize1,prize2,prize3,prize4,prize5,prize6,prize7,prize8;
-	
+
+	//These counters are to check how many of each are drawn, to check similarities.
 	public int counter1;
 	public int counter2;
 	public int counter3;
@@ -25,7 +26,7 @@ public class RandomnessScript : MonoBehaviour {
 
 	private int[] newNumbers = new int[9];
 
-	private int[] numbersForMatrix = new int[9];
+	public int[] numbersForMatrix = new int[9];
 
 	private int rangeHeight;
 
@@ -42,7 +43,7 @@ public class RandomnessScript : MonoBehaviour {
 		rangeHeight = 101;
 		//Intense Way
 		for (int i = 0; i <= 8; i++) {
-			newNumbers [i] = Random.Range (25, rangeHeight);
+			newNumbers [i] = Random.Range (23, rangeHeight);
 			CheckNumbers();
 
 		}
@@ -61,14 +62,14 @@ public class RandomnessScript : MonoBehaviour {
 	void Debugger(){
 		if(Input.GetKeyDown(KeyCode.H))
 		{
-			Debug.Log(numbersForMatrix[0]);
-			Debug.Log(numbersForMatrix[1]);
+			//Debug.Log(numbersForMatrix[0]);
+			//Debug.Log(numbersForMatrix[1]);
 
 		}
 	}
 	private void SetUnderBox(){
 		//DoubleCheck();
-		
+		//This is just an easier way to check whats under neather each box.
 		prize0 = numbersForMatrix [0];
 		prize1 = numbersForMatrix [1];
 		prize2 = numbersForMatrix [2];
@@ -124,6 +125,7 @@ public class RandomnessScript : MonoBehaviour {
 	}
 	private void DoubleCheck()
 	{
+		//How Many Of Each Number is there?
 		for (int o = 0; o <= 8; o++) {
 			if(numbersForMatrix[o] == 1)
 				counter1++;
@@ -177,30 +179,71 @@ public class RandomnessScript : MonoBehaviour {
 			else if(newNumbers[o] <= 78 && newNumbers[o] > 75){
 				numbersForMatrix[o] = 20;
 			}
-			else if(newNumbers[o] <= 83 && newNumbers[o] > 80){
+			else if(newNumbers[o] <= 82 && newNumbers[o] > 80){
 				numbersForMatrix[o] = 30;
 			}
-			else if(newNumbers[o] <= 86 && newNumbers[o] > 83){
+			else if(newNumbers[o] <= 85 && newNumbers[o] > 83){
 				numbersForMatrix[o] = 50;
 			}
-			else if(newNumbers[o] <= 88 && newNumbers[o] > 86){
+			else if(newNumbers[o] <= 87 && newNumbers[o] > 86){
 				numbersForMatrix[o] = 100;
 			}
-			else if(newNumbers[o] <= 91 && newNumbers[o] > 88){
+			else if(newNumbers[o] <= 90 && newNumbers[o] > 88){
 				numbersForMatrix[o] = 200;
 			}
-			else if(newNumbers[o] <= 95 && newNumbers[o] > 91){
+			else if(newNumbers[o] <= 92 && newNumbers[o] > 91){
 				numbersForMatrix[o] = 500;
 			}
 			else if(newNumbers[o] <= 96 && newNumbers[o] > 95){
 				numbersForMatrix[o] = 800;
 			}else{
+				//If numbers are out of range, shrink chances
 				newNumbers[o] = Random.Range(30,80);
-				Debug.Log("Generated a : " + numbersForMatrix[o]);
+				//Debug.Log("Generated a : " + numbersForMatrix[o]);
 			}
-			if(counter500 > 2 || counter800 > 2)
+			if(counter1 >= 2 && numbersForMatrix[o] == 1)
 			{
-				rangeHeight = 90;
+				numbersForMatrix[o] = Random.Range(20, rangeHeight);
+			}
+			if(counter2 >= 2 && numbersForMatrix[o] == 2)
+			{
+				numbersForMatrix[o] = Random.Range(20, rangeHeight);
+			}
+			if(counter3 >= 2 && numbersForMatrix[o] == 3)
+			{
+				numbersForMatrix[o] = Random.Range(20, rangeHeight);
+			}
+			if(counter5 >= 2 && numbersForMatrix[o] == 5)
+			{
+				numbersForMatrix[o] = Random.Range(20, rangeHeight);
+			}
+			if(counter10 >= 2 && numbersForMatrix[o] == 10)
+			{
+				numbersForMatrix[o] = Random.Range(20, rangeHeight);
+			}
+			if(counter20 >= 2 && numbersForMatrix[o] == 20)
+			{
+				numbersForMatrix[o] = Random.Range(20, rangeHeight);
+			}
+			if(counter30 >= 2 && numbersForMatrix[o] == 30)
+			{
+				numbersForMatrix[o] = Random.Range(20, rangeHeight);
+			}
+			if(counter50 >= 2 && numbersForMatrix[o] == 50)
+			{
+				numbersForMatrix[o] = Random.Range(20, rangeHeight);
+			}
+			if(counter100 >= 2 && numbersForMatrix[o] == 100)
+			{
+				numbersForMatrix[o] = Random.Range(20, rangeHeight);
+			}
+			if(counter200 >= 2 && numbersForMatrix[o] == 200)
+			{
+				numbersForMatrix[o] = Random.Range(20, rangeHeight);
+			}
+			if(counter500 >= 2 || counter800 >= 2)
+			{
+				rangeHeight = 80;
 			}
 
 
@@ -212,9 +255,10 @@ public class RandomnessScript : MonoBehaviour {
 				}
 			}
 
+			//To lower chances of two like numbers in a row:
 			if(o >= 1){
 			if(numbersForMatrix[o-1] == numbersForMatrix[o]){
-				Debug.Log("shuffle");
+				//Debug.Log("shuffle");
 				//numbersForMatrix[o] = Random.Range(1, 4); 
 				newNumbers[o] = Random.Range(20, 70);
 			}

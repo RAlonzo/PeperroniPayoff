@@ -16,28 +16,17 @@ public class PrefabManager : MonoBehaviour {
 	public GameObject[] greenPepper;
 	public GameObject[] anchovies;
 	public GameObject[] sausague;
-
-	public enum Toppings : int{
-		pepperoni,
-		mushroom,
-		blackOlive,
-		jalapeno,
-		bacon,
-		greenPepper,
-		anchovies,
-		supreme,
-		cheese
-	};
-
+	
 	int startTopping;
-	int currentTopping;
+	
+	public bool[] activeTopping;
 
-	bool firstTime;
 	//// Use this for initialization
 	void Start () {
-		firstTime = true;
-		startTopping = Random.Range (0, 8);
-		currentTopping = startTopping;
+		for (int i = 0; i < 7; i++) {
+			activeTopping[i] = false;
+		}
+		startTopping = Random.Range (0, 6);
 		setTopping (startTopping);
 	}
 	
@@ -49,143 +38,108 @@ public class PrefabManager : MonoBehaviour {
 	//call this method with any prefab index and any material index
 	public void setTopping(int index)
 	{
-		if (currentTopping != index || firstTime) {
+		Debug.Log (activeTopping);
 			int i;
-			firstTime = false;
 			switch (index) {
 
-			case 8:
-				for (i = 0; i < 9; i++) {
-					mushroom [i].SetActive (false);
-					blackOlive [i].SetActive (false);
-					jalapeno[i].SetActive (false);
-					pepperoni [i].SetActive (false);
-					bacon[i].SetActive (false);
-					greenPepper[i].SetActive (false);
-					anchovies[i].SetActive (false);
-				}
-				currentTopping = index;
-				break;
-			
-			case 7:
-				for (i = 0; i < 9; i++) {
-					mushroom [i].SetActive (true);
-					blackOlive [i].SetActive (true);
-					jalapeno[i].SetActive (true);
-					pepperoni [i].SetActive (true);
-					bacon[i].SetActive (true);
-					greenPepper[i].SetActive (true);
-					anchovies[i].SetActive (true);
-				}
-				currentTopping = index;
-				break;
-			
-			//case Toppings.sausage:
-			//	for (i = 0; i < 9; i++) {
-			//		mushroom [i].SetActive (false);
-			//		blackOlive [i].SetActive (false);
-			//		jalapeno[i].SetActive (false);
-			//		pepperoni [i].SetActive (false);
-			//		bacon[i].SetActive (false);
-			//		greenPepper[i].SetActive (false);
-			//		anchovies[i].SetActive (true);
-			//	}
-			//	currentTopping = index;
-			//	break;
-			//}
-
 			case 6:
-				for (i = 0; i < 9; i++) {
-					mushroom [i].SetActive (false);
-					blackOlive [i].SetActive (false);
-					jalapeno[i].SetActive (false);
-					pepperoni [i].SetActive (false);
-					bacon[i].SetActive (false);
-					greenPepper[i].SetActive (false);
-					anchovies[i].SetActive (true);
+				if(!activeTopping[index]){
+					for (i = 0; i < 9; i++) {
+						anchovies[i].SetActive (true);
+					}
+					activeTopping[index] = true;
+				}else if(activeTopping[index]){
+					for (i = 0; i < 9; i++) {
+						anchovies[i].SetActive (false);
+					}
+					activeTopping[index] = false;
 				}
-				currentTopping = index;
 				break;
 			
 			case 5:
-				for (i = 0; i < 9; i++) {
-					mushroom [i].SetActive (false);
-					blackOlive [i].SetActive (false);
-					jalapeno[i].SetActive (false);
-					anchovies[i].SetActive (false);
-					pepperoni [i].SetActive (false);
-					bacon[i].SetActive (false);
-					greenPepper[i].SetActive (true);
+				if(!activeTopping[index]){
+					for (i = 0; i < 9; i++) {
+						bacon[i].SetActive (true);
+					}
+					activeTopping[index] = true;
+				}else if(activeTopping[index]){
+					for (i = 0; i < 9; i++) {
+						bacon[i].SetActive (false);
+					}
+					activeTopping[index] = false;
 				}
-				currentTopping = index;
 				break;
 
 			case 4:
-				for (i = 0; i < 9; i++) {
-					mushroom [i].SetActive (false);
-					blackOlive [i].SetActive (false);
-					jalapeno[i].SetActive (false);
-					greenPepper[i].SetActive (false);
-					anchovies[i].SetActive (false);
-					pepperoni [i].SetActive (false);
-					bacon[i].SetActive (true);
+				if(!activeTopping[index]){
+					for (i = 0; i < 9; i++) {
+						greenPepper[i].SetActive (true);
+					}
+					activeTopping[index] = true;
+				}else if(activeTopping[index]){
+					for (i = 0; i < 9; i++) {
+						greenPepper[i].SetActive (false);
+					}
+					activeTopping[index] = false;
 				}
-				currentTopping = index;
-				break;
-
-			case 3:
-				for (i = 0; i < 9; i++) {
-					mushroom [i].SetActive (false);
-					pepperoni [i].SetActive (false);
-					bacon[i].SetActive (false);
-					greenPepper[i].SetActive (false);
-					anchovies[i].SetActive (false);
-					blackOlive [i].SetActive (false);
-					jalapeno[i].SetActive (true);
-				}
-				currentTopping = index;
 				break;
 			
+			case 3:
+				if(!activeTopping[index]){
+					for (i = 0; i < 9; i++) {
+						jalapeno[i].SetActive (true);
+					}
+					activeTopping[index] = true;
+				}else if(activeTopping[index]){
+					for (i = 0; i < 9; i++) {
+						jalapeno[i].SetActive (false);
+					}
+					activeTopping[index] = false;
+				}
+			break;
+			
 			case 2:
-				for (i = 0; i < 9; i++) {
-					mushroom [i].SetActive (false);
-					pepperoni [i].SetActive (false);
-					jalapeno[i].SetActive (false);
-					bacon[i].SetActive (false);
-					greenPepper[i].SetActive (false);
-					anchovies[i].SetActive (false);
-					blackOlive [i].SetActive (true);
+				if(!activeTopping[index]){
+					for (i = 0; i < 9; i++) {
+						blackOlive[i].SetActive (true);
+					}
+					activeTopping[index] = true;
+				}else if(activeTopping[index]){
+					for (i = 0; i < 9; i++) {
+						blackOlive[i].SetActive (false);
+					}
+					activeTopping[index] = false;
 				}
-				currentTopping = index;
-				break;
-
+			break;
+			
 			case 1:
-				for (i = 0; i < 9; i++) {
-					pepperoni [i].SetActive (false);
-					blackOlive [i].SetActive (false);
-					jalapeno[i].SetActive (false);
-					bacon[i].SetActive (false);
-					greenPepper[i].SetActive (false);
-					anchovies[i].SetActive (false);
-					mushroom [i].SetActive (true);
+				if(!activeTopping[index]){
+					for (i = 0; i < 9; i++) {
+						mushroom[i].SetActive (true);
+					}
+					activeTopping[index] = true;
+				}else if(activeTopping[index]){
+					for (i = 0; i < 9; i++) {
+						mushroom[i].SetActive (false);
+					}
+					activeTopping[index] = false;
 				}
-				currentTopping = index;
 				break;
 
 			case 0:
-				for (i = 0; i < 9; i++) {
-					mushroom [i].SetActive (false);
-					blackOlive [i].SetActive (false);
-					jalapeno[i].SetActive (false);
-					bacon[i].SetActive (false);
-					greenPepper[i].SetActive (false);
-					anchovies[i].SetActive (false);
-					pepperoni [i].SetActive (true);
+				if(!activeTopping[index]){
+					for (i = 0; i < 9; i++) {
+						pepperoni[i].SetActive (true);
+					}
+					activeTopping[index] = true;
+				}else if(activeTopping[index]){
+					for (i = 0; i < 9; i++) {
+						pepperoni[i].SetActive (false);
+					}
+					activeTopping[index] = false;
 				}
-				currentTopping = index;
 				break;
 			}
 		}
 	}
-}
 
