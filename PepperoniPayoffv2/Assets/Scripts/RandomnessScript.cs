@@ -31,7 +31,7 @@ public class RandomnessScript : MonoBehaviour {
 	private int rangeHeight;
 
 	// Use this for initialization
-	void Awake () {
+	void Start () {
 
 		loopOver = false;
 		//Quick Way
@@ -266,7 +266,7 @@ public class RandomnessScript : MonoBehaviour {
 			}
 			//DoubleCheck(o);
 		}
-		//DO STUFF HERE
+		//DO STUFF HERE FOR AFTER LOOP
 		loopOver = true;
 	}
 }

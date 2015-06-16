@@ -38,7 +38,7 @@ public class PrefabManager : MonoBehaviour {
 	//call this method with any prefab index and any material index
 	public void setTopping(int index)
 	{
-		Debug.Log (activeTopping);
+		//Debug.Log (activeTopping);
 			int i;
 			switch (index) {
 
