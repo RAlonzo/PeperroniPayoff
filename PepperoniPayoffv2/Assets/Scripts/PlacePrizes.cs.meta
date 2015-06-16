@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 guid: e5d3cad11280faa4fa4d87d0be66a645
+<<<<<<< HEAD
 timeCreated: 1434460680
 licenseType: Free
 MonoImporter:
@@ -7,6 +8,13 @@ MonoImporter:
   defaultReferences:
   - prizes: {fileID: 11492504, guid: 7eaaa17452995e0489b2ffcb9c3af1c5, type: 2}
   - blocker: {fileID: 108066, guid: bb2bf314acffc8d4f98c11fdb6c22460, type: 2}
+=======
+timeCreated: 1434043507
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+>>>>>>> c5c737facf5973c6c71df52a4499c2ff456c7d44
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

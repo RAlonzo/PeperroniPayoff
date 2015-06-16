@@ -26,4 +26,8 @@ public class BoxAnimations : MonoBehaviour {
 	{
 		pizzasOpening [boxNum].Play ("Close");
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> c5c737facf5973c6c71df52a4499c2ff456c7d44

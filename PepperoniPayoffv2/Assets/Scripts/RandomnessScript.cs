@@ -71,6 +71,7 @@ public class RandomnessScript : MonoBehaviour {
 		//DoubleCheck();
 		//This is just an easier way to check whats under neather each box.
 		prize0 = numbersForMatrix [0];
+		//prize0 = 800;
 		prize1 = numbersForMatrix [1];
 		prize2 = numbersForMatrix [2];
 		prize3 = numbersForMatrix [3];
