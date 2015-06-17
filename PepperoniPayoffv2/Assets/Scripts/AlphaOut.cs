@@ -4,6 +4,8 @@ using UnityEngine.UI;
 
 public class AlphaOut : MonoBehaviour {
 	public Image black;
+	public GameObject toppingCamera;
+	public GameObject toppingCanvas;
 	public GameObject menuCanvas;
 	//public Color startingColor;
 	public GameObject pepperoni;
@@ -33,6 +35,9 @@ public class AlphaOut : MonoBehaviour {
 			yield return new WaitForSeconds(smoothness);
 		}
 		menuCanvas.SetActive (false);
+		toppingCamera.SetActive (true);
+		toppingCanvas.SetActive (true);
+
 		return true;
 	}
 

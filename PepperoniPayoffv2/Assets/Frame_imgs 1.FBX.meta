@@ -1,0 +1,107 @@
+fileFormatVersion: 2
+guid: b8cbf7ff1cb96bb42858101954830cd8
+timeCreated: 1434548816
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Circle_Frame_Img001
+    100002: Fancy_Frame_Img001
+    100004: Frame1Img001
+    100006: Frame_Circle_Img001
+    100008: Frame_hexagon_Img001
+    100010: //RootNode
+    100012: Mirror
+    100014: Rectangular_Frame_Img001
+    100016: Rectangular_Frame_Img002
+    400000: Circle_Frame_Img001
+    400002: Fancy_Frame_Img001
+    400004: Frame1Img001
+    400006: Frame_Circle_Img001
+    400008: Frame_hexagon_Img001
+    400010: //RootNode
+    400012: Mirror
+    400014: Rectangular_Frame_Img001
+    400016: Rectangular_Frame_Img002
+    2300000: Circle_Frame_Img001
+    2300002: Fancy_Frame_Img001
+    2300004: Frame1Img001
+    2300006: Frame_Circle_Img001
+    2300008: Frame_hexagon_Img001
+    2300010: Mirror
+    2300012: Rectangular_Frame_Img001
+    2300014: Rectangular_Frame_Img002
+    3300000: Circle_Frame_Img001
+    3300002: Fancy_Frame_Img001
+    3300004: Frame1Img001
+    3300006: Frame_Circle_Img001
+    3300008: Frame_hexagon_Img001
+    3300010: Mirror
+    3300012: Rectangular_Frame_Img001
+    3300014: Rectangular_Frame_Img002
+    4300000: Mirror
+    4300002: Frame1Img001
+    4300004: Frame_Circle_Img001
+    4300006: Circle_Frame_Img001
+    4300008: Fancy_Frame_Img001
+    4300010: Frame_hexagon_Img001
+    4300012: Rectangular_Frame_Img001
+    4300014: Rectangular_Frame_Img002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

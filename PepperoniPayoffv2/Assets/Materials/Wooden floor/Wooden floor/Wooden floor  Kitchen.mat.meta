@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8d49e54b14ca26548a6c1eb8bcc54f92
+labels:
+- Architecture
+- Floor
+- Pattern
+- Plank
+- Tile
+- Wood
+timeCreated: 1434478128
+licenseType: Free
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
