@@ -39,7 +39,8 @@ public class BoxMoverScript : MonoBehaviour {
 			selectedBox.transform.position = Vector3.Lerp (selectedBox.transform.position, target0.position, progress);		//Lerps selected box to the target location
 			selectedBox.transform.rotation = Quaternion.Slerp(selectedBox.transform.rotation, target0.rotation, progress);	//Slerps the rotation for cool spinny effect
 			progress += increment;
-			yield return new WaitForSeconds (smoothness);
+			yield return new WaitForEndOfFrame();
+			//yield return new WaitForSeconds (smoothness);
 		}
 		selectedBox.SetActive (false);
 		boxName = "PizzaHolder";

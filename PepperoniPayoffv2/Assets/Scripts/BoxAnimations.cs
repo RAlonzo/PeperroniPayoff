@@ -27,6 +27,7 @@ public class BoxAnimations : MonoBehaviour {
 	public void CloseBoxes(int boxNum)
 	{
 		//when you click a box, the button will pass the number of the box to the array, and shut only that box
+		//pizzasOpening[boxNum].PlayQueued("Close");
 		pizzasOpening [boxNum].Play ("Close");
 	}
 
