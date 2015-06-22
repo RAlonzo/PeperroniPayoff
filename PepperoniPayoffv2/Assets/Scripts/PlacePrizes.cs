@@ -4,9 +4,6 @@ using System.Collections;
 public class PlacePrizes : MonoBehaviour {
 	
 	public RandomnessScript prizes;
-
-	public GameObject particlePrefab;
-
 	private GameObject number;
 	
 	
@@ -40,12 +37,8 @@ public class PlacePrizes : MonoBehaviour {
 		newNumber = GameObject.Find(boxNumber+""+prizes.numbersForMatrix[boxNumber] + "Text");
 		newTarget = GameObject.Find("0" + prizes.numbersForMatrix[boxNumber] + "Target");
 		newEndtarget = GameObject.Find(boxNumber+""+prizes.numbersForMatrix[boxNumber]+ "endTarget");
-		if(newNumber == GameObject.Find(boxNumber+""+prizes.numbersForMatrix[boxNumber] + "Text"))
-		{
-			StartCoroutine("LerpPosition");		//Start the lerp once the button is pressed and the gameobjects have the right instances
-			Instantiate(particlePrefab,newNumber.transform.position,Quaternion.identity);	
-		}
-		}
+		StartCoroutine("LerpPosition");		//Start the lerp once the button is pressed and the gameobjects have the right instances
+	}
 	
 	
 	
