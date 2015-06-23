@@ -18,15 +18,20 @@ public class PlacePrizes : MonoBehaviour {
 	
 	public GameObject blocker;
 
+	private int maxGenNum;
+	private int minGenNum;
+
 	private GameObject[] numOrder = new GameObject[9];
 	private GameObject[] tarOrder = new GameObject[9];
 	
-
+	private bool doneWithGen;
 	bool doLerps;
 	bool lerp;
 	bool secLerp;
 
 	int index;
+
+
 
 	public bool inTransit0;
 	public bool inTransit1;
@@ -36,6 +41,9 @@ public class PlacePrizes : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		//DELETe THIS
+		maxGenNum = 3000;
+		minGenNum = -3000;
+		doneWithGen = false;
 		index = -1;
 		inTransit0 = false;
 		inTransit1 = false;
@@ -46,7 +54,31 @@ public class PlacePrizes : MonoBehaviour {
 		newEndtarget = null;
 	}
 
-	
+	void Update()
+	{
+		if(prizes.counter800 > 1)
+		{
+			maxGenNum = 1600;
+		}
+		if(prizes.counter1 > 1)
+		{
+			minGenNum = 300;
+		}
+		if(prizes.counter1 > 2)
+		{
+			minGenNum = 601;
+		}
+
+		if(prizes.counter2 > 1)
+		{
+			minGenNum = 900;
+		}
+		if(prizes.counter3 > 1)
+		{
+			minGenNum = 1150;
+		}
+	}
+
 	public void CheckBox0(int boxNumber)
 	{
 		//The script finds the proper gameobject by its self so that we don't need to drag in.
@@ -55,6 +87,10 @@ public class PlacePrizes : MonoBehaviour {
 		//***IMPORTANT : DO NOT change the names of anything that has to do with numbers in heirarchy.****
 		//StopAllCoroutines();
 		index++;
+		prizes.numbersForMatrix[boxNumber] = GeneratePrize();
+
+		if(doneWithGen)
+		{
 		newNumber = GameObject.Find(boxNumber+""+prizes.numbersForMatrix[boxNumber] + "Text");
 		newTarget = GameObject.Find("0" + prizes.numbersForMatrix[boxNumber] + "Target");
 		newEndtarget = GameObject.Find(boxNumber+""+prizes.numbersForMatrix[boxNumber]+ "endTarget");
@@ -65,10 +101,111 @@ public class PlacePrizes : MonoBehaviour {
 			StartCoroutine("LerpPosition");		//Start the lerp once the button is pressed and the gameobjects have the right instances
 			Instantiate(particlePrefab,newNumber.transform.position,Quaternion.identity);	
 		}
+			DoubleCheck(boxNumber);
+		}
+		}
+
+
+
+	//Added
+	private void DoubleCheck(int boxNum)
+	{
+		//How Many Of Each Number is there?
+
+			if(prizes.numbersForMatrix[boxNum] == 1)
+				prizes.counter1++;
+			if(prizes.numbersForMatrix[boxNum] == 2)
+				prizes.counter2++;
+			if(prizes.numbersForMatrix[boxNum] == 3)
+				prizes.counter3++;
+			if(prizes.numbersForMatrix[boxNum] == 5)
+				prizes.counter5++;
+			if(prizes.numbersForMatrix[boxNum] == 10)
+				prizes.counter10++;
+			if(prizes.numbersForMatrix[boxNum] == 20)
+				prizes.counter20++;
+			if(prizes.numbersForMatrix[boxNum] == 30)
+				prizes.counter30++;
+			if(prizes.numbersForMatrix[boxNum] == 50)
+				prizes.counter50++;
+			if(prizes.numbersForMatrix[boxNum] == 100)
+				prizes.counter100++;
+			if(prizes.numbersForMatrix[boxNum] == 200)
+				prizes.counter200++;
+			if(prizes.numbersForMatrix[boxNum] == 500)
+				prizes.counter500++;
+			if(prizes.numbersForMatrix[boxNum] == 800)
+				prizes.counter800++;
+			
+			
+			
+
+	}
+
+	//EndAdd
+
+
+
+
+	int GeneratePrize()
+	{
+		int seed;
+		int actualPrize = 0;
+		seed = Random.Range(minGenNum, maxGenNum);
+		doneWithGen = false;
+		if(seed <= 600)
+		{
+			actualPrize = 1;
+		}
+		else if(seed <= 1000 && seed > 600)
+		{
+			actualPrize = 2;
+		}
+		else if(seed <= 1300 && seed > 1000)
+		{
+			actualPrize = 3;
+		}
+		else if(seed <= 1500 && seed > 1300)
+		{
+			actualPrize = 5;
+		}
+		else if(seed <= 1600 && seed > 1500)
+		{
+			actualPrize = 10;
+		}
+		else if(seed <= 1650 && seed > 1600)
+		{
+			actualPrize = 20;
+		}
+		else if(seed <= 1700 && seed > 1650)
+		{
+			actualPrize = 30;
+		}
+		else if(seed <= 1730 && seed > 1700)
+		{
+			actualPrize = 50;
+		}
+		else if(seed <= 1750 && seed > 1730)
+		{
+			actualPrize = 100;
+		}
+		else if(seed <= 1760 && seed > 1750)
+		{
+			actualPrize = 200;
+		}
+		else if(seed <= 1765 && seed > 1760)
+		{
+			actualPrize = 500;
+		}
+		else if(seed <= 3000 && seed > 1765)
+		{
+			actualPrize = 800;
 
 		}
-	
-	
+		Debug.Log(seed);
+		doneWithGen = true;
+		return actualPrize;
+	}
 
 	IEnumerator LerpPosition()
 	{
@@ -133,6 +270,7 @@ public class PlacePrizes : MonoBehaviour {
 
 
 		}
+			Destroy(GameObject.Find("Star_Particle(Clone)"));
 		
 		inTransit0 = false;
 		blocker.SetActive (false);

@@ -101,53 +101,79 @@ public class Winnings : MonoBehaviour {
 		if(Counters.counter1 >= 3)
 		{
 			winnings += 1;
+			Counters.counter1 = 0;
 		}
 		if(Counters.counter2 >= 3)
 		{
 			winnings += 2;
+			Counters.counter2 = 0;
+			
 		}
 		if(Counters.counter3 >= 3)
 		{
 			winnings += 3;
+			Counters.counter3 = 0;
+			
 		}
 		if(Counters.counter5 >= 3)
 		{
 			winnings += 5;
+			Counters.counter5 = 0;
+			
 		}
 		if(Counters.counter10 >= 3)
 		{
 			winnings += 10;
+			Counters.counter10 = 0;
+			
 		}
 		if(Counters.counter20 >= 3)
 		{
 			winnings += 20;
+			Counters.counter20 = 0;
+			
 		}
 		if(Counters.counter30 >= 3)
 		{
 			winnings += 30;
+			Counters.counter30 = 0;
+			
 		}
 		if(Counters.counter50 >= 3)
 		{
 			winnings += 50;
+			Counters.counter50 = 0;
+			
 		}
 		if(Counters.counter100 >= 3)
 		{
 			winnings += 100;
+			Counters.counter100 = 0;
+			
 		}
 		if(Counters.counter200 >= 3)
 		{
 			winnings += 200;
+			Counters.counter200 = 0;
+			
 		}
 		if(Counters.counter500 >= 3)
 		{
 			winnings += 500;
+			Counters.counter500 = 0;
+			
 		}
 		if(Counters.counter800 >= 3)
 		{
 			winnings += 800;
+			Counters.counter800 = 0;
+			
 		}
 		if(winnings > 0)
+		{
+			ifLose.text = "You Could Have Won:";
 			amount.text = "$" + winnings.ToString() + "!";
+		}
 		else
 		{
 			amount.text = "";

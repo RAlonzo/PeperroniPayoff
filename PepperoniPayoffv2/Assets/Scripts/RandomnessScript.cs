@@ -42,11 +42,11 @@ public class RandomnessScript : MonoBehaviour {
 
 		rangeHeight = 101;
 		//Intense Way
-		for (int i = 0; i <= 8; i++) {
-			newNumbers [i] = Random.Range (23, rangeHeight);
-			CheckNumbers();
-
-		}
+//		for (int i = 0; i <= 8; i++) {
+//			newNumbers [i] = Random.Range (23, rangeHeight);
+//			CheckNumbers();
+//
+//		}
 	
 	}
 
@@ -56,9 +56,19 @@ public class RandomnessScript : MonoBehaviour {
 	void Update () {
 
 		//Debug.Log(numbersForMatrix[0]);
-		Debugger ();
-		SetUnderBox ();
+		//Debugger ();
+		//SetUnderBox ();
 	}
+
+	void NumberUnderBox(int boxNum)
+	{
+		int prize;
+		int actualPrize;
+		numbersForMatrix[boxNum] = 1;
+
+
+	}
+
 	void Debugger(){
 		if(Input.GetKeyDown(KeyCode.H))
 		{
