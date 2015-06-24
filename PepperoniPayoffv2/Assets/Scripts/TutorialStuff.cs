@@ -35,7 +35,7 @@ public class TutorialStuff : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		PlayerPrefs.SetInt("logins",logIns);
-		Debug.Log(loginAttempts);
+		//Debug.Log(loginAttempts);
 		if(DSA.isOn)
 		{
 			showAgain = false;

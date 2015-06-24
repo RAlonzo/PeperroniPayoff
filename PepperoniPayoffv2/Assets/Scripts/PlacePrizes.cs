@@ -202,7 +202,7 @@ public class PlacePrizes : MonoBehaviour {
 			actualPrize = 800;
 
 		}
-		Debug.Log(seed);
+		//Debug.Log(seed);
 		doneWithGen = true;
 		return actualPrize;
 	}
