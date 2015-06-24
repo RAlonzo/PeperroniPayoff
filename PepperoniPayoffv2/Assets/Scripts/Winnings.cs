@@ -35,13 +35,13 @@ public class Winnings : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
 	}
 
 
 	public void SubtractBoxesRemaining()
 	{
-			boxesRemaining--;
+		boxesRemaining--;
+
 		
 		if(boxesRemaining == 0)
 		{

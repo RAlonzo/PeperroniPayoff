@@ -25,6 +25,12 @@ public class PlacePrizes : MonoBehaviour {
 	private GameObject[] tarOrder = new GameObject[9];
 	
 	private bool doneWithGen;
+
+
+	public BoxMoverScript MoveBoxes;
+
+	public Winnings EndStuff;
+
 	bool doLerps;
 	bool lerp;
 	bool secLerp;
@@ -35,11 +41,16 @@ public class PlacePrizes : MonoBehaviour {
 
 	public bool inTransit0;
 	public bool inTransit1;
-	
-	
+
+	private float timer;
+	private bool startTimer;
+	private bool readyForNext;
 	
 	// Use this for initialization
 	void Start () {
+		timer = 3.0f;
+		startTimer = false;
+		readyForNext = false;
 		//DELETe THIS
 		maxGenNum = 3000;
 		minGenNum = -3000;
@@ -56,6 +67,16 @@ public class PlacePrizes : MonoBehaviour {
 
 	void Update()
 	{
+
+		if(startTimer)
+		{
+			timer -= Time.deltaTime;
+			if(timer <= 0)
+			{
+				readyForNext = true;
+				startTimer = false;
+			}
+		}
 		if(prizes.counter800 > 1)
 		{
 			maxGenNum = 1600;
@@ -78,6 +99,34 @@ public class PlacePrizes : MonoBehaviour {
 			minGenNum = 1150;
 		}
 	}
+
+
+	public void PizzasToGo()
+	{
+
+		StartCoroutine(CheckAll());
+		for(int j = 0; j < 9; j++)
+		{
+			DoubleCheck(j);
+			Debug.Log("Checked under " + j);
+		}
+			
+		
+	}
+
+	public IEnumerator CheckAll()
+	{
+		for(int i = 0; i < 9; i++)
+		{
+			CheckBox0(i);
+			MoveBoxes.BoxFly(i);
+			EndStuff.SubtractBoxesRemaining();
+			EndStuff.CheckForWinners();
+			yield return(500000);
+		}
+
+	}
+
 
 	public void CheckBox0(int boxNumber)
 	{
