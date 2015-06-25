@@ -118,7 +118,7 @@ public class PlacePrizes : MonoBehaviour {
 	{
 		for(int i = 0; i < 9; i++)
 		{
-			CheckBox0(i);
+			AUTOCheckBox0(i);
 			MoveBoxes.BoxFly(i);
 			EndStuff.SubtractBoxesRemaining();
 			EndStuff.CheckForWinners();
@@ -154,7 +154,31 @@ public class PlacePrizes : MonoBehaviour {
 		}
 		}
 
-
+	public void AUTOCheckBox0(int boxNumber)
+	{
+		//The script finds the proper gameobject by its self so that we don't need to drag in.
+		//When the button is pressed, it calls the number of the pizza box, which tells the code which placement of the numbers to use
+		//************************************************************************************************
+		//***IMPORTANT : DO NOT change the names of anything that has to do with numbers in heirarchy.****
+		//StopAllCoroutines();
+		index++;
+		prizes.numbersForMatrix[boxNumber] = GeneratePrize();
+		
+		if(doneWithGen)
+		{
+			newNumber = GameObject.Find(boxNumber+""+prizes.numbersForMatrix[boxNumber] + "Text");
+			newTarget = GameObject.Find(boxNumber+""+prizes.numbersForMatrix[boxNumber]+ "endTarget");
+			newEndtarget = GameObject.Find(boxNumber+""+prizes.numbersForMatrix[boxNumber]+ "endTarget");
+			numOrder[index] = newNumber;
+			tarOrder[index] = newEndtarget;
+			if(newNumber == GameObject.Find(boxNumber+""+prizes.numbersForMatrix[boxNumber] + "Text"))
+			{
+				StartCoroutine("LerpPosition");		//Start the lerp once the button is pressed and the gameobjects have the right instances
+				Instantiate(particlePrefab,newNumber.transform.position,Quaternion.identity);	
+			}
+			DoubleCheck(boxNumber);
+		}
+	}
 
 	//Added
 	private void DoubleCheck(int boxNum)
