@@ -27,7 +27,7 @@ public class Winnings : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		winnings = 0;
-		boxesRemaining = 9;
+		boxesRemaining = 6;
 
 		black.color = Color.clear;
 		menuCanvas.SetActive(false);

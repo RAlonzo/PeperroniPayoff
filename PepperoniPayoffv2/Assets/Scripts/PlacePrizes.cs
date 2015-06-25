@@ -105,7 +105,7 @@ public class PlacePrizes : MonoBehaviour {
 	{
 
 		StartCoroutine(CheckAll());
-		for(int j = 0; j < 9; j++)
+		for(int j = 0; j < 6; j++)
 		{
 			DoubleCheck(j);
 			Debug.Log("Checked under " + j);
@@ -116,7 +116,7 @@ public class PlacePrizes : MonoBehaviour {
 
 	public IEnumerator CheckAll()
 	{
-		for(int i = 0; i < 9; i++)
+		for(int i = 0; i < 6; i++)
 		{
 			AUTOCheckBox0(i);
 			MoveBoxes.BoxFly(i);
