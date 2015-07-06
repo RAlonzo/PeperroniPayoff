@@ -36,7 +36,9 @@ public class LoaderScript : MonoBehaviour {
 		progressBar.SetActive(true);
 
 		progressBar.transform.localScale = new Vector3(loadProgress, progressBar.transform.localScale.y, progressBar.transform.localScale.z);
-		  
+
+		//progressBar.transform.localScale = Vector3.Lerp(new Vector3(progressBar.transform.localScale.x, progressBar.transform.localScale.y, progressBar.transform.localScale.z),new Vector3(loadProgress, progressBar.transform.localScale.y, progressBar.transform.localScale.z), Time.deltaTime);
+
 		text.GetComponent<GUIText>().text = "Loading Progress: " + loadProgress + "%";
 
 		AsyncOperation async = Application.LoadLevelAsync(level);
