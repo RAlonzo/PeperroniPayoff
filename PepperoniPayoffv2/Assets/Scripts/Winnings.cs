@@ -51,7 +51,7 @@ public class Winnings : MonoBehaviour {
 			StartCoroutine("LerpColor");
 		}
 
-		Debug.Log(boxesRemaining + " Boxes Remain");
+		//Debug.Log(boxesRemaining + " Boxes Remain");
 	}
 
 
