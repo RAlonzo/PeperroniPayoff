@@ -18,7 +18,7 @@ public class AlphaOut : MonoBehaviour {
 
 	void Start()
 	{
-		FadeIn();
+
 	}
 	
 	IEnumerator LerpColor()

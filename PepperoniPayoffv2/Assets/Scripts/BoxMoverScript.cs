@@ -33,7 +33,7 @@ public class BoxMoverScript : MonoBehaviour {
 		while (progress < 1) {
 			if(shutting)
 			{
-				yield return new WaitForSeconds(.3f);
+				yield return new WaitForSeconds(.6f);
 				shutting = false;
 			}
 			selectedBox.transform.position = Vector3.Lerp (selectedBox.transform.position, target0.position, progress);		//Lerps selected box to the target location

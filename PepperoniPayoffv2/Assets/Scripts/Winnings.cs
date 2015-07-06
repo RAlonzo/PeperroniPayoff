@@ -10,7 +10,7 @@ public class Winnings : MonoBehaviour {
 	public Text ifLose;
 	private int boxesRemaining;
 	public RandomnessScript Counters;
-	public GameManager gameManager;
+
 	public GameObject menuCanvas;
 
 	public GameObject STRTyouCouldHaveWon;
@@ -46,12 +46,11 @@ public class Winnings : MonoBehaviour {
 		if(boxesRemaining == 0)
 		{
 			Debug.Log("DONE");
-			gameManager.EndScreen();
 			menuCanvas.SetActive (true);
 			StartCoroutine("LerpColor");
 		}
 
-		//Debug.Log(boxesRemaining + " Boxes Remain");
+		Debug.Log(boxesRemaining + " Boxes Remain");
 	}
 
 
