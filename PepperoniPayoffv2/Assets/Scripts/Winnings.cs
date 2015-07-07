@@ -17,6 +17,7 @@ public class Winnings : MonoBehaviour {
 	public GameObject ENDyouCouldHaveWon;
 	public GameObject STRTamnt;
 	public GameObject ENDamnt;
+	//public Text border;
 
 	public GameObject STRTbutton;
 	public GameObject ENDbutton;
@@ -174,11 +175,15 @@ public class Winnings : MonoBehaviour {
 		{
 			ifLose.text = "You Could Have Won:";
 			amount.text = "$" + winnings.ToString() + "!";
+			//border.text = "$" + winnings.ToString() + "!";
+			
 		}
 		else
 		{
 			amount.text = "";
 			ifLose.text = "Sorry, Not A Winner";
+			//border.text = "Sorry, Not A Winner";
+			
 		}
 		Debug.Log(winnings);
 	}
