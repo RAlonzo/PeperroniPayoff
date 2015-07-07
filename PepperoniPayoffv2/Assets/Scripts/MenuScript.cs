@@ -29,6 +29,7 @@ public class MenuScript : MonoBehaviour {
 		while(progress < 1)
 		{
 			//black.color = Color.Lerp(Color.black, Color.clear, progress);
+			//below will shoot the words off the screen (not seen if loader is there)
 			pepperoni.transform.position = Vector2.Lerp (pepperoni.transform.position, endPepperoni.transform.position, progress);
 			payoff.transform.position = Vector2.Lerp (payoff.transform.position, endPayoff.transform.position, progress);
 			progress += increment;
@@ -41,7 +42,7 @@ public class MenuScript : MonoBehaviour {
 	}
 	
 	public void FadeIn(){
-		Application.LoadLevel(1);
+		Application.LoadLevel(1); //Show preLoader screen before game!
 		//StartCoroutine("LerpColor");
 	}
 }

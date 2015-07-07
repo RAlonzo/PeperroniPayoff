@@ -184,6 +184,8 @@ public class PlacePrizes : MonoBehaviour {
 	private void DoubleCheck(int boxNum)
 	{
 		//How Many Of Each Number is there?
+		//This allows multiple prizes.
+		//We if theres a match of 3, add that quantity to the prize counter!
 
 			if(prizes.numbersForMatrix[boxNum] == 1)
 				prizes.counter1++;
@@ -222,6 +224,7 @@ public class PlacePrizes : MonoBehaviour {
 
 	int GeneratePrize()
 	{
+		//let some people win ;)
 		int seed;
 		int actualPrize = 0;
 		seed = Random.Range(minGenNum, maxGenNum);
@@ -276,8 +279,8 @@ public class PlacePrizes : MonoBehaviour {
 
 		}
 		//Debug.Log(seed);
-		doneWithGen = true;
-		return actualPrize;
+		doneWithGen = true; //to check when the generation is done.
+		return actualPrize; // return what the generated number was.
 	}
 
 	IEnumerator LerpPosition()
@@ -285,15 +288,15 @@ public class PlacePrizes : MonoBehaviour {
 
 		if(newNumber == null)
 		{
-			newNumber = GameObject.Find(0+""+prizes.numbersForMatrix[0] + "Text");
+			newNumber = GameObject.Find(0+""+prizes.numbersForMatrix[0] + "Text"); //This is the number that will fly up to the screen
 		}
 		if(newTarget == null)
 		{
-			newTarget = GameObject.Find("0" + prizes.numbersForMatrix[0] + "Target");
+			newTarget = GameObject.Find("0" + prizes.numbersForMatrix[0] + "Target");	// this is where on the screen that the number is going to fly
 		}
 		if(newEndtarget == null)
 		{
-			newEndtarget = GameObject.Find(0+""+prizes.numbersForMatrix[0]+ "endTarget");	
+			newEndtarget = GameObject.Find(0+""+prizes.numbersForMatrix[0]+ "endTarget");	//This is the target back on the table
 		}
 		lerp = true;
 		float duration = 2.5f; // This will be your time in seconds.
@@ -338,7 +341,7 @@ public class PlacePrizes : MonoBehaviour {
 			
 			//Don't Touch this unless absolutley needed.
 			progress += smoothness;
-			yield return new WaitForSeconds(.000000001f);
+			yield return new WaitForSeconds(.000000001f); //if changed this number will screw up the timing.
 			//yield return new WaitForSeconds(.0002f);
 
 

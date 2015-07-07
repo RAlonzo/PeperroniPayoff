@@ -1,0 +1,347 @@
+fileFormatVersion: 2
+guid: 57e000f44d7957a40b316bb7dfdb61a0
+timeCreated: 1436282460
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Button002
+    100002: Button003
+    100004: Button004
+    100006: Button005
+    100008: Button006
+    100010: Button007
+    100012: Button008
+    100014: Button009
+    100016: Button01
+    100018: Button010
+    100020: Button011
+    100022: Button012
+    100024: Button013
+    100026: Button014
+    100028: Button015
+    100030: Button016
+    100032: Button017
+    100034: Button018
+    100036: Button019
+    100038: Button020
+    100040: Button021
+    100042: Button022
+    100044: Button023
+    100046: Button024
+    100048: Button025
+    100050: Button026
+    100052: Button027
+    100054: Button028
+    100056: Button029
+    100058: Button030
+    100060: reciept
+    100062: //RootNode
+    100064: Register_Base
+    100066: Register_cylinder
+    100068: register_Screen
+    100070: Sphere001
+    400000: Button002
+    400002: Button003
+    400004: Button004
+    400006: Button005
+    400008: Button006
+    400010: Button007
+    400012: Button008
+    400014: Button009
+    400016: Button01
+    400018: Button010
+    400020: Button011
+    400022: Button012
+    400024: Button013
+    400026: Button014
+    400028: Button015
+    400030: Button016
+    400032: Button017
+    400034: Button018
+    400036: Button019
+    400038: Button020
+    400040: Button021
+    400042: Button022
+    400044: Button023
+    400046: Button024
+    400048: Button025
+    400050: Button026
+    400052: Button027
+    400054: Button028
+    400056: Button029
+    400058: Button030
+    400060: reciept
+    400062: //RootNode
+    400064: Register_Base
+    400066: Register_cylinder
+    400068: register_Screen
+    400070: Sphere001
+    2300000: Button002
+    2300002: Button003
+    2300004: Button004
+    2300006: Button005
+    2300008: Button006
+    2300010: Button007
+    2300012: Button008
+    2300014: Button009
+    2300016: Button01
+    2300018: Button010
+    2300020: Button011
+    2300022: Button012
+    2300024: Button013
+    2300026: Button014
+    2300028: Button015
+    2300030: Button016
+    2300032: Button017
+    2300034: Button018
+    2300036: Button019
+    2300038: Button020
+    2300040: Button021
+    2300042: Button022
+    2300044: Button023
+    2300046: Button024
+    2300048: Button025
+    2300050: Button026
+    2300052: Button027
+    2300054: Button028
+    2300056: Button029
+    2300058: Button030
+    2300060: reciept
+    2300062: Register_Base
+    2300064: Register_cylinder
+    2300066: register_Screen
+    2300068: Sphere001
+    3300000: Button002
+    3300002: Button003
+    3300004: Button004
+    3300006: Button005
+    3300008: Button006
+    3300010: Button007
+    3300012: Button008
+    3300014: Button009
+    3300016: Button01
+    3300018: Button010
+    3300020: Button011
+    3300022: Button012
+    3300024: Button013
+    3300026: Button014
+    3300028: Button015
+    3300030: Button016
+    3300032: Button017
+    3300034: Button018
+    3300036: Button019
+    3300038: Button020
+    3300040: Button021
+    3300042: Button022
+    3300044: Button023
+    3300046: Button024
+    3300048: Button025
+    3300050: Button026
+    3300052: Button027
+    3300054: Button028
+    3300056: Button029
+    3300058: Button030
+    3300060: reciept
+    3300062: Register_Base
+    3300064: Register_cylinder
+    3300066: register_Screen
+    3300068: Sphere001
+    4300000: Register_Base
+    4300002: Sphere001
+    4300004: Register_cylinder
+    4300006: register_Screen
+    4300008: Button01
+    4300010: reciept
+    4300012: Button002
+    4300014: Button003
+    4300016: Button004
+    4300018: Button005
+    4300020: Button006
+    4300022: Button007
+    4300024: Button008
+    4300026: Button009
+    4300028: Button010
+    4300030: Button011
+    4300032: Button012
+    4300034: Button013
+    4300036: Button014
+    4300038: Button015
+    4300040: Button016
+    4300042: Button017
+    4300044: Button018
+    4300046: Button019
+    4300048: Button020
+    4300050: Button021
+    4300052: Button022
+    4300054: Button023
+    4300056: Button024
+    4300058: Button025
+    4300060: Button026
+    4300062: Button027
+    4300064: Button028
+    4300066: Button029
+    4300068: Button030
+    7400000: regiPop
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: regiPop
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 700
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Button01
+        weight: 1
+      - path: Button002
+        weight: 1
+      - path: Button003
+        weight: 1
+      - path: Button004
+        weight: 1
+      - path: Button005
+        weight: 1
+      - path: Button006
+        weight: 1
+      - path: Button007
+        weight: 1
+      - path: Button008
+        weight: 1
+      - path: Button009
+        weight: 1
+      - path: Button010
+        weight: 1
+      - path: Button011
+        weight: 1
+      - path: Button012
+        weight: 1
+      - path: Button013
+        weight: 1
+      - path: Button014
+        weight: 1
+      - path: Button015
+        weight: 1
+      - path: Button016
+        weight: 1
+      - path: Button017
+        weight: 1
+      - path: Button018
+        weight: 1
+      - path: Button019
+        weight: 1
+      - path: Button020
+        weight: 1
+      - path: Button021
+        weight: 1
+      - path: Button022
+        weight: 1
+      - path: Button023
+        weight: 1
+      - path: Button024
+        weight: 1
+      - path: Button025
+        weight: 1
+      - path: Button026
+        weight: 1
+      - path: Button027
+        weight: 1
+      - path: Button028
+        weight: 1
+      - path: Button029
+        weight: 1
+      - path: Button030
+        weight: 1
+      - path: reciept
+        weight: 1
+      - path: Register_Base
+        weight: 1
+      - path: Register_cylinder
+        weight: 1
+      - path: register_Screen
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
