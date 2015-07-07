@@ -36,15 +36,15 @@ public class TutorialStuff : MonoBehaviour {
 	void Update () {
 		PlayerPrefs.SetInt("logins",logIns);
 		//Debug.Log(loginAttempts);
-		if(DSA.isOn)
-		{
-			showAgain = false;
-
-			
-		}else{
-			showAgain = true;
-
-		}
+//		if(DSA.isOn)
+//		{
+//			showAgain = false;
+//
+//			
+//		}else{
+//			showAgain = true;
+//
+//		}
 	}
 
 	public void HelpMe()
