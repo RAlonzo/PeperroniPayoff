@@ -20,7 +20,13 @@ public class MenuScript : MonoBehaviour {
 	{
 		
 	}
-	
+
+
+	public void QuitGame()
+	{
+		Application.Quit();
+	}
+
 	IEnumerator LerpColor()
 	{
 		float progress = 0; //This float will serve as the 3rd parameter of the lerp function.
