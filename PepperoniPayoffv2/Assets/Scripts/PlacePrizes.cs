@@ -107,7 +107,7 @@ public class PlacePrizes : MonoBehaviour {
 		StartCoroutine(CheckAll());
 		for(int j = 0; j < 6; j++)
 		{
-			DoubleCheck(j);
+			//DoubleCheck(j);
 			Debug.Log("Checked under " + j);
 		}
 			
