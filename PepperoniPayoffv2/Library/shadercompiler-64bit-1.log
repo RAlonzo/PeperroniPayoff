@@ -1,3 +1,69 @@
 Base path: C:/Program Files/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-5872
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-21276
 Cmd: getPlatforms
+Cmd: preprocess
+  insize=435 outsize=435 ok=1
+Cmd: preprocess
+  insize=734 outsize=734 ok=1
+Cmd: preprocess
+  insize=325182 outsize=325182 ok=1
+Cmd: preprocess
+  insize=315502 outsize=315502 ok=1
+Cmd: preprocess
+  insize=1044 outsize=1035 ok=1
+Cmd: preprocess
+  insize=335053 outsize=335053 ok=1
+Cmd: preprocess
+  insize=352766 outsize=352766 ok=1
+Cmd: preprocess
+  insize=967 outsize=967 ok=1
+Cmd: preprocess
+  insize=456722 outsize=456722 ok=1
+Cmd: preprocess
+  insize=489688 outsize=489688 ok=1
+Cmd: preprocess
+  insize=1249 outsize=1249 ok=1
+Cmd: preprocess
+  insize=1115 outsize=1115 ok=1
+Cmd: preprocess
+  insize=1299 outsize=1299 ok=1
+Cmd: preprocess
+  insize=1105 outsize=1105 ok=1
+Cmd: preprocess
+  insize=519492 outsize=519492 ok=1
+Cmd: preprocess
+  insize=343906 outsize=343906 ok=1
+Cmd: preprocess
+  insize=1377 outsize=1377 ok=1
+Cmd: preprocess
+  insize=1138 outsize=1138 ok=1
+Cmd: preprocess
+  insize=479249 outsize=479249 ok=1
+Cmd: preprocess
+  insize=309765 outsize=309765 ok=1
+Cmd: preprocess
+  insize=344527 outsize=344527 ok=1
+Cmd: preprocess
+  insize=1035 outsize=1035 ok=1
+Cmd: preprocess
+  insize=1000 outsize=1000 ok=1
+Cmd: preprocess
+  insize=1267 outsize=1267 ok=1
+Cmd: preprocess
+  insize=1034 outsize=1034 ok=1
+Cmd: preprocess
+  insize=478456 outsize=478456 ok=1
+Cmd: preprocess
+  insize=1310 outsize=384 ok=1
+Cmd: preprocess
+  insize=522761 outsize=522761 ok=1
+Cmd: preprocess
+  insize=506289 outsize=506289 ok=1
+Cmd: preprocess
+  insize=248 outsize=248 ok=1
+Cmd: preprocess
+  insize=933 outsize=933 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6731 outsize=3663 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6731 outsize=1314 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
