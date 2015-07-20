@@ -138,6 +138,11 @@ public class PlacePrizes : MonoBehaviour {
 		index++;
 		prizes.numbersForMatrix[boxNumber] = GeneratePrize();
 
+		//DELET THIS TEST
+		//prizes.numbersForMatrix[boxNumber] = 800;
+		
+		//delete end
+
 		if(doneWithGen)
 		{
 		newNumber = GameObject.Find(boxNumber+""+prizes.numbersForMatrix[boxNumber] + "Text");
@@ -163,6 +168,10 @@ public class PlacePrizes : MonoBehaviour {
 		//StopAllCoroutines();
 		index++;
 		prizes.numbersForMatrix[boxNumber] = GeneratePrize();
+
+		//TEST DELETE!!!
+		//prizes.numbersForMatrix[boxNumber] = 800;
+		
 		
 		if(doneWithGen)
 		{
