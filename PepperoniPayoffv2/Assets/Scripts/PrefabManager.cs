@@ -16,25 +16,24 @@ public class PrefabManager : MonoBehaviour {
 	public GameObject[] greenPepper;
 	public GameObject[] anchovies;
 	public GameObject[] sausague;
-	
-	int startTopping;
+
+
+	//int startTopping;
 	
 	public bool[] activeTopping;
 
-	//// Use this for initialization
-	void Start () {
-		for (int i = 0; i < 7; i++) {
-			activeTopping[i] = false;
-		}
-		startTopping = Random.Range (0, 6);
-		setTopping (startTopping);
-	}
+	new Vector3 startPosition;
+
+	float duration = 0.05f; // This will be your time in seconds.
+	float smoothness = 0.005f; // This will determine the smoothness of the lerp. Smaller values are smoother. Really it's the time between updates.
 	
-	//// Update is called once per frame
-	//void Update () {
-	
-	//}
-	
+//	IEnumerator LerpPepperoniTopping() {
+//		float progress = 0.2f; //This float will serve as the 3rd parameter of the lerp function.
+//		float increment = smoothness/duration; //The amount of change to apply.
+
+//	}
+
+
 	//call this method with any prefab index and any material index
 	public void setTopping(int index)
 	{
@@ -42,91 +41,7 @@ public class PrefabManager : MonoBehaviour {
 			int i;
 			switch (index) {
 
-			case 6:
-				if(!activeTopping[index]){
-					for (i = 0; i < 9; i++) {
-						anchovies[i].SetActive (true);
-					}
-					activeTopping[index] = true;
-				}else if(activeTopping[index]){
-					for (i = 0; i < 9; i++) {
-						anchovies[i].SetActive (false);
-					}
-					activeTopping[index] = false;
-				}
-				break;
-			
-			case 5:
-				if(!activeTopping[index]){
-					for (i = 0; i < 9; i++) {
-						bacon[i].SetActive (true);
-					}
-					activeTopping[index] = true;
-				}else if(activeTopping[index]){
-					for (i = 0; i < 9; i++) {
-						bacon[i].SetActive (false);
-					}
-					activeTopping[index] = false;
-				}
-				break;
-
-			case 4:
-				if(!activeTopping[index]){
-					for (i = 0; i < 9; i++) {
-						greenPepper[i].SetActive (true);
-					}
-					activeTopping[index] = true;
-				}else if(activeTopping[index]){
-					for (i = 0; i < 9; i++) {
-						greenPepper[i].SetActive (false);
-					}
-					activeTopping[index] = false;
-				}
-				break;
-			
 			case 3:
-				if(!activeTopping[index]){
-					for (i = 0; i < 9; i++) {
-						jalapeno[i].SetActive (true);
-					}
-					activeTopping[index] = true;
-				}else if(activeTopping[index]){
-					for (i = 0; i < 9; i++) {
-						jalapeno[i].SetActive (false);
-					}
-					activeTopping[index] = false;
-				}
-			break;
-			
-			case 2:
-				if(!activeTopping[index]){
-					for (i = 0; i < 9; i++) {
-						blackOlive[i].SetActive (true);
-					}
-					activeTopping[index] = true;
-				}else if(activeTopping[index]){
-					for (i = 0; i < 9; i++) {
-						blackOlive[i].SetActive (false);
-					}
-					activeTopping[index] = false;
-				}
-			break;
-			
-			case 1:
-				if(!activeTopping[index]){
-					for (i = 0; i < 9; i++) {
-						mushroom[i].SetActive (true);
-					}
-					activeTopping[index] = true;
-				}else if(activeTopping[index]){
-					for (i = 0; i < 9; i++) {
-						mushroom[i].SetActive (false);
-					}
-					activeTopping[index] = false;
-				}
-				break;
-
-			case 0:
 				if(!activeTopping[index]){
 					for (i = 0; i < 9; i++) {
 						pepperoni[i].SetActive (true);
@@ -138,7 +53,49 @@ public class PrefabManager : MonoBehaviour {
 					}
 					activeTopping[index] = false;
 				}
-				break;
+			break;
+
+			case 2:
+				if(!activeTopping[index]){
+					for (i = 0; i < 9; i++) {
+						mushroom[i].SetActive (true);
+					}
+					activeTopping[index] = true;
+				}else if(activeTopping[index]){
+					for (i = 0; i < 9; i++) {
+						mushroom[i].SetActive (false);
+					}
+					activeTopping[index] = false;
+				}
+			break;
+			
+			case 1:
+				if(!activeTopping[index]){
+					for (i = 0; i < 9; i++) {
+						bacon[i].SetActive (true);
+					}
+					activeTopping[index] = true;
+				}else if(activeTopping[index]){
+					for (i = 0; i < 9; i++) {
+						bacon[i].SetActive (false);
+					}
+					activeTopping[index] = false;
+				}
+			break;
+
+			case 0:
+				if(!activeTopping[index]){
+					for (i = 0; i < 9; i++) {
+						jalapeno[i].SetActive (true);
+					}
+					activeTopping[index] = true;
+				}else if(activeTopping[index]){
+					for (i = 0; i < 9; i++) {
+						jalapeno[i].SetActive (false);
+				}
+					activeTopping[index] = false;
+				}
+			break;	
 			}
 		}
 	}
