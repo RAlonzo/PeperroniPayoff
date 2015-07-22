@@ -5,6 +5,7 @@ public class splash : MonoBehaviour {
 
 
 	public GameObject splashPanal;
+	public PlacePrizes changeHighest;
 
 	// Use this for initialization
 	void Start () {
@@ -20,5 +21,14 @@ public class splash : MonoBehaviour {
 	{
 		splashPanal.SetActive(false);
 		GameObject.Find("OverLay" + toppingNumber).SetActive(false);
+	}
+
+	public void SetMaxGeneration(int highestWin)
+	{
+		changeHighest.highestGeneration = highestWin;
+	}
+	public void SetLowestGeneration(int lowestWin)
+	{
+		changeHighest.lowestGeneration = lowestWin;
 	}
 }

@@ -26,6 +26,8 @@ public class PlacePrizes : MonoBehaviour {
 	
 	private bool doneWithGen;
 
+	public int highestGeneration;
+	public int lowestGeneration;
 
 	public BoxMoverScript MoveBoxes;
 
@@ -48,6 +50,7 @@ public class PlacePrizes : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
+		//highestGeneration = 0;
 		timer = 3.0f;
 		startTimer = false;
 		readyForNext = false;
@@ -81,6 +84,17 @@ public class PlacePrizes : MonoBehaviour {
 		{
 			maxGenNum = 1600;
 		}
+		if(prizes.counter500 > 1)
+		{
+			maxGenNum = 1600;
+		}
+		if(prizes.counter200 > 1)
+		{
+			maxGenNum = 1600;
+		}if(prizes.counter100 > 1)
+		{
+			maxGenNum = 1600;
+		}
 		if(prizes.counter1 > 1)
 		{
 			minGenNum = 300;
@@ -97,6 +111,10 @@ public class PlacePrizes : MonoBehaviour {
 		if(prizes.counter3 > 1)
 		{
 			minGenNum = 1150;
+		}
+		if(prizes.counter5 > 1)
+		{
+			minGenNum = 1600;
 		}
 	}
 
@@ -240,15 +258,23 @@ public class PlacePrizes : MonoBehaviour {
 		doneWithGen = false;
 		if(seed <= 600)
 		{
-			actualPrize = 1;
+			actualPrize = lowestGeneration;
 		}
 		else if(seed <= 1000 && seed > 600)
 		{
-			actualPrize = 2;
+			if(lowestGeneration > 2)
+			{
+				actualPrize = lowestGeneration;
+			}else
+				actualPrize = 2;
 		}
 		else if(seed <= 1300 && seed > 1000)
 		{
-			actualPrize = 3;
+			if(lowestGeneration > 3)
+			{
+				actualPrize = lowestGeneration;
+			}else
+				actualPrize = 3;
 		}
 		else if(seed <= 1500 && seed > 1300)
 		{
@@ -272,6 +298,10 @@ public class PlacePrizes : MonoBehaviour {
 		}
 		else if(seed <= 1750 && seed > 1730)
 		{
+			if(lowestGeneration == 100)
+			{
+				actualPrize = 50;
+			}else
 			actualPrize = 100;
 		}
 		else if(seed <= 1760 && seed > 1750)
@@ -280,11 +310,15 @@ public class PlacePrizes : MonoBehaviour {
 		}
 		else if(seed <= 1765 && seed > 1760)
 		{
+			if(lowestGeneration > 200)
+			{
+				actualPrize = 200;
+			}else
 			actualPrize = 500;
 		}
 		else if(seed <= 3000 && seed > 1765)
 		{
-			actualPrize = 800;
+			actualPrize = highestGeneration;
 
 		}
 		//Debug.Log(seed);
