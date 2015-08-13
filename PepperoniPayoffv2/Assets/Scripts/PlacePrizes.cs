@@ -137,7 +137,7 @@ public class PlacePrizes : MonoBehaviour {
 		for(int i = 0; i < 6; i++)
 		{
 			AUTOCheckBox0(i);
-			MoveBoxes.BoxFly(i);
+			//MoveBoxes.BoxFly(i);
 			EndStuff.SubtractBoxesRemaining();
 			EndStuff.CheckForWinners();
 			yield return(500000);

@@ -16,10 +16,10 @@ public class AlphaOut : MonoBehaviour {
 	float duration = 2.5f; // This will be your time in seconds.
 	float smoothness = 0.02f; // This will determine the smoothness of the lerp. Smaller values are smoother. Really it's the time between updates.
 
-	void Start()
-	{
-		FadeIn();
-	}
+	//void Start()
+	//{
+	//	FadeIn();
+	//}
 	
 	IEnumerator LerpColor()
 	{

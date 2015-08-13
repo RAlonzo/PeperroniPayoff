@@ -17,7 +17,8 @@ public class PrefabManager : MonoBehaviour {
 	public GameObject[] anchovies;
 	public GameObject[] sausague;
 
-
+	public int startTopping;
+	public int currentTopping;
 	//int startTopping;
 	
 	public bool[] activeTopping;
@@ -31,7 +32,12 @@ public class PrefabManager : MonoBehaviour {
 //		float progress = 0.2f; //This float will serve as the 3rd parameter of the lerp function.
 //		float increment = smoothness/duration; //The amount of change to apply.
 
-//	}
+	void Start()
+	{
+		startTopping = 0;
+		setTopping (startTopping);
+	}
+
 
 
 	//call this method with any prefab index and any material index
@@ -45,55 +51,79 @@ public class PrefabManager : MonoBehaviour {
 				if(!activeTopping[index]){
 					for (i = 0; i < 9; i++) {
 						pepperoni[i].SetActive (true);
+						mushroom[i].SetActive (false);
+						jalapeno[i].SetActive (false);
+						bacon[i].SetActive (false);
 					}
 					activeTopping[index] = true;
 				}else if(activeTopping[index]){
 					for (i = 0; i < 9; i++) {
-						pepperoni[i].SetActive (false);
+						pepperoni[i].SetActive (true);
+						mushroom[i].SetActive (false);
+						jalapeno[i].SetActive (false);
+						bacon[i].SetActive (false);
 					}
-					activeTopping[index] = false;
+					activeTopping[index] = true;
 				}
 			break;
 
 			case 2:
 				if(!activeTopping[index]){
 					for (i = 0; i < 9; i++) {
+						pepperoni[i].SetActive (false);
 						mushroom[i].SetActive (true);
+						jalapeno[i].SetActive (false);
+						bacon[i].SetActive (false);
 					}
 					activeTopping[index] = true;
 				}else if(activeTopping[index]){
 					for (i = 0; i < 9; i++) {
-						mushroom[i].SetActive (false);
+						pepperoni[i].SetActive (false);
+						mushroom[i].SetActive (true);
+						jalapeno[i].SetActive (false);
+						bacon[i].SetActive (false);
 					}
-					activeTopping[index] = false;
+					activeTopping[index] = true;
 				}
 			break;
 			
 			case 1:
 				if(!activeTopping[index]){
 					for (i = 0; i < 9; i++) {
+						pepperoni[i].SetActive (false);
+						mushroom[i].SetActive (false);
+						jalapeno[i].SetActive (false);
 						bacon[i].SetActive (true);
 					}
 					activeTopping[index] = true;
 				}else if(activeTopping[index]){
 					for (i = 0; i < 9; i++) {
-						bacon[i].SetActive (false);
+						pepperoni[i].SetActive (false);
+						mushroom[i].SetActive (false);
+						jalapeno[i].SetActive (false);
+						bacon[i].SetActive (true);
 					}
-					activeTopping[index] = false;
+					activeTopping[index] = true;
 				}
 			break;
 
 			case 0:
 				if(!activeTopping[index]){
 					for (i = 0; i < 9; i++) {
+						pepperoni[i].SetActive (false);
+						mushroom[i].SetActive (false);
 						jalapeno[i].SetActive (true);
+						bacon[i].SetActive (false);
 					}
 					activeTopping[index] = true;
 				}else if(activeTopping[index]){
 					for (i = 0; i < 9; i++) {
-						jalapeno[i].SetActive (false);
-				}
-					activeTopping[index] = false;
+						pepperoni[i].SetActive (false);
+						mushroom[i].SetActive (false);
+						jalapeno[i].SetActive (true);
+						bacon[i].SetActive (false);
+					}
+					activeTopping[index] = true;
 				}
 			break;	
 			}

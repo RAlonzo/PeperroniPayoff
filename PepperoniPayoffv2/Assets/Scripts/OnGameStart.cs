@@ -9,13 +9,13 @@ public class OnGameStart : MonoBehaviour {
 	public GameObject characters;
 
 	// Use this for initialization
-	void Start () {
+	public void doBeggingStuff() 
+	{
 		cameraIn.CrossFade("CameraIn");
 		soundScript.activateSound();
 		characters.SetActive(true);
-
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 

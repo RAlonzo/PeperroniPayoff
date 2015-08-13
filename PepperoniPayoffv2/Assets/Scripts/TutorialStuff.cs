@@ -26,10 +26,10 @@ public class TutorialStuff : MonoBehaviour {
 	void Start()
 	{
 
-		if(!shouldIShowAgain && loginAttempts > 0)
-		{
-			tutCanvas.SetActive(false);
-		}
+		//if(!shouldIShowAgain && loginAttempts > 0)
+		//{
+		//	tutCanvas.SetActive(false);
+		//}
 	}
 	
 	// Update is called once per frame

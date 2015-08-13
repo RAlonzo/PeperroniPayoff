@@ -63,7 +63,7 @@ public class Winnings : MonoBehaviour {
 		yield return new WaitForSeconds(1.3f);
 		while(progress < 1)
 		{
-			black.color = Color.Lerp(Color.clear, Color.black, progress);
+			black.color = Color.Lerp(Color.clear, Color.white, progress);
 			progress += increment;
 			
 			yield return new WaitForSeconds(smoothness);
