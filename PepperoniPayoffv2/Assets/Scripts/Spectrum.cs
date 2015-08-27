@@ -50,9 +50,9 @@ public class Spectrum : MonoBehaviour {
 		radius3 = 4.0f;
      	speed = 10f;
     	temp = 0.0f;
-     	PlaneDelay  = 0.05f;
-		PlaneDelay2  = 0.05f;
-		PlaneDelay3  = 0.05f;
+     	PlaneDelay  = 0.0f;
+		PlaneDelay2  = 0.0f;
+		PlaneDelay3  = 0.0f;
 		timer = 0.0f;
 		timer2 = 0.0f;
 		timer3 = 0.0f;
@@ -96,8 +96,8 @@ public class Spectrum : MonoBehaviour {
 			previousScale = cubes[i].transform.localScale;
 			previousPos = cubes[i].transform.localPosition;
 
-			previousPos.y = Mathf.Lerp (previousPos.y, spectrum[i] * 26, Time.deltaTime * 30);
-			previousScale.y = Mathf.Lerp (previousScale.y, spectrum[i] * 52, Time.deltaTime * 30);
+			previousPos.y = Mathf.Lerp (previousPos.y, spectrum[i] * 52, Time.deltaTime * 30);
+			previousScale.y = Mathf.Lerp (previousScale.y, spectrum[i] * 104, Time.deltaTime * 30);
 			cubes[i].transform.localPosition = previousPos;
 			cubes[i].transform.localScale = previousScale;
 
@@ -105,7 +105,7 @@ public class Spectrum : MonoBehaviour {
 				temp=previousScale.y;
 			}
 
-			if(previousScale.y >= 0.01f && previousScale.y <= 0.2f && timer >= PlaneDelay) {
+			if(previousScale.y >= 1.00f && previousScale.y <= 3.00f && timer >= PlaneDelay) {
 				timer = 0.0f;
 				if(cubes[i].transform.position.x > 0 && cubes[i].transform.position.z > 0){
 					planeClone = (Rigidbody) Instantiate(plane2, cubes[i].transform.position, Quaternion.Euler(0,45, 0));
@@ -131,7 +131,7 @@ public class Spectrum : MonoBehaviour {
 			cubes3[k].transform.localPosition = previousPos3;
 			cubes3[k].transform.localScale = previousScale3;
 
-			if (previousScale3.y >= 0.01f && previousScale3.y <= 0.3f && timer >= PlaneDelay2) {
+			if (previousScale3.y >= 3.00f && previousScale3.y <= 5.00f && timer >= PlaneDelay2) {
 				timer2 = 0.0f;
 
 				if(cubes3[k].transform.position.x > 0 && cubes3[k].transform.position.z > 0){
@@ -161,7 +161,7 @@ public class Spectrum : MonoBehaviour {
 			cubes2[j].transform.localPosition = previousPos2;
 			cubes2[j].transform.localScale = previousScale2;
 
-			if(previousScale2.y >= 0.15f && previousScale2.y <= 0.4f && timer >= PlaneDelay3) {
+			if(previousScale2.y >= 5.00f && previousScale2.y <= 7.00f && timer >= PlaneDelay3) {
 				timer3 = 0.0f;
 
 				if(cubes2[j].transform.position.x > 0 && cubes2[j].transform.position.z > 0){
