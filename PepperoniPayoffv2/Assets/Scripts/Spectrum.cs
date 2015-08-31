@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class Spectrum : MonoBehaviour {
@@ -30,6 +31,11 @@ public class Spectrum : MonoBehaviour {
 	public float timer2;
 	public float timer3;
 
+	public Text blueValue;
+
+	public float minBlue;
+	public float maxBlue;
+
 	public GameObject[] cubes;
 	public GameObject[] cubes2;
 	public GameObject[] cubes3;
@@ -60,6 +66,8 @@ public class Spectrum : MonoBehaviour {
 		cubes = new GameObject[numberOfObjects];
      	cubes2 = new GameObject[numberOfObjects2];
 		cubes3 = new GameObject[numberOfObjects3];
+
+		blueValue = GetComponent <Text> ();
 
 		for (int i = 0; i < numberOfObjects; i++) {
 			float angle = i * Mathf.PI * 2 / numberOfObjects;
