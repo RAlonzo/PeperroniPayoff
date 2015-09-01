@@ -31,10 +31,19 @@ public class Spectrum : MonoBehaviour {
 	public float timer2;
 	public float timer3;
 
-	public Text blueValue;
+	public Text minblueText;
+	public Text maxblueText;
+	public Text minyellowText;
+	public Text maxyellowText;
+	public Text minredText;
+	public Text maxredText;
 
 	public float minBlue;
 	public float maxBlue;
+	public float minYellow;
+	public float maxYellow;
+	public float minRed;
+	public float maxRed;
 
 	public GameObject[] cubes;
 	public GameObject[] cubes2;
@@ -63,11 +72,27 @@ public class Spectrum : MonoBehaviour {
 		timer2 = 0.0f;
 		timer3 = 0.0f;
 
+		minBlue = 0.9f;
+		SetBlueText(0);
+
+     	maxBlue = 1.0f;
+		SetBlueText(1);
+
+		minYellow = 3.0f;
+		SetYellowText(0);
+
+     	maxYellow = 5.0f;
+		SetYellowText(1);
+
+		minRed = 5.0f;
+		SetRedText(0);
+
+    	maxRed = 7.0f;
+		SetRedText(1);
+
 		cubes = new GameObject[numberOfObjects];
      	cubes2 = new GameObject[numberOfObjects2];
 		cubes3 = new GameObject[numberOfObjects3];
-
-		blueValue = GetComponent <Text> ();
 
 		for (int i = 0; i < numberOfObjects; i++) {
 			float angle = i * Mathf.PI * 2 / numberOfObjects;
@@ -113,7 +138,7 @@ public class Spectrum : MonoBehaviour {
 				temp=previousScale.y;
 			}
 
-			if(previousScale.y >= 1.00f && previousScale.y <= 3.00f && timer >= PlaneDelay) {
+			if(previousScale.y >= minBlue && previousScale.y <= maxBlue && timer >= PlaneDelay) {
 				timer = 0.0f;
 				if(cubes[i].transform.position.x > 0 && cubes[i].transform.position.z > 0){
 					planeClone = (Rigidbody) Instantiate(plane2, cubes[i].transform.position, Quaternion.Euler(0,45, 0));
@@ -139,7 +164,7 @@ public class Spectrum : MonoBehaviour {
 			cubes3[k].transform.localPosition = previousPos3;
 			cubes3[k].transform.localScale = previousScale3;
 
-			if (previousScale3.y >= 3.00f && previousScale3.y <= 5.00f && timer >= PlaneDelay2) {
+			if (previousScale3.y >= minYellow && previousScale3.y <= maxYellow && timer >= PlaneDelay2) {
 				timer2 = 0.0f;
 
 				if(cubes3[k].transform.position.x > 0 && cubes3[k].transform.position.z > 0){
@@ -169,7 +194,7 @@ public class Spectrum : MonoBehaviour {
 			cubes2[j].transform.localPosition = previousPos2;
 			cubes2[j].transform.localScale = previousScale2;
 
-			if(previousScale2.y >= 5.00f && previousScale2.y <= 7.00f && timer >= PlaneDelay3) {
+			if(previousScale2.y >= minRed && previousScale2.y <= maxRed && timer >= PlaneDelay3) {
 				timer3 = 0.0f;
 
 				if(cubes2[j].transform.position.x > 0 && cubes2[j].transform.position.z > 0){
@@ -184,6 +209,134 @@ public class Spectrum : MonoBehaviour {
 
 			planeClone3.velocity = transform.forward * -speed;
 			}
+		}
+	}
+	public void SetMinBlueVar(int index) {
+		switch (index) {
+			
+		case 1:
+			minBlue = minBlue + 0.1f;
+			SetBlueText(0);
+			break;
+			
+		case 0:
+			minBlue = minBlue - 0.1f;
+			SetBlueText(0);
+			break;
+		}
+	}
+
+	public void SetMaxBlueVar(int index) {
+		switch (index) {
+			
+		case 1:
+			maxBlue = maxBlue + 0.1f;
+			SetBlueText(1);
+			break;
+			
+		case 0:
+			maxBlue = maxBlue - 0.1f;
+			SetBlueText(1);
+			break;
+		}
+	}
+
+	public void SetMinYellowVar(int index) {
+		switch (index) {
+			
+		case 1:
+			minYellow = minYellow + 0.1f;
+			SetYellowText(0);
+			break;
+			
+		case 0:
+			minYellow = minYellow - 0.1f;
+			SetYellowText(0);
+			break;
+		}
+	}
+	
+	public void SetMaxYellowVar(int index) {
+		switch (index) {
+			
+		case 1:
+			maxYellow = maxYellow + 0.1f;
+			SetYellowText(1);
+			break;
+			
+		case 0:
+			maxYellow = maxYellow - 0.1f;
+			SetYellowText(1);
+			break;
+		}
+	}
+
+	public void SetMinRedVar(int index) {
+		switch (index) {
+			
+		case 1:
+			minRed = minRed + 0.1f;
+			SetRedText(0);
+			break;
+			
+		case 0:
+			minRed = minRed - 0.1f;
+			SetRedText(0);
+			break;
+		}
+	}
+	
+	public void SetMaxRedVar(int index) {
+		switch (index) {
+			
+		case 1:
+			maxRed = maxRed + 0.1f;
+			SetRedText(1);
+			break;
+			
+		case 0:
+			maxRed = maxRed - 0.1f;
+			SetRedText(1);
+			break;
+		}
+	}
+
+	public void SetBlueText(int index) {
+		switch (index) {
+			
+		case 1:
+			maxblueText.text = maxBlue.ToString ();
+			break;
+			
+		case 0:
+			minblueText.text = minBlue.ToString ();
+			break;
+		}
+	}
+
+	public void SetYellowText(int index) {
+		switch (index) {
+			
+		case 1:
+			maxyellowText.text = maxYellow.ToString ();
+			break;
+			
+		case 0:
+			minyellowText.text = minYellow.ToString ();
+			break;
+		}
+	}
+
+	public void SetRedText(int index) {
+		switch (index) {
+
+		case 1:
+			maxredText.text = maxRed.ToString ();
+			break;
+
+		case 0:
+			minredText.text = minRed.ToString ();
+			break;
 		}
 	}
 }

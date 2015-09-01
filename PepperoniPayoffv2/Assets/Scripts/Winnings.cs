@@ -30,7 +30,7 @@ public class Winnings : MonoBehaviour {
 		winnings = 0;
 		boxesRemaining = 6;
 
-		black.color = Color.clear;
+		black.color = Color.white;
 		menuCanvas.SetActive(false);
 	}
 	
@@ -63,7 +63,7 @@ public class Winnings : MonoBehaviour {
 		yield return new WaitForSeconds(1.3f);
 		while(progress < 1)
 		{
-			black.color = Color.Lerp(Color.clear, Color.white, progress);
+			black.color = Color.Lerp(Color.white, Color.black, progress);
 			progress += increment;
 			
 			yield return new WaitForSeconds(smoothness);
