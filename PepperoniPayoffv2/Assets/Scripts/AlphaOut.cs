@@ -13,7 +13,7 @@ public class AlphaOut : MonoBehaviour {
 	public GameObject endPepperoni;
 	public GameObject endPayoff;
 
-	float duration = 2.5f; // This will be your time in seconds.
+	float duration = 1.0f; // This will be your time in seconds.
 	float smoothness = 0.02f; // This will determine the smoothness of the lerp. Smaller values are smoother. Really it's the time between updates.
 
 	//void Start()
@@ -28,7 +28,7 @@ public class AlphaOut : MonoBehaviour {
 		
 		while(progress < 1)
 		{
-			black.color = Color.Lerp(Color.black, Color.clear, progress);
+			black.color = Color.Lerp(Color.white, Color.clear, progress);
 			pepperoni.transform.position = Vector2.Lerp (pepperoni.transform.position, endPepperoni.transform.position, progress);
 			payoff.transform.position = Vector2.Lerp (payoff.transform.position, endPayoff.transform.position, progress);
 			progress += increment;
