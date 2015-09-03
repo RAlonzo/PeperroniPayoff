@@ -1,10 +1,13 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class AudioChanger : MonoBehaviour {
 	public AudioClip otherClip;
 
 	public AudioClip[] otherClips;
+
+	public Text songText;
 
 	int i;
 
@@ -20,6 +23,11 @@ public class AudioChanger : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		Debug.Log (i);
+		SetSongText();
+	}
+
+	public void SetSongText() {
+		songText.text = otherClips[i].name.ToString ();
 	}
 
 	public void changeSong(int c_state) {
@@ -29,8 +37,11 @@ public class AudioChanger : MonoBehaviour {
 		switch(c_state) {
 
 		case 1:
-			i++;
-			if(i <= otherClips.Length)
+			if(otherClips.Length > i) {
+				i++;
+			}
+
+			if(i < otherClips.Length)
 			{
 				audio.clip = otherClips[i];
 				audio.Play();
@@ -43,14 +54,17 @@ public class AudioChanger : MonoBehaviour {
 			break;
 
 		case 0:
-			if(i != 0)
-			{
+			if(otherClips.Length > i) {
 				i--;
+			}
+
+			if(i > otherClips.Length)
+			{
 				audio.clip = otherClips[i];
 				audio.Play();
 			}
 			else{
-				i = otherClips.Length;
+				i = otherClips.Length - 1;
 				audio.clip = otherClips[i];
 				audio.Play();
 			}

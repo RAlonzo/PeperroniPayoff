@@ -72,22 +72,22 @@ public class Spectrum : MonoBehaviour {
 		timer2 = 0.0f;
 		timer3 = 0.0f;
 
-		minBlue = 0.9f;
+		minBlue = 0.8f;
 		SetBlueText(0);
 
-     	maxBlue = 1.0f;
+     	maxBlue = 0.9f;
 		SetBlueText(1);
 
-		minYellow = 3.0f;
+		minYellow = 1.3f;
 		SetYellowText(0);
 
-     	maxYellow = 5.0f;
+     	maxYellow = 1.4f;
 		SetYellowText(1);
 
-		minRed = 5.0f;
+		minRed = 1.5f;
 		SetRedText(0);
 
-    	maxRed = 7.0f;
+    	maxRed = 1.70f;
 		SetRedText(1);
 
 		cubes = new GameObject[numberOfObjects];
