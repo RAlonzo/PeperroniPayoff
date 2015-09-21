@@ -7,7 +7,7 @@ public class Winnings : MonoBehaviour {
 	private int winnings;
 	public Image winImage;
 	public Text amount;
-	public Text ifLose;
+	//public Text ifLose;
 	private int boxesRemaining;
 	public RandomnessScript Counters;
 	public GameManager gameManager;
@@ -187,7 +187,7 @@ public class Winnings : MonoBehaviour {
 		}
 		if(winnings > 0)
 		{
-			ifLose.text = "You Could Have Won:";
+			//ifLose.text = "You Could Have Won:";
 			amount.text = "$ " + winnings.ToString() + " !";
 			//border.text = "$" + winnings.ToString() + "!";
 			
@@ -195,7 +195,7 @@ public class Winnings : MonoBehaviour {
 		else
 		{
 			amount.text = " $ 0 !";
-			ifLose.text = "Sorry, Not A Winner";
+			//ifLose.text = "Sorry, Not A Winner";
 			//border.text = "Sorry, Not A Winner";
 			
 		}

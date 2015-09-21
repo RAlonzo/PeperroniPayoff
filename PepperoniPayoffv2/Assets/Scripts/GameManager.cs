@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour {
 			//Debug.Log("GAME");
 			//timer += Time.deltaTime;
 			int gameTime = (int)(timer);
-			Debug.Log(gameTime);
+//			Debug.Log(gameTime);
 		}
 		else if(currentState == GAME_STATES.end)
 		{
