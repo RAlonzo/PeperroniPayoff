@@ -7,19 +7,33 @@ public class ChefControllerScript : MonoBehaviour {
 	private Animator chefAnimator;
 	private HashIDs hash;
 
-	private bool idleState;
-	private bool danceState;
-	private bool sliceState;
-	private bool poseState;
+    public enum State
+    {
+        Idle,
+        Actions
+    }
+
+    public enum Actions
+    {
+        Slice,
+        Dance,
+        Pose
+    }
+
+    private State _state; // Local variable that represents our states.
+
+    public Actions _actions;
+
+    int actionState;
 
 	int i_currentState;
 	int d_currentState;
 	int randomState;
 
-	void Awake(){
-
+	void Start(){
 		i_currentState = 1;
 		d_currentState =0;
+
 		chefAnimator = GetComponent<Animator>();
 		hash = GameObject.FindGameObjectWithTag("GameController").GetComponent<HashIDs>();
 
@@ -27,39 +41,56 @@ public class ChefControllerScript : MonoBehaviour {
 		chefAnimator.SetLayerWeight(2, 1f);
 		chefAnimator.SetLayerWeight(3, 1f);
 
-		idleState = true;
-		danceState = false;
-		sliceState = false;
-		chefAnimator.SetBool (hash.idlestateBool, true);
+        _state = State.Idle;
 
-		StartCoroutine(ChefState());
-	}
+        StartCoroutine("ChefState");
+    }
 
-	// Update is called once per frame
-	IEnumerator ChefState () {
-		while(idleState = true)
-		{
-			Idle();
-			yield return new WaitForSeconds(3);
-		}
-		while (danceState = true)
-		{
-			yield return new WaitForSeconds(2);
-			idleState =  true;
-		}
-		while (sliceState =  true)
-		{
-			yield return new WaitForSeconds(2);
-			idleState =  true;
-		}
-		while (poseState =  true)
-		{
-			yield return new WaitForSeconds(2);
-			idleState =  true;
-		}
-	}
+     //Update is called once per frame
+     IEnumerator ChefState () {
 
-	void Idle(){
+        while (true)
+        {
+            switch (_state)
+            {
+                case State.Idle:
+                    Idle();
+                    break;
+                case State.Actions:
+                    InAction(actionState);
+                    break;
+            }
+
+            yield return 0;
+        }
+		
+    }
+
+    public void setIndex(int index)
+    {
+        _state = State.Actions;
+        actionState = index;
+    }
+
+    public void InAction(int index)
+    {
+        switch (index)
+        {
+            case 2:
+                Pose();
+                break;
+            case 1:
+                Slice();
+                break;
+            case 0:
+                Dance();
+                break;
+        }
+    }
+
+
+
+    private void Idle(){
 		Debug.Log("Idle");
 		RandomState();
 		chefAnimator.SetBool (hash.sliceBool, false);
@@ -75,27 +106,27 @@ public class ChefControllerScript : MonoBehaviour {
 		}
 	}
 
-	public void Slice()
+	private void Slice()
 	{
 		Debug.Log("Slice");
-		idleState =  false;
+		//idleState =  false;
 		chefAnimator.SetBool (hash.idlestateBool, false);
 		chefAnimator.SetBool (hash.sliceBool, true);
+        _state = State.Idle;
 	}
 
-	public void Pose()
+	private void Pose()
 	{
 		Debug.Log("Pose");
-		idleState =  false;
 		chefAnimator.SetBool (hash.idlestateBool, false);
 		chefAnimator.SetBool (hash.poseBool, true);
-	}
+        _state = State.Idle;
+    }
 
-	public void Dance()
+	private void Dance()
 	{
 		Debug.Log("Dancing");
 		RandomState();
-		idleState =  false;
 		chefAnimator.SetBool (hash.idlestateBool, false);
 		//chefAnimator.SetBool ("Passing", true);
 		chefAnimator.SetBool (hash.danceBool, true);
@@ -108,7 +139,8 @@ public class ChefControllerScript : MonoBehaviour {
 		else{
 			RandomState();
 		}
-	}
+        _state = State.Idle;
+    }
 
 	void RandomState()
 	{
