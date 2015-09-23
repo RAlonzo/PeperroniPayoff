@@ -37,10 +37,6 @@ public class ChefControllerScript : MonoBehaviour {
 		chefAnimator = GetComponent<Animator>();
 		hash = GameObject.FindGameObjectWithTag("GameController").GetComponent<HashIDs>();
 
-		chefAnimator.SetLayerWeight(1, 1f);
-		chefAnimator.SetLayerWeight(2, 1f);
-		chefAnimator.SetLayerWeight(3, 1f);
-
         _state = State.Idle;
 
         StartCoroutine("ChefState");
@@ -53,11 +49,11 @@ public class ChefControllerScript : MonoBehaviour {
         {
             switch (_state)
             {
+				case State.Actions:
+					InAction(actionState);
+					break;
                 case State.Idle:
                     Idle();
-                    break;
-                case State.Actions:
-                    InAction(actionState);
                     break;
             }
 
@@ -80,20 +76,19 @@ public class ChefControllerScript : MonoBehaviour {
                 Pose();
                 break;
             case 1:
-                Slice();
+				Slice();
                 break;
             case 0:
-                Dance();
+				Dance();
                 break;
         }
     }
-
-
 
     private void Idle(){
 		Debug.Log("Idle");
 		RandomState();
 		chefAnimator.SetBool (hash.sliceBool, false);
+		chefAnimator.SetBool (hash.poseBool, false);
 		chefAnimator.SetBool (hash.danceBool, false);
 		chefAnimator.SetBool (hash.idlestateBool, true);
 
@@ -109,7 +104,6 @@ public class ChefControllerScript : MonoBehaviour {
 	private void Slice()
 	{
 		Debug.Log("Slice");
-		//idleState =  false;
 		chefAnimator.SetBool (hash.idlestateBool, false);
 		chefAnimator.SetBool (hash.sliceBool, true);
         _state = State.Idle;
@@ -128,13 +122,11 @@ public class ChefControllerScript : MonoBehaviour {
 		Debug.Log("Dancing");
 		RandomState();
 		chefAnimator.SetBool (hash.idlestateBool, false);
-		//chefAnimator.SetBool ("Passing", true);
 		chefAnimator.SetBool (hash.danceBool, true);
 
 		if(d_currentState != randomState){
 			chefAnimator.SetInteger (hash.dancemoveInteger, randomState);
 			d_currentState = randomState;
-			//chefAnimator.SetBool ("Idle", true);
 		}
 		else{
 			RandomState();

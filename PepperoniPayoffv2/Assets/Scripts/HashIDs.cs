@@ -37,14 +37,14 @@ public class HashIDs : MonoBehaviour
 		schatState = Animator.StringToHash("Base Layer, Small Chat");
 		danceBool = Animator.StringToHash("Dance");
 		dancemoveInteger = Animator.StringToHash("Dancemove");
-		danceState = Animator.StringToHash("Dancing, Dance");
-		moonwalkState = Animator.StringToHash("Dancing, Moon Walk");
-		yoyoState = Animator.StringToHash("Dancing, Yoyo");
-		raiseroofState = Animator.StringToHash("Dancing, Raise Roof");
+		danceState = Animator.StringToHash("Base Layer, Dance");
+		moonwalkState = Animator.StringToHash("Base Layer, Moon Walk");
+		yoyoState = Animator.StringToHash("Base Layer, Yoyo");
+		raiseroofState = Animator.StringToHash("Base Layer, Raise Roof");
 		sliceBool = Animator.StringToHash("Slice");
-		tossupState = Animator.StringToHash("Slice, Toss Up");
-		spinchopState = Animator.StringToHash("Slice, Spin Chop");
+		tossupState = Animator.StringToHash("Base Layer, Toss Up");
+		spinchopState = Animator.StringToHash("Base Layer, Spin Chop");
 		poseBool = Animator.StringToHash("Pose");
-		poseState = Animator.StringToHash("Pose, Pose");
+		poseState = Animator.StringToHash("Base Layer, Pose");
 	}
 }
