@@ -103,7 +103,7 @@ public class Winnings : MonoBehaviour {
 //	}
 	public void Replay()
 	{
-		Application.LoadLevel(1);
+		Application.LoadLevel(2);
 	}
 
 

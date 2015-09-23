@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour {
 		{
 			currentState = GAME_STATES.menu;
 		}
-		else if(Application.loadedLevel == 2)
+		else if(Application.loadedLevel == 3)
 		{
 			currentState = GAME_STATES.game;
 		}

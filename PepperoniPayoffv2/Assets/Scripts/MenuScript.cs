@@ -44,11 +44,11 @@ public class MenuScript : MonoBehaviour {
 		//menuCanvas.SetActive (false);
 		//toppingCamera.SetActive (true);
 		//toppingCanvas.SetActive (true);
-		return true;
+		yield return true;
 	}
 	
 	public void FadeIn(){
-		Application.LoadLevel(1); //Show preLoader screen before game!
+		Application.LoadLevel(2); //Show preLoader screen before game!
 		//StartCoroutine("LerpColor");
 	}
 }

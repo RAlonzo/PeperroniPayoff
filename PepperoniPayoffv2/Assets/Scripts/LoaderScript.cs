@@ -48,7 +48,7 @@ public class LoaderScript : MonoBehaviour {
 		while ( !async.isDone)
 		{
 			loadProgress = (int)(async.progress * 100); //Async shows a number from 0 - 1.  We want 0 to 100, so we multiply by 100.
-			text.GetComponent<GUIText>().text = "Preparing Pizzas..."; // Show Preparing pizzas above bar
+			text.GetComponent<GUIText>().text = "Loading..."; // Show Preparing pizzas above bar
 			//transform the scale of the bar in the x to the size of the async progress (0 - 1).  At 1, the bar is full sized, and next level will be loaded
 			progressBar.transform.localScale = new Vector3(async.progress, progressBar.transform.localScale.y, progressBar.transform.localScale.z);
 			//progressBar.transform.localPosition = new Vector3(async.progress, progressBar.transform.localPosition.y, progressBar.transform.localPosition.z);
