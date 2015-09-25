@@ -56,10 +56,8 @@ public class ChefControllerScript : MonoBehaviour {
                     Idle();
                     break;
             }
-
             yield return 0;
-        }
-		
+        }	
     }
 
     public void setIndex(int index)

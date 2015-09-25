@@ -6,8 +6,13 @@ public class AmbientAnimations : MonoBehaviour {
 	public Animation Register;
 	public AnimationClip pop;
 
+    public AudioClip registerSound;
+
+    private AudioSource source;
+
 	// Use this for initialization
-	void Start () {
+	void Awake () {
+        source = GetComponent<AudioSource>();
 		Register.AddClip(pop,"pop");
 		Register.Stop();
 	}
@@ -19,6 +24,7 @@ public class AmbientAnimations : MonoBehaviour {
 
 	void OnMouseDown()
 	{
+        source.PlayOneShot(registerSound);
 		Register.Play("pop");
 	}
 }

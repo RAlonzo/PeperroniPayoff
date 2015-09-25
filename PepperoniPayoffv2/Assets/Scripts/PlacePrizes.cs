@@ -54,8 +54,10 @@ public class PlacePrizes : MonoBehaviour {
 		timer = 3.0f;
 		startTimer = false;
 		readyForNext = false;
-		//DELETe THIS
-		maxGenNum = 3000;
+        highestGeneration = 50;
+        lowestGeneration = 1;
+        //DELETe THIS
+        maxGenNum = 3000;
 		minGenNum = -3000;
 		doneWithGen = false;
 		index = -1;
@@ -396,7 +398,7 @@ public class PlacePrizes : MonoBehaviour {
 		secLerp = false;
 		progress = 0;
 		StopAllCoroutines (); //Just to make sure there is nothing slowing down the game in the background
-		return true;
+		yield return true;
 	}
 
 

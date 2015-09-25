@@ -13,14 +13,21 @@ public class Sounds : MonoBehaviour {
 
 	public AudioListener gameSounds;
 
+    public AudioClip toppings;
+    private AudioSource topSource;
+    private float volHighRange = 0.5f;
 
-	public Button soundButton;
+
+    public Button soundButton;
 
 	public Sprite textureUnmuted;
 
 	public Sprite textureMuted;
 
-
+    void Awake()
+    {
+        topSource = GetComponent<AudioSource>();
+    }
 
 	public void activateSound () {
 		background.Play ();
@@ -34,7 +41,7 @@ public class Sounds : MonoBehaviour {
 
 	public void ToppingButtons()
 	{
-		click.Play();
+        topSource.PlayOneShot(toppings, volHighRange);
 	}
 
 	public void TurnOffAllSounds()
