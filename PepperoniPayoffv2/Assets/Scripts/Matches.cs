@@ -16,6 +16,8 @@ public class Matches : MonoBehaviour {
         CheckSpotters();
 	}
 
+
+
     void CheckSpotters()
     {
         if (Numbers.counter1 > 0)
