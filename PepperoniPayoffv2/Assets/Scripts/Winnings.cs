@@ -13,6 +13,8 @@ public class Winnings : MonoBehaviour {
 	public GameManager gameManager;
 	public GameObject menuCanvas;
 
+    public Image loseScreen;
+
 	public Image backImage;
 	public GameObject replayBttn;
 	public GameObject exitBttn;
@@ -36,10 +38,11 @@ public class Winnings : MonoBehaviour {
 
 		//winImage.color = Color.white;
 		menuCanvas.SetActive(false);
-	}
-	
-	// Update is called once per frame
-	void Update () {
+
+    }
+
+    // Update is called once per frame
+    void Update () {
 	}
 
 
@@ -52,12 +55,19 @@ public class Winnings : MonoBehaviour {
 		{
 			Debug.Log("DONE");
 			gameManager.EndScreen();
-			menuCanvas.SetActive (true);
-			StartCoroutine("LerpColor");
+            
+            menuCanvas.SetActive(true);
+            if (winnings > 0)
+            {
+                StartCoroutine("LerpColor");
+            }else
+            {
+                StartCoroutine(LerpColorLose());
+            }
 		}
 
-		//Debug.Log(boxesRemaining + " Boxes Remain");
-	}
+        //Debug.Log(boxesRemaining + " Boxes Remain");
+    }
 
 
 	IEnumerator LerpColor()
@@ -79,29 +89,50 @@ public class Winnings : MonoBehaviour {
 		exitBttn.SetActive (true);
 
 		
-		return true;
+		yield return true;
 	}
 
+    IEnumerator LerpColorLose()
+    {
+        float progress = 0; //This float will serve as the 3rd parameter of the lerp function.
+        float increment = smoothness / duration; //The amount of change to apply.
+        yield return new WaitForSeconds(1.3f);
+        while (progress < 1)
+        {
+            loseScreen.color = Color.Lerp(Color.clear, Color.white, progress);
+            amount.color = Color.Lerp(Color.clear, Color.white, progress);
+            backImage.color = Color.Lerp(Color.clear, Color.white, progress);
+            progress += increment;
 
-//	IEnumerator LerpText()
-//	{
-//		StopCoroutine("LerpColor");
-//		float progress = 0; //This float will serve as the 3rd parameter of the lerp function.
-//		float increment = smoothness/duration; //The amount of change to apply.
-//		//yield return new WaitForSeconds(2);
-//		while(progress < 1)
-//		{
-//			STRTamnt.transform.position = Vector2.Lerp (STRTamnt.transform.position, ENDamnt.transform.position, progress);
-//			STRTyouCouldHaveWon.transform.position = Vector2.Lerp (STRTyouCouldHaveWon.transform.position, ENDyouCouldHaveWon.transform.position, progress);
-//			STRTbutton.transform.position = Vector2.Lerp (STRTbutton.transform.position, ENDbutton.transform.position, progress);
-//			progress += increment;
-//			
-//			yield return new WaitForSeconds(smoothness);
-//		}
-//		
-//		return true;
-//	}
-	public void Replay()
+            yield return new WaitForSeconds(smoothness);
+        }
+
+        replayBttn.SetActive(true);
+        exitBttn.SetActive(true);
+
+
+        yield return true;
+    }
+
+    //	IEnumerator LerpText()
+    //	{
+    //		StopCoroutine("LerpColor");
+    //		float progress = 0; //This float will serve as the 3rd parameter of the lerp function.
+    //		float increment = smoothness/duration; //The amount of change to apply.
+    //		//yield return new WaitForSeconds(2);
+    //		while(progress < 1)
+    //		{
+    //			STRTamnt.transform.position = Vector2.Lerp (STRTamnt.transform.position, ENDamnt.transform.position, progress);
+    //			STRTyouCouldHaveWon.transform.position = Vector2.Lerp (STRTyouCouldHaveWon.transform.position, ENDyouCouldHaveWon.transform.position, progress);
+    //			STRTbutton.transform.position = Vector2.Lerp (STRTbutton.transform.position, ENDbutton.transform.position, progress);
+    //			progress += increment;
+    //			
+    //			yield return new WaitForSeconds(smoothness);
+    //		}
+    //		
+    //		return true;
+    //	}
+    public void Replay()
 	{
 		Application.LoadLevel(2);
 	}
@@ -194,7 +225,7 @@ public class Winnings : MonoBehaviour {
 		}
 		else
 		{
-			amount.text = " $ 0 !";
+			amount.text = "";
 			//ifLose.text = "Sorry, Not A Winner";
 			//border.text = "Sorry, Not A Winner";
 			
