@@ -50,8 +50,8 @@ public class PrefabManager : MonoBehaviour {
 
     IEnumerator WaitTime(int index)
     {
+        sliceSource.PlayDelayed(1.7f);
         yield return new WaitForSeconds(2.0f);
-        sliceSource.Play();
         foreach(GameObject topping in thrownObjects)
         {
             topping.SetActive(false);
