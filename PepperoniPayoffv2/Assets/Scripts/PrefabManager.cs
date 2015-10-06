@@ -18,6 +18,7 @@ public class PrefabManager : MonoBehaviour {
 	public GameObject[] greenPepper;
 	public GameObject[] anchovies;
 	public GameObject[] sausague;
+    public AudioSource sliceSource;
 
 	public int startTopping;
 	public int currentTopping;
@@ -50,6 +51,7 @@ public class PrefabManager : MonoBehaviour {
     IEnumerator WaitTime(int index)
     {
         yield return new WaitForSeconds(2.0f);
+        sliceSource.Play();
         foreach(GameObject topping in thrownObjects)
         {
             topping.SetActive(false);
