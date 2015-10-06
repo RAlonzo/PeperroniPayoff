@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+
 using UnityEngine.UI;
 
 //Get a reference to this script from the script that gets input from the user
@@ -19,6 +21,11 @@ public class PrefabManager : MonoBehaviour {
 
 	public int startTopping;
 	public int currentTopping;
+
+
+    public List<GameObject> thrownObjects = new List<GameObject>();
+
+
 	//int startTopping;
 	
 	public bool[] activeTopping;
@@ -40,6 +47,25 @@ public class PrefabManager : MonoBehaviour {
 
 
 
+    IEnumerator WaitTime(int index)
+    {
+        yield return new WaitForSeconds(2.0f);
+        foreach(GameObject topping in thrownObjects)
+        {
+            topping.SetActive(false);
+        }
+        setTopping(index);
+        yield return 0;
+    }
+
+
+    public void StartWaitTimer(int index)
+    {
+        StartCoroutine(WaitTime(index));
+    }
+
+
+
 	//call this method with any prefab index and any material index
 	public void setTopping(int index)
 	{
@@ -57,7 +83,7 @@ public class PrefabManager : MonoBehaviour {
 					}
 					activeTopping[index] = true;
 				}else if(activeTopping[index]){
-					for (i = 0; i < 9; i++) {
+                    for (i = 0; i < 9; i++) {
 						pepperoni[i].SetActive (true);
 						mushroom[i].SetActive (false);
 						jalapeno[i].SetActive (false);
@@ -69,7 +95,7 @@ public class PrefabManager : MonoBehaviour {
 
 			case 2:
 				if(!activeTopping[index]){
-					for (i = 0; i < 9; i++) {
+                    for (i = 0; i < 9; i++) {
 						pepperoni[i].SetActive (false);
 						mushroom[i].SetActive (true);
 						jalapeno[i].SetActive (false);
@@ -77,7 +103,8 @@ public class PrefabManager : MonoBehaviour {
 					}
 					activeTopping[index] = true;
 				}else if(activeTopping[index]){
-					for (i = 0; i < 9; i++) {
+
+                    for (i = 0; i < 9; i++) {
 						pepperoni[i].SetActive (false);
 						mushroom[i].SetActive (true);
 						jalapeno[i].SetActive (false);
@@ -89,7 +116,8 @@ public class PrefabManager : MonoBehaviour {
 			
 			case 1:
 				if(!activeTopping[index]){
-					for (i = 0; i < 9; i++) {
+
+                    for (i = 0; i < 9; i++) {
 						pepperoni[i].SetActive (false);
 						mushroom[i].SetActive (false);
 						jalapeno[i].SetActive (false);
@@ -97,7 +125,8 @@ public class PrefabManager : MonoBehaviour {
 					}
 					activeTopping[index] = true;
 				}else if(activeTopping[index]){
-					for (i = 0; i < 9; i++) {
+
+                    for (i = 0; i < 9; i++) {
 						pepperoni[i].SetActive (false);
 						mushroom[i].SetActive (false);
 						jalapeno[i].SetActive (false);
@@ -109,7 +138,8 @@ public class PrefabManager : MonoBehaviour {
 
 			case 0:
 				if(!activeTopping[index]){
-					for (i = 0; i < 9; i++) {
+
+                    for (i = 0; i < 9; i++) {
 						pepperoni[i].SetActive (false);
 						mushroom[i].SetActive (false);
 						jalapeno[i].SetActive (true);
@@ -117,7 +147,8 @@ public class PrefabManager : MonoBehaviour {
 					}
 					activeTopping[index] = true;
 				}else if(activeTopping[index]){
-					for (i = 0; i < 9; i++) {
+
+                    for (i = 0; i < 9; i++) {
 						pepperoni[i].SetActive (false);
 						mushroom[i].SetActive (false);
 						jalapeno[i].SetActive (true);
