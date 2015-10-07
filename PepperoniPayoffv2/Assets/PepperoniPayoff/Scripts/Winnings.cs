@@ -21,6 +21,13 @@ public class Winnings : MonoBehaviour {
 
     public GameObject LosereplayBttn;
     public GameObject LoseexitBttn;
+
+
+
+    public GameObject WinScreenGO;
+    public GameObject LoseScreenGO;
+
+
     //public GameObject STRTyouCouldHaveWon;
     //public GameObject ENDyouCouldHaveWon;
     //public GameObject STRTamnt;
@@ -37,9 +44,10 @@ public class Winnings : MonoBehaviour {
 	void Start () {
 		winnings = 0;
 		boxesRemaining = 6;
-
-		//winImage.color = Color.white;
-		menuCanvas.SetActive(false);
+        WinScreenGO.SetActive(false);
+        LoseScreenGO.SetActive(false);
+        //winImage.color = Color.white;
+        menuCanvas.SetActive(false);
 
     }
 
@@ -76,6 +84,7 @@ public class Winnings : MonoBehaviour {
 	{
 		float progress = 0; //This float will serve as the 3rd parameter of the lerp function.
 		float increment = smoothness/duration; //The amount of change to apply.
+        WinScreenGO.SetActive(true);
 		yield return new WaitForSeconds(1.3f);
 		while(progress < 1)
 		{
@@ -98,6 +107,7 @@ public class Winnings : MonoBehaviour {
     {
         float progress = 0; //This float will serve as the 3rd parameter of the lerp function.
         float increment = smoothness / duration; //The amount of change to apply.
+        LoseScreenGO.SetActive(true);
         yield return new WaitForSeconds(1.3f);
         while (progress < 1)
         {

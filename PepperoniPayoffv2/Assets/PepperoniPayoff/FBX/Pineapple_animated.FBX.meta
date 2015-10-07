@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: fa01d91d055c9fa44afac33bc7ab7049
+timeCreated: 1444226549
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Capsule004
+    100002: Group001
+    100004: Object005
+    100006: //RootNode
+    100008: Pineapple_leaf020
+    100010: Pineapple_leaf021
+    100012: Pineapple_leaf022
+    100014: Pineapple_leaf023
+    100016: Pineapple_leaf024
+    100018: Pineapple_leaf025
+    100020: Pineapple_leaf026
+    100022: Pineapple_leaf027
+    100024: Pineapple_leaf028
+    100026: Pineapple_leaf029
+    100028: Pineapple_leaf030
+    100030: Pineapple_leaf031
+    100032: Pineapple_leaf032
+    100034: Pineapple_leaf033
+    100036: Pineapple_leaves
+    100038: Pineapple_slice001
+    100040: Pineapple_slice002
+    100042: Pineapple_slice003
+    400000: Capsule004
+    400002: Group001
+    400004: Object005
+    400006: //RootNode
+    400008: Pineapple_leaf020
+    400010: Pineapple_leaf021
+    400012: Pineapple_leaf022
+    400014: Pineapple_leaf023
+    400016: Pineapple_leaf024
+    400018: Pineapple_leaf025
+    400020: Pineapple_leaf026
+    400022: Pineapple_leaf027
+    400024: Pineapple_leaf028
+    400026: Pineapple_leaf029
+    400028: Pineapple_leaf030
+    400030: Pineapple_leaf031
+    400032: Pineapple_leaf032
+    400034: Pineapple_leaf033
+    400036: Pineapple_leaves
+    400038: Pineapple_slice001
+    400040: Pineapple_slice002
+    400042: Pineapple_slice003
+    2300000: Capsule004
+    2300002: Object005
+    2300004: Pineapple_leaf020
+    2300006: Pineapple_leaf021
+    2300008: Pineapple_leaf022
+    2300010: Pineapple_leaf023
+    2300012: Pineapple_leaf024
+    2300014: Pineapple_leaf025
+    2300016: Pineapple_leaf026
+    2300018: Pineapple_leaf027
+    2300020: Pineapple_leaf028
+    2300022: Pineapple_leaf029
+    2300024: Pineapple_leaf030
+    2300026: Pineapple_leaf031
+    2300028: Pineapple_leaf032
+    2300030: Pineapple_leaf033
+    2300032: Pineapple_slice001
+    2300034: Pineapple_slice002
+    2300036: Pineapple_slice003
+    3300000: Capsule004
+    3300002: Object005
+    3300004: Pineapple_leaf020
+    3300006: Pineapple_leaf021
+    3300008: Pineapple_leaf022
+    3300010: Pineapple_leaf023
+    3300012: Pineapple_leaf024
+    3300014: Pineapple_leaf025
+    3300016: Pineapple_leaf026
+    3300018: Pineapple_leaf027
+    3300020: Pineapple_leaf028
+    3300022: Pineapple_leaf029
+    3300024: Pineapple_leaf030
+    3300026: Pineapple_leaf031
+    3300028: Pineapple_leaf032
+    3300030: Pineapple_leaf033
+    3300032: Pineapple_slice001
+    3300034: Pineapple_slice002
+    3300036: Pineapple_slice003
+    4300000: Capsule004
+    4300002: Pineapple_slice001
+    4300004: Object005
+    4300006: Pineapple_leaf033
+    4300008: Pineapple_leaf031
+    4300010: Pineapple_leaf032
+    4300012: Pineapple_leaf023
+    4300014: Pineapple_leaf024
+    4300016: Pineapple_leaf025
+    4300018: Pineapple_leaf022
+    4300020: Pineapple_leaf027
+    4300022: Pineapple_leaf028
+    4300024: Pineapple_leaf029
+    4300026: Pineapple_leaf030
+    4300028: Pineapple_leaf021
+    4300030: Pineapple_leaf026
+    4300032: Pineapple_leaf020
+    4300034: Pineapple_slice002
+    4300036: Pineapple_slice003
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
