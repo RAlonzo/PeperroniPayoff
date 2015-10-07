@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: 1bc4a0a6680a06f4ea66bbde75154ef1
+timeCreated: 1443801270
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GreenracerSpriteSliced_0
+    21300002: GreenracerSpriteSliced_1
+    21300004: GreenracerSpriteSliced_2
+    21300006: GreenracerSpriteSliced_3
+    21300008: GreenracerSpriteSliced_4
+    21300010: GreenracerSpriteSliced_5
+    21300012: GreenracerSpriteSliced_6
+    21300014: GreenracerSpriteSliced_7
+    21300016: GreenracerSpriteSliced_8
+    21300018: GreenracerSpriteSliced_9
+    21300020: GreenracerSpriteSliced_10
+    21300022: GreenracerSpriteSliced_11
+    21300024: GreenracerSpriteSliced_12
+    21300026: GreenracerSpriteSliced_13
+    21300028: GreenracerSpriteSliced_14
+    21300030: GreenracerSpriteSliced_15
+    21300032: GreenracerSpriteSliced_16
+    21300034: GreenracerSpriteSliced_17
+    21300036: GreenracerSpriteSliced_18
+    21300038: GreenracerSpriteSliced_19
+    21300040: GreenracerSpriteSliced_20
+    21300042: GreenracerSpriteSliced_21
+    21300044: GreenracerSpriteSliced_22
+    21300046: GreenracerSpriteSliced_23
+    21300048: GreenracerSpriteSliced_24
+    21300050: GreenracerSpriteSliced_25
+    21300052: GreenracerSpriteSliced_26
+    21300054: GreenracerSpriteSliced_27
+    21300056: GreenracerSpriteSliced_28
+    21300058: GreenracerSpriteSliced_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: GreenracerSpriteSliced_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1792
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1792
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1792
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_5
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1536
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1536
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_7
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1536
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_9
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1280
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_10
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1280
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_11
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1280
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1024
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1024
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_15
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1024
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_18
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_19
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_23
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_25
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_26
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_27
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenracerSpriteSliced_29
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

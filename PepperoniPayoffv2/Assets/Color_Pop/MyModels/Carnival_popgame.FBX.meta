@@ -1,0 +1,5038 @@
+fileFormatVersion: 2
+guid: 70672ef4ebe3168499634506741ef752
+timeCreated: 1438832955
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Arc031
+    100002: Arc032
+    100004: Arc033
+    100006: Arc034
+    100008: Arc035
+    100010: Arc036
+    100012: Arc037
+    100014: Arc038
+    100016: Arc039
+    100018: Arc040
+    100020: Arc041
+    100022: Arc042
+    100024: Arc043
+    100026: Arc044
+    100028: Arc045
+    100030: Arc046
+    100032: Arc047
+    100034: Arc048
+    100036: Arc049
+    100038: Arc050
+    100040: Arc051
+    100042: Arc052
+    100044: Arc053
+    100046: Arc054
+    100048: Arc055
+    100050: Arc056
+    100052: Arc057
+    100054: Arc058
+    100056: Arc059
+    100058: Arc060
+    100060: balloon068
+    100062: Balloon069
+    100064: balloon069
+    100066: Balloon070
+    100068: balloon070
+    100070: Balloon071
+    100072: balloon071
+    100074: Balloon072
+    100076: balloon072
+    100078: Balloon073
+    100080: balloon073
+    100082: Balloon074
+    100084: balloon074
+    100086: Balloon075
+    100088: balloon075
+    100090: Balloon076
+    100092: balloon076
+    100094: Balloon077
+    100096: balloon077
+    100098: Balloon078
+    100100: balloon078
+    100102: Balloon079
+    100104: balloon079
+    100106: Balloon080
+    100108: balloon080
+    100110: Balloon081
+    100112: balloon081
+    100114: Balloon082
+    100116: balloon082
+    100118: Balloon083
+    100120: balloon083
+    100122: Balloon084
+    100124: balloon084
+    100126: Balloon085
+    100128: balloon085
+    100130: Balloon086
+    100132: balloon086
+    100134: Balloon087
+    100136: balloon087
+    100138: Balloon088
+    100140: balloon090
+    100142: Balloon091
+    100144: balloon091
+    100146: Balloon092
+    100148: balloon093
+    100150: Balloon094
+    100152: balloon095
+    100154: Balloon096
+    100156: balloon096
+    100158: Balloon097
+    100160: balloon098
+    100162: Balloon099
+    100164: balloon099
+    100166: Balloon100
+    100168: balloon100
+    100170: Balloon101
+    100172: balloon102
+    100174: Balloon103
+    100176: balloon103
+    100178: Balloon104
+    100180: balloon104
+    100182: Balloon105
+    100184: balloon105
+    100186: Balloon106
+    100188: balloon107
+    100190: Balloon108
+    100192: balloon108
+    100194: Balloon109
+    100196: balloon109
+    100198: Balloon110
+    100200: balloon110
+    100202: Balloon111
+    100204: balloon113
+    100206: Balloon114
+    100208: balloon116
+    100210: Balloon117
+    100212: balloon118
+    100214: Balloon119
+    100216: balloon119
+    100218: Balloon120
+    100220: balloon120
+    100222: Balloon121
+    100224: balloon121
+    100226: Balloon122
+    100228: balloon122
+    100230: Balloon123
+    100232: balloon123
+    100234: Balloon124
+    100236: balloon124
+    100238: Balloon125
+    100240: balloon125
+    100242: Balloon126
+    100244: balloon126
+    100246: Balloon127
+    100248: balloon127
+    100250: Balloon128
+    100252: balloon_end068
+    100254: balloon_end069
+    100256: balloon_end070
+    100258: balloon_end071
+    100260: balloon_end072
+    100262: balloon_end073
+    100264: balloon_end074
+    100266: balloon_end075
+    100268: balloon_end076
+    100270: balloon_end077
+    100272: balloon_end078
+    100274: balloon_end079
+    100276: balloon_end080
+    100278: balloon_end081
+    100280: balloon_end082
+    100282: balloon_end083
+    100284: balloon_end084
+    100286: balloon_end085
+    100288: balloon_end086
+    100290: balloon_end087
+    100292: balloon_end090
+    100294: balloon_end091
+    100296: balloon_end093
+    100298: balloon_end095
+    100300: balloon_end096
+    100302: balloon_end098
+    100304: balloon_end099
+    100306: balloon_end100
+    100308: balloon_end102
+    100310: balloon_end103
+    100312: balloon_end104
+    100314: balloon_end105
+    100316: balloon_end106
+    100318: balloon_end108
+    100320: balloon_end109
+    100322: balloon_end110
+    100324: balloon_end111
+    100326: balloon_end112
+    100328: balloon_end115
+    100330: balloon_end118
+    100332: balloon_end120
+    100334: balloon_end121
+    100336: balloon_end122
+    100338: balloon_end123
+    100340: balloon_end124
+    100342: balloon_end125
+    100344: balloon_end126
+    100346: balloon_end127
+    100348: Balloon_knot068
+    100350: Balloon_knot069
+    100352: Balloon_knot070
+    100354: Balloon_knot071
+    100356: Balloon_knot072
+    100358: Balloon_knot073
+    100360: Balloon_knot074
+    100362: Balloon_knot075
+    100364: Balloon_knot076
+    100366: Balloon_knot077
+    100368: Balloon_knot078
+    100370: Balloon_knot079
+    100372: Balloon_knot080
+    100374: Balloon_knot081
+    100376: Balloon_knot082
+    100378: Balloon_knot083
+    100380: Balloon_knot084
+    100382: Balloon_knot085
+    100384: Balloon_knot086
+    100386: Balloon_knot087
+    100388: Balloon_knot090
+    100390: Balloon_knot091
+    100392: Balloon_knot093
+    100394: Balloon_knot095
+    100396: Balloon_knot096
+    100398: Balloon_knot098
+    100400: Balloon_knot099
+    100402: Balloon_knot100
+    100404: Balloon_knot102
+    100406: Balloon_knot103
+    100408: Balloon_knot104
+    100410: Balloon_knot105
+    100412: Balloon_knot106
+    100414: Balloon_knot108
+    100416: Balloon_knot109
+    100418: Balloon_knot110
+    100420: Balloon_knot111
+    100422: Balloon_knot112
+    100424: Balloon_knot115
+    100426: Balloon_knot118
+    100428: Balloon_knot120
+    100430: Balloon_knot121
+    100432: Balloon_knot122
+    100434: Balloon_knot123
+    100436: Balloon_knot124
+    100438: Balloon_knot125
+    100440: Balloon_knot126
+    100442: Balloon_knot127
+    100444: Box001
+    100446: Box007
+    100448: Box225
+    100450: Box226
+    100452: Box227
+    100454: Box228
+    100456: Box229
+    100458: Box230
+    100460: Box231
+    100462: Box232
+    100464: Box233
+    100466: Box234
+    100468: Box235
+    100470: Box236
+    100472: Box237
+    100474: Box238
+    100476: Box239
+    100478: Box240
+    100480: Box241
+    100482: Box242
+    100484: Box243
+    100486: Box244
+    100488: Box245
+    100490: Box246
+    100492: Box247
+    100494: Box248
+    100496: Box249
+    100498: Box250
+    100500: Box251
+    100502: Box252
+    100504: Box253
+    100506: Box254
+    100508: Box255
+    100510: Box256
+    100512: Box257
+    100514: Box258
+    100516: Box259
+    100518: Box260
+    100520: Box261
+    100522: Box262
+    100524: Box263
+    100526: Box264
+    100528: Box265
+    100530: Box266
+    100532: Box267
+    100534: Box268
+    100536: Box269
+    100538: Box270
+    100540: Box271
+    100542: Box272
+    100544: Box273
+    100546: Box274
+    100548: Box275
+    100550: Box276
+    100552: Box277
+    100554: Box278
+    100556: Box279
+    100558: Box280
+    100560: Box281
+    100562: Box282
+    100564: Box283
+    100566: Box284
+    100568: Box285
+    100570: Box286
+    100572: Box287
+    100574: Box288
+    100576: Box289
+    100578: Box290
+    100580: Box291
+    100582: Box292
+    100584: Box293
+    100586: Box294
+    100588: Box295
+    100590: Box296
+    100592: Box297
+    100594: Box298
+    100596: Box299
+    100598: Box300
+    100600: Box301
+    100602: Box302
+    100604: Box303
+    100606: Box304
+    100608: Box305
+    100610: Box306
+    100612: Box307
+    100614: Box308
+    100616: Box309
+    100618: Box310
+    100620: Box311
+    100622: Box312
+    100624: Box313
+    100626: Box314
+    100628: Box315
+    100630: Box316
+    100632: Box317
+    100634: Box318
+    100636: Box319
+    100638: Box320
+    100640: Box321
+    100642: Box322
+    100644: Box323
+    100646: Box324
+    100648: Box325
+    100650: Box326
+    100652: Box327
+    100654: Box328
+    100656: Box329
+    100658: Box330
+    100660: Box331
+    100662: Box332
+    100664: Box333
+    100666: Box334
+    100668: Box335
+    100670: Box336
+    100672: Box337
+    100674: Bucket
+    100676: Bucket006
+    100678: Bucket007
+    100680: Bucket008
+    100682: Bucket009
+    100684: Bucket010
+    100686: Bucket011
+    100688: Bucket012
+    100690: Bucket013
+    100692: Bucket014
+    100694: Bucket015
+    100696: Bucket018
+    100698: Bucket019
+    100700: Bucket020
+    100702: Bucket021
+    100704: Bucket022
+    100706: Bucket024
+    100708: Bucket025
+    100710: Bucket026
+    100712: Bucket027
+    100714: Bucket032
+    100716: Bucket033
+    100718: Bucket038
+    100720: Bucket039
+    100722: Bucket040
+    100724: Bucket041
+    100726: //RootNode
+    100728: cloth
+    100730: Cone019
+    100732: Cone020
+    100734: Cone021
+    100736: Cone022
+    100738: Cone023
+    100740: Cone024
+    100742: Cone025
+    100744: Cone026
+    100746: Cone027
+    100748: Cone028
+    100750: Cone029
+    100752: Cone030
+    100754: Cone031
+    100756: Cone032
+    100758: Cone033
+    100760: Cone034
+    100762: Cone035
+    100764: Cone036
+    100766: Cylinder001
+    100768: Cylinder002
+    100770: Cylinder086
+    100772: Cylinder087
+    100774: Cylinder088
+    100776: Cylinder089
+    100778: Cylinder090
+    100780: Cylinder091
+    100782: Cylinder092
+    100784: Cylinder093
+    100786: Cylinder094
+    100788: Cylinder095
+    100790: Cylinder096
+    100792: Cylinder097
+    100794: Cylinder098
+    100796: Cylinder099
+    100798: Cylinder100
+    100800: Cylinder101
+    100802: Cylinder102
+    100804: Cylinder103
+    100806: Cylinder104
+    100808: Cylinder105
+    100810: Cylinder106
+    100812: Cylinder107
+    100814: Cylinder108
+    100816: Cylinder109
+    100818: Cylinder110
+    100820: Cylinder111
+    100822: Cylinder112
+    100824: Cylinder113
+    100826: Cylinder114
+    100828: Cylinder115
+    100830: Cylinder116
+    100832: Cylinder117
+    100834: Cylinder118
+    100836: Cylinder119
+    100838: Cylinder120
+    100840: Cylinder121
+    100842: Cylinder122
+    100844: Cylinder123
+    100846: Cylinder124
+    100848: Cylinder125
+    100850: Cylinder126
+    100852: Cylinder127
+    100854: Cylinder128
+    100856: Cylinder129
+    100858: Cylinder130
+    100860: Cylinder131
+    100862: Cylinder132
+    100864: Cylinder133
+    100866: Cylinder134
+    100868: Cylinder135
+    100870: Cylinder136
+    100872: Cylinder137
+    100874: Cylinder138
+    100876: Cylinder139
+    100878: Cylinder140
+    100880: Cylinder141
+    100882: Cylinder142
+    100884: Cylinder143
+    100886: Cylinder144
+    100888: Cylinder145
+    100890: Cylinder146
+    100892: Cylinder147
+    100894: Cylinder148
+    100896: Cylinder149
+    100898: Cylinder150
+    100900: Cylinder151
+    100902: Cylinder152
+    100904: Cylinder153
+    100906: Cylinder154
+    100908: Cylinder155
+    100910: Cylinder156
+    100912: Cylinder157
+    100914: Cylinder158
+    100916: Cylinder159
+    100918: Cylinder160
+    100920: Cylinder161
+    100922: Cylinder162
+    100924: Cylinder163
+    100926: Cylinder164
+    100928: Cylinder165
+    100930: Cylinder166
+    100932: Cylinder167
+    100934: Cylinder168
+    100936: Cylinder169
+    100938: Cylinder170
+    100940: Dart001
+    100942: Dart002
+    100944: Dart003
+    100946: Dart004
+    100948: Dart005
+    100950: Dart006
+    100952: Dart007
+    100954: Dart008
+    100956: Dart009
+    100958: Dart012
+    100960: Dart019
+    100962: Dart023
+    100964: Dart024
+    100966: Dart027
+    100968: Dart030
+    100970: Dart033
+    100972: Dart_base001
+    100974: Dart_base002
+    100976: Dart_base003
+    100978: Dart_base004
+    100980: Dart_base005
+    100982: Dart_base006
+    100984: Dart_base007
+    100986: Dart_base008
+    100988: Dart_base009
+    100990: Dart_base012
+    100992: Dart_base021
+    100994: Dart_base024
+    100996: Dart_base028
+    100998: Dart_base033
+    101000: Dart_base036
+    101002: Dart_base038
+    101004: Dart_Fin005
+    101006: Dart_Fin006
+    101008: Dart_Fin007
+    101010: Dart_Fin008
+    101012: Dart_Fin009
+    101014: Dart_Fin010
+    101016: Dart_Fin011
+    101018: Dart_Fin012
+    101020: Dart_Fin013
+    101022: Dart_Fin014
+    101024: Dart_Fin015
+    101026: Dart_Fin016
+    101028: Dart_Fin017
+    101030: Dart_Fin018
+    101032: Dart_Fin019
+    101034: Dart_Fin020
+    101036: Dart_Fin021
+    101038: Dart_Fin022
+    101040: Dart_Fin023
+    101042: Dart_Fin024
+    101044: Dart_Fin025
+    101046: Dart_Fin026
+    101048: Dart_Fin027
+    101050: Dart_Fin028
+    101052: Dart_Fin029
+    101054: Dart_Fin030
+    101056: Dart_Fin031
+    101058: Dart_Fin032
+    101060: Dart_Fin033
+    101062: Dart_Fin034
+    101064: Dart_Fin035
+    101066: Dart_Fin036
+    101068: Dart_Fin037
+    101070: Dart_Fin038
+    101072: Dart_Fin039
+    101074: Dart_Fin040
+    101076: Dart_Fin049
+    101078: Dart_Fin050
+    101080: Dart_Fin051
+    101082: Dart_Fin052
+    101084: Dart_Fin066
+    101086: Dart_Fin067
+    101088: Dart_Fin068
+    101090: Dart_Fin069
+    101092: Dart_Fin093
+    101094: Dart_Fin094
+    101096: Dart_Fin095
+    101098: Dart_Fin096
+    101100: Dart_Fin097
+    101102: Dart_Fin098
+    101104: Dart_Fin099
+    101106: Dart_Fin101
+    101108: Dart_Fin126
+    101110: Dart_Fin127
+    101112: Dart_Fin128
+    101114: Dart_Fin129
+    101116: Dart_Fin138
+    101118: Dart_Fin139
+    101120: Dart_Fin140
+    101122: Dart_Fin141
+    101124: Dart_Fin148
+    101126: Dart_Fin149
+    101128: Dart_Fin150
+    101130: Dart_Fin151
+    101132: Hedra041
+    101134: Hedra042
+    101136: Hedra043
+    101138: Hedra044
+    101140: Hedra045
+    101142: Hedra046
+    101144: Hedra047
+    101146: Hedra048
+    101148: Hedra049
+    101150: Hedra050
+    101152: Hedra051
+    101154: Hedra052
+    101156: Hedra053
+    101158: Hedra054
+    101160: Hedra055
+    101162: Hedra056
+    101164: Hedra057
+    101166: Hedra058
+    101168: Hedra059
+    101170: Hedra060
+    101172: Hedra061
+    101174: Hedra062
+    101176: Hedra063
+    101178: Hedra064
+    101180: Hedra065
+    101182: Hedra066
+    101184: Hedra067
+    101186: Hedra068
+    101188: Hedra069
+    101190: Hedra070
+    101192: Hedra071
+    101194: Hedra072
+    101196: Hedra073
+    101198: Hedra074
+    101200: Hedra075
+    101202: Hedra076
+    101204: Hedra077
+    101206: Hedra078
+    101208: Hedra079
+    101210: Hedra080
+    101212: Plane002
+    101214: Plane033
+    101216: Plane034
+    101218: Plane035
+    101220: Plane036
+    101222: Plane037
+    101224: Plane038
+    101226: Plane039
+    101228: Plane040
+    101230: Plane041
+    101232: Plane042
+    101234: Pyramid022
+    101236: Pyramid023
+    101238: Pyramid024
+    101240: Pyramid025
+    101242: Pyramid026
+    101244: Pyramid027
+    101246: Pyramid028
+    101248: Pyramid029
+    101250: Pyramid030
+    101252: Pyramid031
+    101254: Pyramid032
+    101256: Pyramid033
+    101258: Pyramid034
+    101260: Pyramid035
+    101262: Pyramid036
+    101264: Pyramid037
+    101266: Pyramid038
+    101268: Pyramid039
+    101270: Pyramid040
+    101272: Pyramid041
+    101274: Robot_againstWall001
+    101276: Sphere093
+    101278: Sphere094
+    101280: Sphere095
+    101282: Sphere096
+    101284: Sphere097
+    101286: Sphere098
+    101288: Sphere099
+    101290: Sphere100
+    101292: Sphere101
+    101294: Sphere102
+    101296: Sphere103
+    101298: Sphere104
+    101300: Sphere105
+    101302: Sphere106
+    101304: Sphere107
+    101306: Sphere108
+    101308: Sphere109
+    101310: Sphere110
+    101312: Sphere111
+    101314: Sphere112
+    101316: Sphere113
+    101318: Sphere114
+    101320: Sphere115
+    101322: Sphere116
+    101324: Sphere117
+    101326: Sphere118
+    101328: Sphere119
+    101330: Sphere120
+    101332: Sphere121
+    101334: Sphere122
+    101336: Sphere123
+    101338: Sphere124
+    101340: Sphere125
+    101342: Sphere126
+    101344: Sphere127
+    101346: Sphere128
+    101348: Sphere129
+    101350: Sphere130
+    101352: Sphere131
+    101354: Sphere132
+    101356: Sphere133
+    101358: Sphere134
+    101360: Sphere135
+    101362: Sphere136
+    101364: Sphere137
+    101366: Sphere138
+    101368: Sphere139
+    101370: Sphere140
+    101372: Sphere141
+    101374: Sphere142
+    101376: Sphere143
+    101378: Sphere144
+    101380: Sphere145
+    101382: Sphere146
+    101384: Sphere147
+    101386: Sphere148
+    101388: Sphere149
+    101390: Sphere150
+    101392: Sphere151
+    101394: Sphere152
+    101396: Sphere153
+    101398: Sphere154
+    101400: Sphere155
+    101402: Sphere156
+    101404: Sphere157
+    101406: Sphere158
+    101408: Sphere159
+    101410: Sphere160
+    101412: Sphere161
+    101414: Sphere162
+    101416: Sphere163
+    101418: Sphere164
+    101420: Sphere165
+    101422: Sphere166
+    101424: Sphere167
+    101426: Sphere168
+    101428: Sphere169
+    101430: Sphere170
+    101432: Sphere171
+    101434: Sphere172
+    101436: Sphere173
+    101438: Sphere174
+    101440: Sphere175
+    101442: Sphere176
+    101444: Sphere177
+    101446: Sphere178
+    101448: Sphere179
+    101450: Sphere180
+    101452: Sphere181
+    101454: Sphere182
+    101456: Table
+    101458: tent_pole
+    101460: tent_pole001
+    101462: tent_pole002
+    101464: tent_pole003
+    101466: tent_pole004
+    400000: Arc031
+    400002: Arc032
+    400004: Arc033
+    400006: Arc034
+    400008: Arc035
+    400010: Arc036
+    400012: Arc037
+    400014: Arc038
+    400016: Arc039
+    400018: Arc040
+    400020: Arc041
+    400022: Arc042
+    400024: Arc043
+    400026: Arc044
+    400028: Arc045
+    400030: Arc046
+    400032: Arc047
+    400034: Arc048
+    400036: Arc049
+    400038: Arc050
+    400040: Arc051
+    400042: Arc052
+    400044: Arc053
+    400046: Arc054
+    400048: Arc055
+    400050: Arc056
+    400052: Arc057
+    400054: Arc058
+    400056: Arc059
+    400058: Arc060
+    400060: balloon068
+    400062: Balloon069
+    400064: balloon069
+    400066: Balloon070
+    400068: balloon070
+    400070: Balloon071
+    400072: balloon071
+    400074: Balloon072
+    400076: balloon072
+    400078: Balloon073
+    400080: balloon073
+    400082: Balloon074
+    400084: balloon074
+    400086: Balloon075
+    400088: balloon075
+    400090: Balloon076
+    400092: balloon076
+    400094: Balloon077
+    400096: balloon077
+    400098: Balloon078
+    400100: balloon078
+    400102: Balloon079
+    400104: balloon079
+    400106: Balloon080
+    400108: balloon080
+    400110: Balloon081
+    400112: balloon081
+    400114: Balloon082
+    400116: balloon082
+    400118: Balloon083
+    400120: balloon083
+    400122: Balloon084
+    400124: balloon084
+    400126: Balloon085
+    400128: balloon085
+    400130: Balloon086
+    400132: balloon086
+    400134: Balloon087
+    400136: balloon087
+    400138: Balloon088
+    400140: balloon090
+    400142: Balloon091
+    400144: balloon091
+    400146: Balloon092
+    400148: balloon093
+    400150: Balloon094
+    400152: balloon095
+    400154: Balloon096
+    400156: balloon096
+    400158: Balloon097
+    400160: balloon098
+    400162: Balloon099
+    400164: balloon099
+    400166: Balloon100
+    400168: balloon100
+    400170: Balloon101
+    400172: balloon102
+    400174: Balloon103
+    400176: balloon103
+    400178: Balloon104
+    400180: balloon104
+    400182: Balloon105
+    400184: balloon105
+    400186: Balloon106
+    400188: balloon107
+    400190: Balloon108
+    400192: balloon108
+    400194: Balloon109
+    400196: balloon109
+    400198: Balloon110
+    400200: balloon110
+    400202: Balloon111
+    400204: balloon113
+    400206: Balloon114
+    400208: balloon116
+    400210: Balloon117
+    400212: balloon118
+    400214: Balloon119
+    400216: balloon119
+    400218: Balloon120
+    400220: balloon120
+    400222: Balloon121
+    400224: balloon121
+    400226: Balloon122
+    400228: balloon122
+    400230: Balloon123
+    400232: balloon123
+    400234: Balloon124
+    400236: balloon124
+    400238: Balloon125
+    400240: balloon125
+    400242: Balloon126
+    400244: balloon126
+    400246: Balloon127
+    400248: balloon127
+    400250: Balloon128
+    400252: balloon_end068
+    400254: balloon_end069
+    400256: balloon_end070
+    400258: balloon_end071
+    400260: balloon_end072
+    400262: balloon_end073
+    400264: balloon_end074
+    400266: balloon_end075
+    400268: balloon_end076
+    400270: balloon_end077
+    400272: balloon_end078
+    400274: balloon_end079
+    400276: balloon_end080
+    400278: balloon_end081
+    400280: balloon_end082
+    400282: balloon_end083
+    400284: balloon_end084
+    400286: balloon_end085
+    400288: balloon_end086
+    400290: balloon_end087
+    400292: balloon_end090
+    400294: balloon_end091
+    400296: balloon_end093
+    400298: balloon_end095
+    400300: balloon_end096
+    400302: balloon_end098
+    400304: balloon_end099
+    400306: balloon_end100
+    400308: balloon_end102
+    400310: balloon_end103
+    400312: balloon_end104
+    400314: balloon_end105
+    400316: balloon_end106
+    400318: balloon_end108
+    400320: balloon_end109
+    400322: balloon_end110
+    400324: balloon_end111
+    400326: balloon_end112
+    400328: balloon_end115
+    400330: balloon_end118
+    400332: balloon_end120
+    400334: balloon_end121
+    400336: balloon_end122
+    400338: balloon_end123
+    400340: balloon_end124
+    400342: balloon_end125
+    400344: balloon_end126
+    400346: balloon_end127
+    400348: Balloon_knot068
+    400350: Balloon_knot069
+    400352: Balloon_knot070
+    400354: Balloon_knot071
+    400356: Balloon_knot072
+    400358: Balloon_knot073
+    400360: Balloon_knot074
+    400362: Balloon_knot075
+    400364: Balloon_knot076
+    400366: Balloon_knot077
+    400368: Balloon_knot078
+    400370: Balloon_knot079
+    400372: Balloon_knot080
+    400374: Balloon_knot081
+    400376: Balloon_knot082
+    400378: Balloon_knot083
+    400380: Balloon_knot084
+    400382: Balloon_knot085
+    400384: Balloon_knot086
+    400386: Balloon_knot087
+    400388: Balloon_knot090
+    400390: Balloon_knot091
+    400392: Balloon_knot093
+    400394: Balloon_knot095
+    400396: Balloon_knot096
+    400398: Balloon_knot098
+    400400: Balloon_knot099
+    400402: Balloon_knot100
+    400404: Balloon_knot102
+    400406: Balloon_knot103
+    400408: Balloon_knot104
+    400410: Balloon_knot105
+    400412: Balloon_knot106
+    400414: Balloon_knot108
+    400416: Balloon_knot109
+    400418: Balloon_knot110
+    400420: Balloon_knot111
+    400422: Balloon_knot112
+    400424: Balloon_knot115
+    400426: Balloon_knot118
+    400428: Balloon_knot120
+    400430: Balloon_knot121
+    400432: Balloon_knot122
+    400434: Balloon_knot123
+    400436: Balloon_knot124
+    400438: Balloon_knot125
+    400440: Balloon_knot126
+    400442: Balloon_knot127
+    400444: Box001
+    400446: Box007
+    400448: Box225
+    400450: Box226
+    400452: Box227
+    400454: Box228
+    400456: Box229
+    400458: Box230
+    400460: Box231
+    400462: Box232
+    400464: Box233
+    400466: Box234
+    400468: Box235
+    400470: Box236
+    400472: Box237
+    400474: Box238
+    400476: Box239
+    400478: Box240
+    400480: Box241
+    400482: Box242
+    400484: Box243
+    400486: Box244
+    400488: Box245
+    400490: Box246
+    400492: Box247
+    400494: Box248
+    400496: Box249
+    400498: Box250
+    400500: Box251
+    400502: Box252
+    400504: Box253
+    400506: Box254
+    400508: Box255
+    400510: Box256
+    400512: Box257
+    400514: Box258
+    400516: Box259
+    400518: Box260
+    400520: Box261
+    400522: Box262
+    400524: Box263
+    400526: Box264
+    400528: Box265
+    400530: Box266
+    400532: Box267
+    400534: Box268
+    400536: Box269
+    400538: Box270
+    400540: Box271
+    400542: Box272
+    400544: Box273
+    400546: Box274
+    400548: Box275
+    400550: Box276
+    400552: Box277
+    400554: Box278
+    400556: Box279
+    400558: Box280
+    400560: Box281
+    400562: Box282
+    400564: Box283
+    400566: Box284
+    400568: Box285
+    400570: Box286
+    400572: Box287
+    400574: Box288
+    400576: Box289
+    400578: Box290
+    400580: Box291
+    400582: Box292
+    400584: Box293
+    400586: Box294
+    400588: Box295
+    400590: Box296
+    400592: Box297
+    400594: Box298
+    400596: Box299
+    400598: Box300
+    400600: Box301
+    400602: Box302
+    400604: Box303
+    400606: Box304
+    400608: Box305
+    400610: Box306
+    400612: Box307
+    400614: Box308
+    400616: Box309
+    400618: Box310
+    400620: Box311
+    400622: Box312
+    400624: Box313
+    400626: Box314
+    400628: Box315
+    400630: Box316
+    400632: Box317
+    400634: Box318
+    400636: Box319
+    400638: Box320
+    400640: Box321
+    400642: Box322
+    400644: Box323
+    400646: Box324
+    400648: Box325
+    400650: Box326
+    400652: Box327
+    400654: Box328
+    400656: Box329
+    400658: Box330
+    400660: Box331
+    400662: Box332
+    400664: Box333
+    400666: Box334
+    400668: Box335
+    400670: Box336
+    400672: Box337
+    400674: Bucket
+    400676: Bucket006
+    400678: Bucket007
+    400680: Bucket008
+    400682: Bucket009
+    400684: Bucket010
+    400686: Bucket011
+    400688: Bucket012
+    400690: Bucket013
+    400692: Bucket014
+    400694: Bucket015
+    400696: Bucket018
+    400698: Bucket019
+    400700: Bucket020
+    400702: Bucket021
+    400704: Bucket022
+    400706: Bucket024
+    400708: Bucket025
+    400710: Bucket026
+    400712: Bucket027
+    400714: Bucket032
+    400716: Bucket033
+    400718: Bucket038
+    400720: Bucket039
+    400722: Bucket040
+    400724: Bucket041
+    400726: //RootNode
+    400728: cloth
+    400730: Cone019
+    400732: Cone020
+    400734: Cone021
+    400736: Cone022
+    400738: Cone023
+    400740: Cone024
+    400742: Cone025
+    400744: Cone026
+    400746: Cone027
+    400748: Cone028
+    400750: Cone029
+    400752: Cone030
+    400754: Cone031
+    400756: Cone032
+    400758: Cone033
+    400760: Cone034
+    400762: Cone035
+    400764: Cone036
+    400766: Cylinder001
+    400768: Cylinder002
+    400770: Cylinder086
+    400772: Cylinder087
+    400774: Cylinder088
+    400776: Cylinder089
+    400778: Cylinder090
+    400780: Cylinder091
+    400782: Cylinder092
+    400784: Cylinder093
+    400786: Cylinder094
+    400788: Cylinder095
+    400790: Cylinder096
+    400792: Cylinder097
+    400794: Cylinder098
+    400796: Cylinder099
+    400798: Cylinder100
+    400800: Cylinder101
+    400802: Cylinder102
+    400804: Cylinder103
+    400806: Cylinder104
+    400808: Cylinder105
+    400810: Cylinder106
+    400812: Cylinder107
+    400814: Cylinder108
+    400816: Cylinder109
+    400818: Cylinder110
+    400820: Cylinder111
+    400822: Cylinder112
+    400824: Cylinder113
+    400826: Cylinder114
+    400828: Cylinder115
+    400830: Cylinder116
+    400832: Cylinder117
+    400834: Cylinder118
+    400836: Cylinder119
+    400838: Cylinder120
+    400840: Cylinder121
+    400842: Cylinder122
+    400844: Cylinder123
+    400846: Cylinder124
+    400848: Cylinder125
+    400850: Cylinder126
+    400852: Cylinder127
+    400854: Cylinder128
+    400856: Cylinder129
+    400858: Cylinder130
+    400860: Cylinder131
+    400862: Cylinder132
+    400864: Cylinder133
+    400866: Cylinder134
+    400868: Cylinder135
+    400870: Cylinder136
+    400872: Cylinder137
+    400874: Cylinder138
+    400876: Cylinder139
+    400878: Cylinder140
+    400880: Cylinder141
+    400882: Cylinder142
+    400884: Cylinder143
+    400886: Cylinder144
+    400888: Cylinder145
+    400890: Cylinder146
+    400892: Cylinder147
+    400894: Cylinder148
+    400896: Cylinder149
+    400898: Cylinder150
+    400900: Cylinder151
+    400902: Cylinder152
+    400904: Cylinder153
+    400906: Cylinder154
+    400908: Cylinder155
+    400910: Cylinder156
+    400912: Cylinder157
+    400914: Cylinder158
+    400916: Cylinder159
+    400918: Cylinder160
+    400920: Cylinder161
+    400922: Cylinder162
+    400924: Cylinder163
+    400926: Cylinder164
+    400928: Cylinder165
+    400930: Cylinder166
+    400932: Cylinder167
+    400934: Cylinder168
+    400936: Cylinder169
+    400938: Cylinder170
+    400940: Dart001
+    400942: Dart002
+    400944: Dart003
+    400946: Dart004
+    400948: Dart005
+    400950: Dart006
+    400952: Dart007
+    400954: Dart008
+    400956: Dart009
+    400958: Dart012
+    400960: Dart019
+    400962: Dart023
+    400964: Dart024
+    400966: Dart027
+    400968: Dart030
+    400970: Dart033
+    400972: Dart_base001
+    400974: Dart_base002
+    400976: Dart_base003
+    400978: Dart_base004
+    400980: Dart_base005
+    400982: Dart_base006
+    400984: Dart_base007
+    400986: Dart_base008
+    400988: Dart_base009
+    400990: Dart_base012
+    400992: Dart_base021
+    400994: Dart_base024
+    400996: Dart_base028
+    400998: Dart_base033
+    401000: Dart_base036
+    401002: Dart_base038
+    401004: Dart_Fin005
+    401006: Dart_Fin006
+    401008: Dart_Fin007
+    401010: Dart_Fin008
+    401012: Dart_Fin009
+    401014: Dart_Fin010
+    401016: Dart_Fin011
+    401018: Dart_Fin012
+    401020: Dart_Fin013
+    401022: Dart_Fin014
+    401024: Dart_Fin015
+    401026: Dart_Fin016
+    401028: Dart_Fin017
+    401030: Dart_Fin018
+    401032: Dart_Fin019
+    401034: Dart_Fin020
+    401036: Dart_Fin021
+    401038: Dart_Fin022
+    401040: Dart_Fin023
+    401042: Dart_Fin024
+    401044: Dart_Fin025
+    401046: Dart_Fin026
+    401048: Dart_Fin027
+    401050: Dart_Fin028
+    401052: Dart_Fin029
+    401054: Dart_Fin030
+    401056: Dart_Fin031
+    401058: Dart_Fin032
+    401060: Dart_Fin033
+    401062: Dart_Fin034
+    401064: Dart_Fin035
+    401066: Dart_Fin036
+    401068: Dart_Fin037
+    401070: Dart_Fin038
+    401072: Dart_Fin039
+    401074: Dart_Fin040
+    401076: Dart_Fin049
+    401078: Dart_Fin050
+    401080: Dart_Fin051
+    401082: Dart_Fin052
+    401084: Dart_Fin066
+    401086: Dart_Fin067
+    401088: Dart_Fin068
+    401090: Dart_Fin069
+    401092: Dart_Fin093
+    401094: Dart_Fin094
+    401096: Dart_Fin095
+    401098: Dart_Fin096
+    401100: Dart_Fin097
+    401102: Dart_Fin098
+    401104: Dart_Fin099
+    401106: Dart_Fin101
+    401108: Dart_Fin126
+    401110: Dart_Fin127
+    401112: Dart_Fin128
+    401114: Dart_Fin129
+    401116: Dart_Fin138
+    401118: Dart_Fin139
+    401120: Dart_Fin140
+    401122: Dart_Fin141
+    401124: Dart_Fin148
+    401126: Dart_Fin149
+    401128: Dart_Fin150
+    401130: Dart_Fin151
+    401132: Hedra041
+    401134: Hedra042
+    401136: Hedra043
+    401138: Hedra044
+    401140: Hedra045
+    401142: Hedra046
+    401144: Hedra047
+    401146: Hedra048
+    401148: Hedra049
+    401150: Hedra050
+    401152: Hedra051
+    401154: Hedra052
+    401156: Hedra053
+    401158: Hedra054
+    401160: Hedra055
+    401162: Hedra056
+    401164: Hedra057
+    401166: Hedra058
+    401168: Hedra059
+    401170: Hedra060
+    401172: Hedra061
+    401174: Hedra062
+    401176: Hedra063
+    401178: Hedra064
+    401180: Hedra065
+    401182: Hedra066
+    401184: Hedra067
+    401186: Hedra068
+    401188: Hedra069
+    401190: Hedra070
+    401192: Hedra071
+    401194: Hedra072
+    401196: Hedra073
+    401198: Hedra074
+    401200: Hedra075
+    401202: Hedra076
+    401204: Hedra077
+    401206: Hedra078
+    401208: Hedra079
+    401210: Hedra080
+    401212: Plane002
+    401214: Plane033
+    401216: Plane034
+    401218: Plane035
+    401220: Plane036
+    401222: Plane037
+    401224: Plane038
+    401226: Plane039
+    401228: Plane040
+    401230: Plane041
+    401232: Plane042
+    401234: Pyramid022
+    401236: Pyramid023
+    401238: Pyramid024
+    401240: Pyramid025
+    401242: Pyramid026
+    401244: Pyramid027
+    401246: Pyramid028
+    401248: Pyramid029
+    401250: Pyramid030
+    401252: Pyramid031
+    401254: Pyramid032
+    401256: Pyramid033
+    401258: Pyramid034
+    401260: Pyramid035
+    401262: Pyramid036
+    401264: Pyramid037
+    401266: Pyramid038
+    401268: Pyramid039
+    401270: Pyramid040
+    401272: Pyramid041
+    401274: Robot_againstWall001
+    401276: Sphere093
+    401278: Sphere094
+    401280: Sphere095
+    401282: Sphere096
+    401284: Sphere097
+    401286: Sphere098
+    401288: Sphere099
+    401290: Sphere100
+    401292: Sphere101
+    401294: Sphere102
+    401296: Sphere103
+    401298: Sphere104
+    401300: Sphere105
+    401302: Sphere106
+    401304: Sphere107
+    401306: Sphere108
+    401308: Sphere109
+    401310: Sphere110
+    401312: Sphere111
+    401314: Sphere112
+    401316: Sphere113
+    401318: Sphere114
+    401320: Sphere115
+    401322: Sphere116
+    401324: Sphere117
+    401326: Sphere118
+    401328: Sphere119
+    401330: Sphere120
+    401332: Sphere121
+    401334: Sphere122
+    401336: Sphere123
+    401338: Sphere124
+    401340: Sphere125
+    401342: Sphere126
+    401344: Sphere127
+    401346: Sphere128
+    401348: Sphere129
+    401350: Sphere130
+    401352: Sphere131
+    401354: Sphere132
+    401356: Sphere133
+    401358: Sphere134
+    401360: Sphere135
+    401362: Sphere136
+    401364: Sphere137
+    401366: Sphere138
+    401368: Sphere139
+    401370: Sphere140
+    401372: Sphere141
+    401374: Sphere142
+    401376: Sphere143
+    401378: Sphere144
+    401380: Sphere145
+    401382: Sphere146
+    401384: Sphere147
+    401386: Sphere148
+    401388: Sphere149
+    401390: Sphere150
+    401392: Sphere151
+    401394: Sphere152
+    401396: Sphere153
+    401398: Sphere154
+    401400: Sphere155
+    401402: Sphere156
+    401404: Sphere157
+    401406: Sphere158
+    401408: Sphere159
+    401410: Sphere160
+    401412: Sphere161
+    401414: Sphere162
+    401416: Sphere163
+    401418: Sphere164
+    401420: Sphere165
+    401422: Sphere166
+    401424: Sphere167
+    401426: Sphere168
+    401428: Sphere169
+    401430: Sphere170
+    401432: Sphere171
+    401434: Sphere172
+    401436: Sphere173
+    401438: Sphere174
+    401440: Sphere175
+    401442: Sphere176
+    401444: Sphere177
+    401446: Sphere178
+    401448: Sphere179
+    401450: Sphere180
+    401452: Sphere181
+    401454: Sphere182
+    401456: Table
+    401458: tent_pole
+    401460: tent_pole001
+    401462: tent_pole002
+    401464: tent_pole003
+    401466: tent_pole004
+    2300000: Arc031
+    2300002: Arc032
+    2300004: Arc033
+    2300006: Arc034
+    2300008: Arc035
+    2300010: Arc036
+    2300012: Arc037
+    2300014: Arc038
+    2300016: Arc039
+    2300018: Arc040
+    2300020: Arc041
+    2300022: Arc042
+    2300024: Arc043
+    2300026: Arc044
+    2300028: Arc045
+    2300030: Arc046
+    2300032: Arc047
+    2300034: Arc048
+    2300036: Arc049
+    2300038: Arc050
+    2300040: Arc051
+    2300042: Arc052
+    2300044: Arc053
+    2300046: Arc054
+    2300048: Arc055
+    2300050: Arc056
+    2300052: Arc057
+    2300054: Arc058
+    2300056: Arc059
+    2300058: Arc060
+    2300060: balloon068
+    2300062: balloon069
+    2300064: balloon070
+    2300066: balloon071
+    2300068: balloon072
+    2300070: balloon073
+    2300072: balloon074
+    2300074: balloon075
+    2300076: balloon076
+    2300078: balloon077
+    2300080: balloon078
+    2300082: balloon079
+    2300084: balloon080
+    2300086: balloon081
+    2300088: balloon082
+    2300090: balloon083
+    2300092: balloon084
+    2300094: balloon085
+    2300096: balloon086
+    2300098: balloon087
+    2300100: balloon090
+    2300102: balloon091
+    2300104: balloon093
+    2300106: balloon095
+    2300108: balloon096
+    2300110: balloon098
+    2300112: balloon099
+    2300114: balloon100
+    2300116: balloon102
+    2300118: balloon103
+    2300120: balloon104
+    2300122: balloon105
+    2300124: balloon107
+    2300126: balloon108
+    2300128: balloon109
+    2300130: balloon110
+    2300132: balloon113
+    2300134: balloon116
+    2300136: balloon118
+    2300138: balloon119
+    2300140: balloon120
+    2300142: balloon121
+    2300144: balloon122
+    2300146: balloon123
+    2300148: balloon124
+    2300150: balloon125
+    2300152: balloon126
+    2300154: balloon127
+    2300156: balloon_end068
+    2300158: balloon_end069
+    2300160: balloon_end070
+    2300162: balloon_end071
+    2300164: balloon_end072
+    2300166: balloon_end073
+    2300168: balloon_end074
+    2300170: balloon_end075
+    2300172: balloon_end076
+    2300174: balloon_end077
+    2300176: balloon_end078
+    2300178: balloon_end079
+    2300180: balloon_end080
+    2300182: balloon_end081
+    2300184: balloon_end082
+    2300186: balloon_end083
+    2300188: balloon_end084
+    2300190: balloon_end085
+    2300192: balloon_end086
+    2300194: balloon_end087
+    2300196: balloon_end090
+    2300198: balloon_end091
+    2300200: balloon_end093
+    2300202: balloon_end095
+    2300204: balloon_end096
+    2300206: balloon_end098
+    2300208: balloon_end099
+    2300210: balloon_end100
+    2300212: balloon_end102
+    2300214: balloon_end103
+    2300216: balloon_end104
+    2300218: balloon_end105
+    2300220: balloon_end106
+    2300222: balloon_end108
+    2300224: balloon_end109
+    2300226: balloon_end110
+    2300228: balloon_end111
+    2300230: balloon_end112
+    2300232: balloon_end115
+    2300234: balloon_end118
+    2300236: balloon_end120
+    2300238: balloon_end121
+    2300240: balloon_end122
+    2300242: balloon_end123
+    2300244: balloon_end124
+    2300246: balloon_end125
+    2300248: balloon_end126
+    2300250: balloon_end127
+    2300252: Balloon_knot068
+    2300254: Balloon_knot069
+    2300256: Balloon_knot070
+    2300258: Balloon_knot071
+    2300260: Balloon_knot072
+    2300262: Balloon_knot073
+    2300264: Balloon_knot074
+    2300266: Balloon_knot075
+    2300268: Balloon_knot076
+    2300270: Balloon_knot077
+    2300272: Balloon_knot078
+    2300274: Balloon_knot079
+    2300276: Balloon_knot080
+    2300278: Balloon_knot081
+    2300280: Balloon_knot082
+    2300282: Balloon_knot083
+    2300284: Balloon_knot084
+    2300286: Balloon_knot085
+    2300288: Balloon_knot086
+    2300290: Balloon_knot087
+    2300292: Balloon_knot090
+    2300294: Balloon_knot091
+    2300296: Balloon_knot093
+    2300298: Balloon_knot095
+    2300300: Balloon_knot096
+    2300302: Balloon_knot098
+    2300304: Balloon_knot099
+    2300306: Balloon_knot100
+    2300308: Balloon_knot102
+    2300310: Balloon_knot103
+    2300312: Balloon_knot104
+    2300314: Balloon_knot105
+    2300316: Balloon_knot106
+    2300318: Balloon_knot108
+    2300320: Balloon_knot109
+    2300322: Balloon_knot110
+    2300324: Balloon_knot111
+    2300326: Balloon_knot112
+    2300328: Balloon_knot115
+    2300330: Balloon_knot118
+    2300332: Balloon_knot120
+    2300334: Balloon_knot121
+    2300336: Balloon_knot122
+    2300338: Balloon_knot123
+    2300340: Balloon_knot124
+    2300342: Balloon_knot125
+    2300344: Balloon_knot126
+    2300346: Balloon_knot127
+    2300348: Box001
+    2300350: Box007
+    2300352: Box225
+    2300354: Box226
+    2300356: Box227
+    2300358: Box228
+    2300360: Box229
+    2300362: Box230
+    2300364: Box231
+    2300366: Box232
+    2300368: Box233
+    2300370: Box234
+    2300372: Box235
+    2300374: Box236
+    2300376: Box237
+    2300378: Box238
+    2300380: Box239
+    2300382: Box240
+    2300384: Box241
+    2300386: Box242
+    2300388: Box243
+    2300390: Box244
+    2300392: Box245
+    2300394: Box246
+    2300396: Box247
+    2300398: Box248
+    2300400: Box249
+    2300402: Box250
+    2300404: Box251
+    2300406: Box252
+    2300408: Box253
+    2300410: Box254
+    2300412: Box255
+    2300414: Box256
+    2300416: Box257
+    2300418: Box258
+    2300420: Box259
+    2300422: Box260
+    2300424: Box261
+    2300426: Box262
+    2300428: Box263
+    2300430: Box264
+    2300432: Box265
+    2300434: Box266
+    2300436: Box267
+    2300438: Box268
+    2300440: Box269
+    2300442: Box270
+    2300444: Box271
+    2300446: Box272
+    2300448: Box273
+    2300450: Box274
+    2300452: Box275
+    2300454: Box276
+    2300456: Box277
+    2300458: Box278
+    2300460: Box279
+    2300462: Box280
+    2300464: Box281
+    2300466: Box282
+    2300468: Box283
+    2300470: Box284
+    2300472: Box285
+    2300474: Box286
+    2300476: Box287
+    2300478: Box288
+    2300480: Box289
+    2300482: Box290
+    2300484: Box291
+    2300486: Box292
+    2300488: Box293
+    2300490: Box294
+    2300492: Box295
+    2300494: Box296
+    2300496: Box297
+    2300498: Box298
+    2300500: Box299
+    2300502: Box300
+    2300504: Box301
+    2300506: Box302
+    2300508: Box303
+    2300510: Box304
+    2300512: Box305
+    2300514: Box306
+    2300516: Box307
+    2300518: Box308
+    2300520: Box309
+    2300522: Box310
+    2300524: Box311
+    2300526: Box312
+    2300528: Box313
+    2300530: Box314
+    2300532: Box315
+    2300534: Box316
+    2300536: Box317
+    2300538: Box318
+    2300540: Box319
+    2300542: Box320
+    2300544: Box321
+    2300546: Box322
+    2300548: Box323
+    2300550: Box324
+    2300552: Box325
+    2300554: Box326
+    2300556: Box327
+    2300558: Box328
+    2300560: Box329
+    2300562: Box330
+    2300564: Box331
+    2300566: Box332
+    2300568: Box333
+    2300570: Box334
+    2300572: Box335
+    2300574: Box336
+    2300576: Box337
+    2300578: Bucket
+    2300580: Bucket006
+    2300582: Bucket007
+    2300584: Bucket008
+    2300586: Bucket009
+    2300588: Bucket010
+    2300590: Bucket011
+    2300592: Bucket012
+    2300594: Bucket013
+    2300596: Bucket014
+    2300598: Bucket015
+    2300600: Bucket018
+    2300602: Bucket019
+    2300604: Bucket020
+    2300606: Bucket021
+    2300608: Bucket022
+    2300610: Bucket024
+    2300612: Bucket025
+    2300614: Bucket026
+    2300616: Bucket027
+    2300618: Bucket032
+    2300620: Bucket033
+    2300622: Bucket038
+    2300624: Bucket039
+    2300626: Bucket040
+    2300628: Bucket041
+    2300630: cloth
+    2300632: Cone019
+    2300634: Cone020
+    2300636: Cone021
+    2300638: Cone022
+    2300640: Cone023
+    2300642: Cone024
+    2300644: Cone025
+    2300646: Cone026
+    2300648: Cone027
+    2300650: Cone028
+    2300652: Cone029
+    2300654: Cone030
+    2300656: Cone031
+    2300658: Cone032
+    2300660: Cone033
+    2300662: Cone034
+    2300664: Cone035
+    2300666: Cone036
+    2300668: Cylinder001
+    2300670: Cylinder002
+    2300672: Cylinder086
+    2300674: Cylinder087
+    2300676: Cylinder088
+    2300678: Cylinder089
+    2300680: Cylinder090
+    2300682: Cylinder091
+    2300684: Cylinder092
+    2300686: Cylinder093
+    2300688: Cylinder094
+    2300690: Cylinder095
+    2300692: Cylinder096
+    2300694: Cylinder097
+    2300696: Cylinder098
+    2300698: Cylinder099
+    2300700: Cylinder100
+    2300702: Cylinder101
+    2300704: Cylinder102
+    2300706: Cylinder103
+    2300708: Cylinder104
+    2300710: Cylinder105
+    2300712: Cylinder106
+    2300714: Cylinder107
+    2300716: Cylinder108
+    2300718: Cylinder109
+    2300720: Cylinder110
+    2300722: Cylinder111
+    2300724: Cylinder112
+    2300726: Cylinder113
+    2300728: Cylinder114
+    2300730: Cylinder115
+    2300732: Cylinder116
+    2300734: Cylinder117
+    2300736: Cylinder118
+    2300738: Cylinder119
+    2300740: Cylinder120
+    2300742: Cylinder121
+    2300744: Cylinder122
+    2300746: Cylinder123
+    2300748: Cylinder124
+    2300750: Cylinder125
+    2300752: Cylinder126
+    2300754: Cylinder127
+    2300756: Cylinder128
+    2300758: Cylinder129
+    2300760: Cylinder130
+    2300762: Cylinder131
+    2300764: Cylinder132
+    2300766: Cylinder133
+    2300768: Cylinder134
+    2300770: Cylinder135
+    2300772: Cylinder136
+    2300774: Cylinder137
+    2300776: Cylinder138
+    2300778: Cylinder139
+    2300780: Cylinder140
+    2300782: Cylinder141
+    2300784: Cylinder142
+    2300786: Cylinder143
+    2300788: Cylinder144
+    2300790: Cylinder145
+    2300792: Cylinder146
+    2300794: Cylinder147
+    2300796: Cylinder148
+    2300798: Cylinder149
+    2300800: Cylinder150
+    2300802: Cylinder151
+    2300804: Cylinder152
+    2300806: Cylinder153
+    2300808: Cylinder154
+    2300810: Cylinder155
+    2300812: Cylinder156
+    2300814: Cylinder157
+    2300816: Cylinder158
+    2300818: Cylinder159
+    2300820: Cylinder160
+    2300822: Cylinder161
+    2300824: Cylinder162
+    2300826: Cylinder163
+    2300828: Cylinder164
+    2300830: Cylinder165
+    2300832: Cylinder166
+    2300834: Cylinder167
+    2300836: Cylinder168
+    2300838: Cylinder169
+    2300840: Cylinder170
+    2300842: Dart_base001
+    2300844: Dart_base002
+    2300846: Dart_base003
+    2300848: Dart_base004
+    2300850: Dart_base005
+    2300852: Dart_base006
+    2300854: Dart_base007
+    2300856: Dart_base008
+    2300858: Dart_base009
+    2300860: Dart_base012
+    2300862: Dart_base021
+    2300864: Dart_base024
+    2300866: Dart_base028
+    2300868: Dart_base033
+    2300870: Dart_base036
+    2300872: Dart_base038
+    2300874: Dart_Fin005
+    2300876: Dart_Fin006
+    2300878: Dart_Fin007
+    2300880: Dart_Fin008
+    2300882: Dart_Fin009
+    2300884: Dart_Fin010
+    2300886: Dart_Fin011
+    2300888: Dart_Fin012
+    2300890: Dart_Fin013
+    2300892: Dart_Fin014
+    2300894: Dart_Fin015
+    2300896: Dart_Fin016
+    2300898: Dart_Fin017
+    2300900: Dart_Fin018
+    2300902: Dart_Fin019
+    2300904: Dart_Fin020
+    2300906: Dart_Fin021
+    2300908: Dart_Fin022
+    2300910: Dart_Fin023
+    2300912: Dart_Fin024
+    2300914: Dart_Fin025
+    2300916: Dart_Fin026
+    2300918: Dart_Fin027
+    2300920: Dart_Fin028
+    2300922: Dart_Fin029
+    2300924: Dart_Fin030
+    2300926: Dart_Fin031
+    2300928: Dart_Fin032
+    2300930: Dart_Fin033
+    2300932: Dart_Fin034
+    2300934: Dart_Fin035
+    2300936: Dart_Fin036
+    2300938: Dart_Fin037
+    2300940: Dart_Fin038
+    2300942: Dart_Fin039
+    2300944: Dart_Fin040
+    2300946: Dart_Fin049
+    2300948: Dart_Fin050
+    2300950: Dart_Fin051
+    2300952: Dart_Fin052
+    2300954: Dart_Fin066
+    2300956: Dart_Fin067
+    2300958: Dart_Fin068
+    2300960: Dart_Fin069
+    2300962: Dart_Fin093
+    2300964: Dart_Fin094
+    2300966: Dart_Fin095
+    2300968: Dart_Fin096
+    2300970: Dart_Fin097
+    2300972: Dart_Fin098
+    2300974: Dart_Fin099
+    2300976: Dart_Fin101
+    2300978: Dart_Fin126
+    2300980: Dart_Fin127
+    2300982: Dart_Fin128
+    2300984: Dart_Fin129
+    2300986: Dart_Fin138
+    2300988: Dart_Fin139
+    2300990: Dart_Fin140
+    2300992: Dart_Fin141
+    2300994: Dart_Fin148
+    2300996: Dart_Fin149
+    2300998: Dart_Fin150
+    2301000: Dart_Fin151
+    2301002: Hedra041
+    2301004: Hedra042
+    2301006: Hedra043
+    2301008: Hedra044
+    2301010: Hedra045
+    2301012: Hedra046
+    2301014: Hedra047
+    2301016: Hedra048
+    2301018: Hedra049
+    2301020: Hedra050
+    2301022: Hedra051
+    2301024: Hedra052
+    2301026: Hedra053
+    2301028: Hedra054
+    2301030: Hedra055
+    2301032: Hedra056
+    2301034: Hedra057
+    2301036: Hedra058
+    2301038: Hedra059
+    2301040: Hedra060
+    2301042: Hedra061
+    2301044: Hedra062
+    2301046: Hedra063
+    2301048: Hedra064
+    2301050: Hedra065
+    2301052: Hedra066
+    2301054: Hedra067
+    2301056: Hedra068
+    2301058: Hedra069
+    2301060: Hedra070
+    2301062: Hedra071
+    2301064: Hedra072
+    2301066: Hedra073
+    2301068: Hedra074
+    2301070: Hedra075
+    2301072: Hedra076
+    2301074: Hedra077
+    2301076: Hedra078
+    2301078: Hedra079
+    2301080: Hedra080
+    2301082: Plane002
+    2301084: Plane033
+    2301086: Plane034
+    2301088: Plane035
+    2301090: Plane036
+    2301092: Plane037
+    2301094: Plane038
+    2301096: Plane039
+    2301098: Plane040
+    2301100: Plane041
+    2301102: Plane042
+    2301104: Pyramid022
+    2301106: Pyramid023
+    2301108: Pyramid024
+    2301110: Pyramid025
+    2301112: Pyramid026
+    2301114: Pyramid027
+    2301116: Pyramid028
+    2301118: Pyramid029
+    2301120: Pyramid030
+    2301122: Pyramid031
+    2301124: Pyramid032
+    2301126: Pyramid033
+    2301128: Pyramid034
+    2301130: Pyramid035
+    2301132: Pyramid036
+    2301134: Pyramid037
+    2301136: Pyramid038
+    2301138: Pyramid039
+    2301140: Pyramid040
+    2301142: Pyramid041
+    2301144: Sphere093
+    2301146: Sphere094
+    2301148: Sphere095
+    2301150: Sphere096
+    2301152: Sphere097
+    2301154: Sphere098
+    2301156: Sphere099
+    2301158: Sphere100
+    2301160: Sphere101
+    2301162: Sphere102
+    2301164: Sphere103
+    2301166: Sphere104
+    2301168: Sphere105
+    2301170: Sphere106
+    2301172: Sphere107
+    2301174: Sphere108
+    2301176: Sphere109
+    2301178: Sphere110
+    2301180: Sphere111
+    2301182: Sphere112
+    2301184: Sphere113
+    2301186: Sphere114
+    2301188: Sphere115
+    2301190: Sphere116
+    2301192: Sphere117
+    2301194: Sphere118
+    2301196: Sphere119
+    2301198: Sphere120
+    2301200: Sphere121
+    2301202: Sphere122
+    2301204: Sphere123
+    2301206: Sphere124
+    2301208: Sphere125
+    2301210: Sphere126
+    2301212: Sphere127
+    2301214: Sphere128
+    2301216: Sphere129
+    2301218: Sphere130
+    2301220: Sphere131
+    2301222: Sphere132
+    2301224: Sphere133
+    2301226: Sphere134
+    2301228: Sphere135
+    2301230: Sphere136
+    2301232: Sphere137
+    2301234: Sphere138
+    2301236: Sphere139
+    2301238: Sphere140
+    2301240: Sphere141
+    2301242: Sphere142
+    2301244: Sphere143
+    2301246: Sphere144
+    2301248: Sphere145
+    2301250: Sphere146
+    2301252: Sphere147
+    2301254: Sphere148
+    2301256: Sphere149
+    2301258: Sphere150
+    2301260: Sphere151
+    2301262: Sphere152
+    2301264: Sphere153
+    2301266: Sphere154
+    2301268: Sphere155
+    2301270: Sphere156
+    2301272: Sphere157
+    2301274: Sphere158
+    2301276: Sphere159
+    2301278: Sphere160
+    2301280: Sphere161
+    2301282: Sphere162
+    2301284: Sphere163
+    2301286: Sphere164
+    2301288: Sphere165
+    2301290: Sphere166
+    2301292: Sphere167
+    2301294: Sphere168
+    2301296: Sphere169
+    2301298: Sphere170
+    2301300: Sphere171
+    2301302: Sphere172
+    2301304: Sphere173
+    2301306: Sphere174
+    2301308: Sphere175
+    2301310: Sphere176
+    2301312: Sphere177
+    2301314: Sphere178
+    2301316: Sphere179
+    2301318: Sphere180
+    2301320: Sphere181
+    2301322: Sphere182
+    2301324: Table
+    2301326: tent_pole
+    2301328: tent_pole001
+    2301330: tent_pole002
+    2301332: tent_pole003
+    2301334: tent_pole004
+    3300000: Arc031
+    3300002: Arc032
+    3300004: Arc033
+    3300006: Arc034
+    3300008: Arc035
+    3300010: Arc036
+    3300012: Arc037
+    3300014: Arc038
+    3300016: Arc039
+    3300018: Arc040
+    3300020: Arc041
+    3300022: Arc042
+    3300024: Arc043
+    3300026: Arc044
+    3300028: Arc045
+    3300030: Arc046
+    3300032: Arc047
+    3300034: Arc048
+    3300036: Arc049
+    3300038: Arc050
+    3300040: Arc051
+    3300042: Arc052
+    3300044: Arc053
+    3300046: Arc054
+    3300048: Arc055
+    3300050: Arc056
+    3300052: Arc057
+    3300054: Arc058
+    3300056: Arc059
+    3300058: Arc060
+    3300060: balloon068
+    3300062: balloon069
+    3300064: balloon070
+    3300066: balloon071
+    3300068: balloon072
+    3300070: balloon073
+    3300072: balloon074
+    3300074: balloon075
+    3300076: balloon076
+    3300078: balloon077
+    3300080: balloon078
+    3300082: balloon079
+    3300084: balloon080
+    3300086: balloon081
+    3300088: balloon082
+    3300090: balloon083
+    3300092: balloon084
+    3300094: balloon085
+    3300096: balloon086
+    3300098: balloon087
+    3300100: balloon090
+    3300102: balloon091
+    3300104: balloon093
+    3300106: balloon095
+    3300108: balloon096
+    3300110: balloon098
+    3300112: balloon099
+    3300114: balloon100
+    3300116: balloon102
+    3300118: balloon103
+    3300120: balloon104
+    3300122: balloon105
+    3300124: balloon107
+    3300126: balloon108
+    3300128: balloon109
+    3300130: balloon110
+    3300132: balloon113
+    3300134: balloon116
+    3300136: balloon118
+    3300138: balloon119
+    3300140: balloon120
+    3300142: balloon121
+    3300144: balloon122
+    3300146: balloon123
+    3300148: balloon124
+    3300150: balloon125
+    3300152: balloon126
+    3300154: balloon127
+    3300156: balloon_end068
+    3300158: balloon_end069
+    3300160: balloon_end070
+    3300162: balloon_end071
+    3300164: balloon_end072
+    3300166: balloon_end073
+    3300168: balloon_end074
+    3300170: balloon_end075
+    3300172: balloon_end076
+    3300174: balloon_end077
+    3300176: balloon_end078
+    3300178: balloon_end079
+    3300180: balloon_end080
+    3300182: balloon_end081
+    3300184: balloon_end082
+    3300186: balloon_end083
+    3300188: balloon_end084
+    3300190: balloon_end085
+    3300192: balloon_end086
+    3300194: balloon_end087
+    3300196: balloon_end090
+    3300198: balloon_end091
+    3300200: balloon_end093
+    3300202: balloon_end095
+    3300204: balloon_end096
+    3300206: balloon_end098
+    3300208: balloon_end099
+    3300210: balloon_end100
+    3300212: balloon_end102
+    3300214: balloon_end103
+    3300216: balloon_end104
+    3300218: balloon_end105
+    3300220: balloon_end106
+    3300222: balloon_end108
+    3300224: balloon_end109
+    3300226: balloon_end110
+    3300228: balloon_end111
+    3300230: balloon_end112
+    3300232: balloon_end115
+    3300234: balloon_end118
+    3300236: balloon_end120
+    3300238: balloon_end121
+    3300240: balloon_end122
+    3300242: balloon_end123
+    3300244: balloon_end124
+    3300246: balloon_end125
+    3300248: balloon_end126
+    3300250: balloon_end127
+    3300252: Balloon_knot068
+    3300254: Balloon_knot069
+    3300256: Balloon_knot070
+    3300258: Balloon_knot071
+    3300260: Balloon_knot072
+    3300262: Balloon_knot073
+    3300264: Balloon_knot074
+    3300266: Balloon_knot075
+    3300268: Balloon_knot076
+    3300270: Balloon_knot077
+    3300272: Balloon_knot078
+    3300274: Balloon_knot079
+    3300276: Balloon_knot080
+    3300278: Balloon_knot081
+    3300280: Balloon_knot082
+    3300282: Balloon_knot083
+    3300284: Balloon_knot084
+    3300286: Balloon_knot085
+    3300288: Balloon_knot086
+    3300290: Balloon_knot087
+    3300292: Balloon_knot090
+    3300294: Balloon_knot091
+    3300296: Balloon_knot093
+    3300298: Balloon_knot095
+    3300300: Balloon_knot096
+    3300302: Balloon_knot098
+    3300304: Balloon_knot099
+    3300306: Balloon_knot100
+    3300308: Balloon_knot102
+    3300310: Balloon_knot103
+    3300312: Balloon_knot104
+    3300314: Balloon_knot105
+    3300316: Balloon_knot106
+    3300318: Balloon_knot108
+    3300320: Balloon_knot109
+    3300322: Balloon_knot110
+    3300324: Balloon_knot111
+    3300326: Balloon_knot112
+    3300328: Balloon_knot115
+    3300330: Balloon_knot118
+    3300332: Balloon_knot120
+    3300334: Balloon_knot121
+    3300336: Balloon_knot122
+    3300338: Balloon_knot123
+    3300340: Balloon_knot124
+    3300342: Balloon_knot125
+    3300344: Balloon_knot126
+    3300346: Balloon_knot127
+    3300348: Box001
+    3300350: Box007
+    3300352: Box225
+    3300354: Box226
+    3300356: Box227
+    3300358: Box228
+    3300360: Box229
+    3300362: Box230
+    3300364: Box231
+    3300366: Box232
+    3300368: Box233
+    3300370: Box234
+    3300372: Box235
+    3300374: Box236
+    3300376: Box237
+    3300378: Box238
+    3300380: Box239
+    3300382: Box240
+    3300384: Box241
+    3300386: Box242
+    3300388: Box243
+    3300390: Box244
+    3300392: Box245
+    3300394: Box246
+    3300396: Box247
+    3300398: Box248
+    3300400: Box249
+    3300402: Box250
+    3300404: Box251
+    3300406: Box252
+    3300408: Box253
+    3300410: Box254
+    3300412: Box255
+    3300414: Box256
+    3300416: Box257
+    3300418: Box258
+    3300420: Box259
+    3300422: Box260
+    3300424: Box261
+    3300426: Box262
+    3300428: Box263
+    3300430: Box264
+    3300432: Box265
+    3300434: Box266
+    3300436: Box267
+    3300438: Box268
+    3300440: Box269
+    3300442: Box270
+    3300444: Box271
+    3300446: Box272
+    3300448: Box273
+    3300450: Box274
+    3300452: Box275
+    3300454: Box276
+    3300456: Box277
+    3300458: Box278
+    3300460: Box279
+    3300462: Box280
+    3300464: Box281
+    3300466: Box282
+    3300468: Box283
+    3300470: Box284
+    3300472: Box285
+    3300474: Box286
+    3300476: Box287
+    3300478: Box288
+    3300480: Box289
+    3300482: Box290
+    3300484: Box291
+    3300486: Box292
+    3300488: Box293
+    3300490: Box294
+    3300492: Box295
+    3300494: Box296
+    3300496: Box297
+    3300498: Box298
+    3300500: Box299
+    3300502: Box300
+    3300504: Box301
+    3300506: Box302
+    3300508: Box303
+    3300510: Box304
+    3300512: Box305
+    3300514: Box306
+    3300516: Box307
+    3300518: Box308
+    3300520: Box309
+    3300522: Box310
+    3300524: Box311
+    3300526: Box312
+    3300528: Box313
+    3300530: Box314
+    3300532: Box315
+    3300534: Box316
+    3300536: Box317
+    3300538: Box318
+    3300540: Box319
+    3300542: Box320
+    3300544: Box321
+    3300546: Box322
+    3300548: Box323
+    3300550: Box324
+    3300552: Box325
+    3300554: Box326
+    3300556: Box327
+    3300558: Box328
+    3300560: Box329
+    3300562: Box330
+    3300564: Box331
+    3300566: Box332
+    3300568: Box333
+    3300570: Box334
+    3300572: Box335
+    3300574: Box336
+    3300576: Box337
+    3300578: Bucket
+    3300580: Bucket006
+    3300582: Bucket007
+    3300584: Bucket008
+    3300586: Bucket009
+    3300588: Bucket010
+    3300590: Bucket011
+    3300592: Bucket012
+    3300594: Bucket013
+    3300596: Bucket014
+    3300598: Bucket015
+    3300600: Bucket018
+    3300602: Bucket019
+    3300604: Bucket020
+    3300606: Bucket021
+    3300608: Bucket022
+    3300610: Bucket024
+    3300612: Bucket025
+    3300614: Bucket026
+    3300616: Bucket027
+    3300618: Bucket032
+    3300620: Bucket033
+    3300622: Bucket038
+    3300624: Bucket039
+    3300626: Bucket040
+    3300628: Bucket041
+    3300630: cloth
+    3300632: Cone019
+    3300634: Cone020
+    3300636: Cone021
+    3300638: Cone022
+    3300640: Cone023
+    3300642: Cone024
+    3300644: Cone025
+    3300646: Cone026
+    3300648: Cone027
+    3300650: Cone028
+    3300652: Cone029
+    3300654: Cone030
+    3300656: Cone031
+    3300658: Cone032
+    3300660: Cone033
+    3300662: Cone034
+    3300664: Cone035
+    3300666: Cone036
+    3300668: Cylinder001
+    3300670: Cylinder002
+    3300672: Cylinder086
+    3300674: Cylinder087
+    3300676: Cylinder088
+    3300678: Cylinder089
+    3300680: Cylinder090
+    3300682: Cylinder091
+    3300684: Cylinder092
+    3300686: Cylinder093
+    3300688: Cylinder094
+    3300690: Cylinder095
+    3300692: Cylinder096
+    3300694: Cylinder097
+    3300696: Cylinder098
+    3300698: Cylinder099
+    3300700: Cylinder100
+    3300702: Cylinder101
+    3300704: Cylinder102
+    3300706: Cylinder103
+    3300708: Cylinder104
+    3300710: Cylinder105
+    3300712: Cylinder106
+    3300714: Cylinder107
+    3300716: Cylinder108
+    3300718: Cylinder109
+    3300720: Cylinder110
+    3300722: Cylinder111
+    3300724: Cylinder112
+    3300726: Cylinder113
+    3300728: Cylinder114
+    3300730: Cylinder115
+    3300732: Cylinder116
+    3300734: Cylinder117
+    3300736: Cylinder118
+    3300738: Cylinder119
+    3300740: Cylinder120
+    3300742: Cylinder121
+    3300744: Cylinder122
+    3300746: Cylinder123
+    3300748: Cylinder124
+    3300750: Cylinder125
+    3300752: Cylinder126
+    3300754: Cylinder127
+    3300756: Cylinder128
+    3300758: Cylinder129
+    3300760: Cylinder130
+    3300762: Cylinder131
+    3300764: Cylinder132
+    3300766: Cylinder133
+    3300768: Cylinder134
+    3300770: Cylinder135
+    3300772: Cylinder136
+    3300774: Cylinder137
+    3300776: Cylinder138
+    3300778: Cylinder139
+    3300780: Cylinder140
+    3300782: Cylinder141
+    3300784: Cylinder142
+    3300786: Cylinder143
+    3300788: Cylinder144
+    3300790: Cylinder145
+    3300792: Cylinder146
+    3300794: Cylinder147
+    3300796: Cylinder148
+    3300798: Cylinder149
+    3300800: Cylinder150
+    3300802: Cylinder151
+    3300804: Cylinder152
+    3300806: Cylinder153
+    3300808: Cylinder154
+    3300810: Cylinder155
+    3300812: Cylinder156
+    3300814: Cylinder157
+    3300816: Cylinder158
+    3300818: Cylinder159
+    3300820: Cylinder160
+    3300822: Cylinder161
+    3300824: Cylinder162
+    3300826: Cylinder163
+    3300828: Cylinder164
+    3300830: Cylinder165
+    3300832: Cylinder166
+    3300834: Cylinder167
+    3300836: Cylinder168
+    3300838: Cylinder169
+    3300840: Cylinder170
+    3300842: Dart_base001
+    3300844: Dart_base002
+    3300846: Dart_base003
+    3300848: Dart_base004
+    3300850: Dart_base005
+    3300852: Dart_base006
+    3300854: Dart_base007
+    3300856: Dart_base008
+    3300858: Dart_base009
+    3300860: Dart_base012
+    3300862: Dart_base021
+    3300864: Dart_base024
+    3300866: Dart_base028
+    3300868: Dart_base033
+    3300870: Dart_base036
+    3300872: Dart_base038
+    3300874: Dart_Fin005
+    3300876: Dart_Fin006
+    3300878: Dart_Fin007
+    3300880: Dart_Fin008
+    3300882: Dart_Fin009
+    3300884: Dart_Fin010
+    3300886: Dart_Fin011
+    3300888: Dart_Fin012
+    3300890: Dart_Fin013
+    3300892: Dart_Fin014
+    3300894: Dart_Fin015
+    3300896: Dart_Fin016
+    3300898: Dart_Fin017
+    3300900: Dart_Fin018
+    3300902: Dart_Fin019
+    3300904: Dart_Fin020
+    3300906: Dart_Fin021
+    3300908: Dart_Fin022
+    3300910: Dart_Fin023
+    3300912: Dart_Fin024
+    3300914: Dart_Fin025
+    3300916: Dart_Fin026
+    3300918: Dart_Fin027
+    3300920: Dart_Fin028
+    3300922: Dart_Fin029
+    3300924: Dart_Fin030
+    3300926: Dart_Fin031
+    3300928: Dart_Fin032
+    3300930: Dart_Fin033
+    3300932: Dart_Fin034
+    3300934: Dart_Fin035
+    3300936: Dart_Fin036
+    3300938: Dart_Fin037
+    3300940: Dart_Fin038
+    3300942: Dart_Fin039
+    3300944: Dart_Fin040
+    3300946: Dart_Fin049
+    3300948: Dart_Fin050
+    3300950: Dart_Fin051
+    3300952: Dart_Fin052
+    3300954: Dart_Fin066
+    3300956: Dart_Fin067
+    3300958: Dart_Fin068
+    3300960: Dart_Fin069
+    3300962: Dart_Fin093
+    3300964: Dart_Fin094
+    3300966: Dart_Fin095
+    3300968: Dart_Fin096
+    3300970: Dart_Fin097
+    3300972: Dart_Fin098
+    3300974: Dart_Fin099
+    3300976: Dart_Fin101
+    3300978: Dart_Fin126
+    3300980: Dart_Fin127
+    3300982: Dart_Fin128
+    3300984: Dart_Fin129
+    3300986: Dart_Fin138
+    3300988: Dart_Fin139
+    3300990: Dart_Fin140
+    3300992: Dart_Fin141
+    3300994: Dart_Fin148
+    3300996: Dart_Fin149
+    3300998: Dart_Fin150
+    3301000: Dart_Fin151
+    3301002: Hedra041
+    3301004: Hedra042
+    3301006: Hedra043
+    3301008: Hedra044
+    3301010: Hedra045
+    3301012: Hedra046
+    3301014: Hedra047
+    3301016: Hedra048
+    3301018: Hedra049
+    3301020: Hedra050
+    3301022: Hedra051
+    3301024: Hedra052
+    3301026: Hedra053
+    3301028: Hedra054
+    3301030: Hedra055
+    3301032: Hedra056
+    3301034: Hedra057
+    3301036: Hedra058
+    3301038: Hedra059
+    3301040: Hedra060
+    3301042: Hedra061
+    3301044: Hedra062
+    3301046: Hedra063
+    3301048: Hedra064
+    3301050: Hedra065
+    3301052: Hedra066
+    3301054: Hedra067
+    3301056: Hedra068
+    3301058: Hedra069
+    3301060: Hedra070
+    3301062: Hedra071
+    3301064: Hedra072
+    3301066: Hedra073
+    3301068: Hedra074
+    3301070: Hedra075
+    3301072: Hedra076
+    3301074: Hedra077
+    3301076: Hedra078
+    3301078: Hedra079
+    3301080: Hedra080
+    3301082: Plane002
+    3301084: Plane033
+    3301086: Plane034
+    3301088: Plane035
+    3301090: Plane036
+    3301092: Plane037
+    3301094: Plane038
+    3301096: Plane039
+    3301098: Plane040
+    3301100: Plane041
+    3301102: Plane042
+    3301104: Pyramid022
+    3301106: Pyramid023
+    3301108: Pyramid024
+    3301110: Pyramid025
+    3301112: Pyramid026
+    3301114: Pyramid027
+    3301116: Pyramid028
+    3301118: Pyramid029
+    3301120: Pyramid030
+    3301122: Pyramid031
+    3301124: Pyramid032
+    3301126: Pyramid033
+    3301128: Pyramid034
+    3301130: Pyramid035
+    3301132: Pyramid036
+    3301134: Pyramid037
+    3301136: Pyramid038
+    3301138: Pyramid039
+    3301140: Pyramid040
+    3301142: Pyramid041
+    3301144: Sphere093
+    3301146: Sphere094
+    3301148: Sphere095
+    3301150: Sphere096
+    3301152: Sphere097
+    3301154: Sphere098
+    3301156: Sphere099
+    3301158: Sphere100
+    3301160: Sphere101
+    3301162: Sphere102
+    3301164: Sphere103
+    3301166: Sphere104
+    3301168: Sphere105
+    3301170: Sphere106
+    3301172: Sphere107
+    3301174: Sphere108
+    3301176: Sphere109
+    3301178: Sphere110
+    3301180: Sphere111
+    3301182: Sphere112
+    3301184: Sphere113
+    3301186: Sphere114
+    3301188: Sphere115
+    3301190: Sphere116
+    3301192: Sphere117
+    3301194: Sphere118
+    3301196: Sphere119
+    3301198: Sphere120
+    3301200: Sphere121
+    3301202: Sphere122
+    3301204: Sphere123
+    3301206: Sphere124
+    3301208: Sphere125
+    3301210: Sphere126
+    3301212: Sphere127
+    3301214: Sphere128
+    3301216: Sphere129
+    3301218: Sphere130
+    3301220: Sphere131
+    3301222: Sphere132
+    3301224: Sphere133
+    3301226: Sphere134
+    3301228: Sphere135
+    3301230: Sphere136
+    3301232: Sphere137
+    3301234: Sphere138
+    3301236: Sphere139
+    3301238: Sphere140
+    3301240: Sphere141
+    3301242: Sphere142
+    3301244: Sphere143
+    3301246: Sphere144
+    3301248: Sphere145
+    3301250: Sphere146
+    3301252: Sphere147
+    3301254: Sphere148
+    3301256: Sphere149
+    3301258: Sphere150
+    3301260: Sphere151
+    3301262: Sphere152
+    3301264: Sphere153
+    3301266: Sphere154
+    3301268: Sphere155
+    3301270: Sphere156
+    3301272: Sphere157
+    3301274: Sphere158
+    3301276: Sphere159
+    3301278: Sphere160
+    3301280: Sphere161
+    3301282: Sphere162
+    3301284: Sphere163
+    3301286: Sphere164
+    3301288: Sphere165
+    3301290: Sphere166
+    3301292: Sphere167
+    3301294: Sphere168
+    3301296: Sphere169
+    3301298: Sphere170
+    3301300: Sphere171
+    3301302: Sphere172
+    3301304: Sphere173
+    3301306: Sphere174
+    3301308: Sphere175
+    3301310: Sphere176
+    3301312: Sphere177
+    3301314: Sphere178
+    3301316: Sphere179
+    3301318: Sphere180
+    3301320: Sphere181
+    3301322: Sphere182
+    3301324: Table
+    3301326: tent_pole
+    3301328: tent_pole001
+    3301330: tent_pole002
+    3301332: tent_pole003
+    3301334: tent_pole004
+    4300000: Table
+    4300002: cloth
+    4300004: Cylinder001
+    4300006: Cylinder002
+    4300008: tent_pole
+    4300010: tent_pole001
+    4300012: tent_pole002
+    4300014: Plane002
+    4300016: tent_pole003
+    4300018: tent_pole004
+    4300020: Box001
+    4300022: Box007
+    4300024: Bucket
+    4300026: Bucket006
+    4300028: Bucket007
+    4300030: Bucket008
+    4300032: Bucket009
+    4300034: Bucket010
+    4300036: Bucket011
+    4300038: Bucket012
+    4300040: Bucket013
+    4300042: Bucket014
+    4300044: Bucket015
+    4300046: Bucket018
+    4300048: Bucket019
+    4300050: Bucket020
+    4300052: Bucket021
+    4300054: Bucket022
+    4300056: Bucket024
+    4300058: Bucket025
+    4300060: Bucket026
+    4300062: Bucket027
+    4300064: Bucket032
+    4300066: Bucket033
+    4300068: Bucket038
+    4300070: Bucket039
+    4300072: Bucket040
+    4300074: Bucket041
+    4300076: Balloon_knot068
+    4300078: balloon068
+    4300080: balloon_end068
+    4300082: balloon_end069
+    4300084: Balloon_knot069
+    4300086: balloon069
+    4300088: balloon_end070
+    4300090: Balloon_knot070
+    4300092: balloon070
+    4300094: balloon_end071
+    4300096: Balloon_knot071
+    4300098: balloon071
+    4300100: Balloon_knot072
+    4300102: balloon072
+    4300104: balloon_end072
+    4300106: balloon_end073
+    4300108: Balloon_knot073
+    4300110: balloon073
+    4300112: balloon_end074
+    4300114: Balloon_knot074
+    4300116: balloon074
+    4300118: Balloon_knot075
+    4300120: balloon075
+    4300122: balloon_end075
+    4300124: balloon_end076
+    4300126: Balloon_knot076
+    4300128: balloon076
+    4300130: balloon_end077
+    4300132: Balloon_knot077
+    4300134: balloon077
+    4300136: Balloon_knot078
+    4300138: balloon078
+    4300140: balloon_end078
+    4300142: balloon_end079
+    4300144: Balloon_knot079
+    4300146: balloon079
+    4300148: balloon_end080
+    4300150: Balloon_knot080
+    4300152: balloon080
+    4300154: Balloon_knot081
+    4300156: balloon081
+    4300158: balloon_end081
+    4300160: balloon_end082
+    4300162: Balloon_knot082
+    4300164: balloon082
+    4300166: balloon_end083
+    4300168: Balloon_knot083
+    4300170: balloon083
+    4300172: Balloon_knot084
+    4300174: balloon084
+    4300176: balloon_end084
+    4300178: balloon_end085
+    4300180: Balloon_knot085
+    4300182: balloon085
+    4300184: balloon_end086
+    4300186: Balloon_knot086
+    4300188: balloon086
+    4300190: Balloon_knot087
+    4300192: balloon087
+    4300194: balloon_end087
+    4300196: Balloon_knot090
+    4300198: balloon090
+    4300200: balloon_end090
+    4300202: balloon_end091
+    4300204: Balloon_knot091
+    4300206: balloon091
+    4300208: Balloon_knot093
+    4300210: balloon093
+    4300212: balloon_end093
+    4300214: balloon_end095
+    4300216: Balloon_knot095
+    4300218: balloon095
+    4300220: Balloon_knot096
+    4300222: balloon096
+    4300224: balloon_end096
+    4300226: balloon_end098
+    4300228: Balloon_knot098
+    4300230: balloon098
+    4300232: Balloon_knot099
+    4300234: balloon099
+    4300236: balloon_end099
+    4300238: balloon_end100
+    4300240: Balloon_knot100
+    4300242: balloon100
+    4300244: Balloon_knot102
+    4300246: balloon102
+    4300248: balloon_end102
+    4300250: balloon_end103
+    4300252: Balloon_knot103
+    4300254: balloon103
+    4300256: balloon_end104
+    4300258: Balloon_knot104
+    4300260: balloon104
+    4300262: Balloon_knot105
+    4300264: balloon_end105
+    4300266: balloon120
+    4300268: Balloon_knot108
+    4300270: balloon107
+    4300272: balloon_end108
+    4300274: balloon_end109
+    4300276: Balloon_knot109
+    4300278: balloon108
+    4300280: balloon_end110
+    4300282: Balloon_knot110
+    4300284: balloon109
+    4300286: balloon_end106
+    4300288: balloon105
+    4300290: Balloon_knot106
+    4300292: balloon_end115
+    4300294: Balloon_knot115
+    4300296: balloon113
+    4300298: balloon_end118
+    4300300: Balloon_knot118
+    4300302: balloon116
+    4300304: Balloon_knot120
+    4300306: balloon118
+    4300308: balloon_end120
+    4300310: balloon_end121
+    4300312: Balloon_knot121
+    4300314: balloon119
+    4300316: balloon110
+    4300318: Balloon_knot111
+    4300320: balloon_end112
+    4300322: balloon_end111
+    4300324: Balloon_knot112
+    4300326: balloon124
+    4300328: balloon_end122
+    4300330: balloon121
+    4300332: Balloon_knot122
+    4300334: balloon122
+    4300336: Balloon_knot123
+    4300338: balloon_end123
+    4300340: balloon_end124
+    4300342: balloon123
+    4300344: Balloon_knot124
+    4300346: Balloon_knot125
+    4300348: balloon126
+    4300350: balloon_end127
+    4300352: Balloon_knot126
+    4300354: balloon_end125
+    4300356: balloon127
+    4300358: balloon125
+    4300360: Balloon_knot127
+    4300362: balloon_end126
+    4300364: Dart_base001
+    4300366: Dart_Fin005
+    4300368: Dart_Fin006
+    4300370: Dart_Fin007
+    4300372: Dart_Fin008
+    4300374: Dart_Fin009
+    4300376: Dart_base002
+    4300378: Dart_Fin010
+    4300380: Dart_Fin011
+    4300382: Dart_Fin012
+    4300384: Dart_Fin013
+    4300386: Dart_base003
+    4300388: Dart_Fin014
+    4300390: Dart_Fin015
+    4300392: Dart_Fin016
+    4300394: Dart_Fin017
+    4300396: Dart_base004
+    4300398: Dart_Fin018
+    4300400: Dart_Fin019
+    4300402: Dart_Fin020
+    4300404: Dart_Fin021
+    4300406: Dart_base005
+    4300408: Dart_Fin022
+    4300410: Dart_Fin023
+    4300412: Dart_Fin024
+    4300414: Dart_Fin025
+    4300416: Dart_base006
+    4300418: Dart_Fin026
+    4300420: Dart_Fin027
+    4300422: Dart_Fin028
+    4300424: Dart_base007
+    4300426: Dart_Fin029
+    4300428: Dart_Fin030
+    4300430: Dart_Fin031
+    4300432: Dart_Fin032
+    4300434: Dart_base008
+    4300436: Dart_Fin033
+    4300438: Dart_Fin034
+    4300440: Dart_Fin035
+    4300442: Dart_Fin036
+    4300444: Dart_base009
+    4300446: Dart_Fin037
+    4300448: Dart_Fin038
+    4300450: Dart_Fin039
+    4300452: Dart_Fin040
+    4300454: Dart_base012
+    4300456: Dart_Fin049
+    4300458: Dart_Fin050
+    4300460: Dart_Fin051
+    4300462: Dart_Fin052
+    4300464: Dart_Fin066
+    4300466: Dart_Fin067
+    4300468: Dart_Fin068
+    4300470: Dart_Fin069
+    4300472: Dart_base021
+    4300474: Dart_Fin093
+    4300476: Dart_Fin094
+    4300478: Dart_Fin095
+    4300480: Dart_Fin096
+    4300482: Dart_base038
+    4300484: Dart_Fin097
+    4300486: Dart_Fin098
+    4300488: Dart_Fin099
+    4300490: Dart_Fin101
+    4300492: Dart_base028
+    4300494: Dart_base033
+    4300496: Dart_Fin126
+    4300498: Dart_Fin127
+    4300500: Dart_Fin128
+    4300502: Dart_Fin129
+    4300504: Dart_Fin138
+    4300506: Dart_Fin139
+    4300508: Dart_Fin140
+    4300510: Dart_Fin141
+    4300512: Dart_base036
+    4300514: Dart_base024
+    4300516: Dart_Fin148
+    4300518: Dart_Fin149
+    4300520: Dart_Fin150
+    4300522: Dart_Fin151
+    4300524: Box225
+    4300526: Sphere093
+    4300528: Sphere094
+    4300530: Sphere095
+    4300532: Sphere096
+    4300534: Sphere097
+    4300536: Cylinder086
+    4300538: Cylinder087
+    4300540: Cylinder088
+    4300542: Cylinder089
+    4300544: Sphere098
+    4300546: Sphere099
+    4300548: Sphere100
+    4300550: Sphere101
+    4300552: Box226
+    4300554: Box227
+    4300556: Box228
+    4300558: Box229
+    4300560: Sphere102
+    4300562: Sphere103
+    4300564: Sphere104
+    4300566: Sphere105
+    4300568: Cylinder090
+    4300570: Cylinder091
+    4300572: Cylinder092
+    4300574: Cylinder093
+    4300576: Sphere106
+    4300578: Sphere107
+    4300580: Sphere108
+    4300582: Sphere109
+    4300584: Sphere110
+    4300586: Box230
+    4300588: Box231
+    4300590: Box232
+    4300592: Box233
+    4300594: Box234
+    4300596: Box235
+    4300598: Cylinder094
+    4300600: Cylinder095
+    4300602: Cylinder096
+    4300604: Cylinder097
+    4300606: Box236
+    4300608: Box237
+    4300610: Box238
+    4300612: Box239
+    4300614: Box240
+    4300616: Box241
+    4300618: Cone019
+    4300620: Cone020
+    4300622: Cylinder098
+    4300624: Hedra041
+    4300626: Hedra042
+    4300628: Hedra043
+    4300630: Hedra044
+    4300632: Plane033
+    4300634: Arc031
+    4300636: Arc032
+    4300638: Arc033
+    4300640: Pyramid022
+    4300642: Pyramid023
+    4300644: Box242
+    4300646: Box243
+    4300648: Cylinder099
+    4300650: Cylinder100
+    4300652: Cylinder101
+    4300654: Cylinder102
+    4300656: Box244
+    4300658: Box245
+    4300660: Box246
+    4300662: Box247
+    4300664: Box248
+    4300666: Box249
+    4300668: Cone021
+    4300670: Cone022
+    4300672: Cylinder103
+    4300674: Sphere111
+    4300676: Sphere112
+    4300678: Sphere113
+    4300680: Sphere114
+    4300682: Cylinder104
+    4300684: Cylinder105
+    4300686: Cylinder106
+    4300688: Cylinder107
+    4300690: Sphere115
+    4300692: Sphere116
+    4300694: Sphere117
+    4300696: Sphere118
+    4300698: Sphere119
+    4300700: Box250
+    4300702: Box251
+    4300704: Box252
+    4300706: Box253
+    4300708: Sphere120
+    4300710: Sphere121
+    4300712: Sphere122
+    4300714: Sphere123
+    4300716: Cylinder108
+    4300718: Cylinder109
+    4300720: Cylinder110
+    4300722: Cylinder111
+    4300724: Sphere124
+    4300726: Sphere125
+    4300728: Sphere126
+    4300730: Sphere127
+    4300732: Sphere128
+    4300734: Box254
+    4300736: Box255
+    4300738: Box256
+    4300740: Box257
+    4300742: Box258
+    4300744: Box259
+    4300746: Cylinder112
+    4300748: Cylinder113
+    4300750: Cylinder114
+    4300752: Cylinder115
+    4300754: Box260
+    4300756: Box261
+    4300758: Box262
+    4300760: Box263
+    4300762: Box264
+    4300764: Box265
+    4300766: Cone023
+    4300768: Cone024
+    4300770: Cylinder116
+    4300772: Hedra045
+    4300774: Hedra046
+    4300776: Hedra047
+    4300778: Hedra048
+    4300780: Plane034
+    4300782: Arc034
+    4300784: Arc035
+    4300786: Arc036
+    4300788: Pyramid024
+    4300790: Pyramid025
+    4300792: Hedra049
+    4300794: Hedra050
+    4300796: Hedra051
+    4300798: Hedra052
+    4300800: Plane035
+    4300802: Arc037
+    4300804: Arc038
+    4300806: Arc039
+    4300808: Pyramid026
+    4300810: Pyramid027
+    4300812: Sphere129
+    4300814: Sphere130
+    4300816: Sphere131
+    4300818: Sphere132
+    4300820: Sphere133
+    4300822: Cylinder117
+    4300824: Cylinder118
+    4300826: Cylinder119
+    4300828: Cylinder120
+    4300830: Sphere134
+    4300832: Sphere135
+    4300834: Sphere136
+    4300836: Sphere137
+    4300838: Box266
+    4300840: Box267
+    4300842: Box268
+    4300844: Box269
+    4300846: Hedra053
+    4300848: Hedra054
+    4300850: Hedra055
+    4300852: Hedra056
+    4300854: Plane036
+    4300856: Arc040
+    4300858: Arc041
+    4300860: Pyramid028
+    4300862: Pyramid029
+    4300864: Arc042
+    4300866: Box270
+    4300868: Box271
+    4300870: Cylinder121
+    4300872: Cylinder122
+    4300874: Cylinder123
+    4300876: Cylinder124
+    4300878: Box272
+    4300880: Box273
+    4300882: Box274
+    4300884: Box275
+    4300886: Box276
+    4300888: Box277
+    4300890: Cone025
+    4300892: Cone026
+    4300894: Cylinder125
+    4300896: Sphere138
+    4300898: Sphere139
+    4300900: Sphere140
+    4300902: Sphere141
+    4300904: Sphere142
+    4300906: Cylinder126
+    4300908: Cylinder127
+    4300910: Cylinder128
+    4300912: Cylinder129
+    4300914: Sphere143
+    4300916: Sphere144
+    4300918: Sphere145
+    4300920: Sphere146
+    4300922: Box278
+    4300924: Box279
+    4300926: Box280
+    4300928: Box281
+    4300930: Box282
+    4300932: Box283
+    4300934: Cylinder130
+    4300936: Cylinder131
+    4300938: Cylinder132
+    4300940: Cylinder133
+    4300942: Box284
+    4300944: Box285
+    4300946: Box286
+    4300948: Box287
+    4300950: Box288
+    4300952: Box289
+    4300954: Cone027
+    4300956: Cone028
+    4300958: Cylinder134
+    4300960: Hedra057
+    4300962: Hedra058
+    4300964: Hedra059
+    4300966: Hedra060
+    4300968: Plane037
+    4300970: Arc043
+    4300972: Arc044
+    4300974: Pyramid030
+    4300976: Pyramid031
+    4300978: Arc045
+    4300980: Box290
+    4300982: Box291
+    4300984: Cylinder135
+    4300986: Cylinder136
+    4300988: Cylinder137
+    4300990: Cylinder138
+    4300992: Box292
+    4300994: Box293
+    4300996: Box294
+    4300998: Box295
+    4301000: Box296
+    4301002: Box297
+    4301004: Cone029
+    4301006: Cone030
+    4301008: Cylinder139
+    4301010: Hedra061
+    4301012: Hedra062
+    4301014: Hedra063
+    4301016: Hedra064
+    4301018: Plane038
+    4301020: Arc046
+    4301022: Arc047
+    4301024: Pyramid032
+    4301026: Pyramid033
+    4301028: Arc048
+    4301030: Sphere147
+    4301032: Sphere148
+    4301034: Sphere149
+    4301036: Sphere150
+    4301038: Sphere151
+    4301040: Cylinder140
+    4301042: Cylinder141
+    4301044: Cylinder142
+    4301046: Cylinder143
+    4301048: Sphere152
+    4301050: Sphere153
+    4301052: Sphere154
+    4301054: Sphere155
+    4301056: Box298
+    4301058: Box299
+    4301060: Box300
+    4301062: Box301
+    4301064: Hedra065
+    4301066: Hedra066
+    4301068: Hedra067
+    4301070: Hedra068
+    4301072: Plane039
+    4301074: Arc049
+    4301076: Arc050
+    4301078: Pyramid034
+    4301080: Pyramid035
+    4301082: Arc051
+    4301084: Box302
+    4301086: Box303
+    4301088: Cylinder144
+    4301090: Cylinder145
+    4301092: Cylinder146
+    4301094: Cylinder147
+    4301096: Box304
+    4301098: Box305
+    4301100: Box306
+    4301102: Box307
+    4301104: Box308
+    4301106: Box309
+    4301108: Cone031
+    4301110: Cone032
+    4301112: Cylinder148
+    4301114: Sphere156
+    4301116: Sphere157
+    4301118: Sphere158
+    4301120: Sphere159
+    4301122: Sphere160
+    4301124: Cylinder149
+    4301126: Cylinder150
+    4301128: Cylinder151
+    4301130: Cylinder152
+    4301132: Sphere161
+    4301134: Sphere162
+    4301136: Sphere163
+    4301138: Sphere164
+    4301140: Box310
+    4301142: Box311
+    4301144: Box312
+    4301146: Box313
+    4301148: Box314
+    4301150: Box315
+    4301152: Cylinder153
+    4301154: Cylinder154
+    4301156: Cylinder155
+    4301158: Cylinder156
+    4301160: Box316
+    4301162: Box317
+    4301164: Box318
+    4301166: Box319
+    4301168: Box320
+    4301170: Box321
+    4301172: Cone033
+    4301174: Cone034
+    4301176: Cylinder157
+    4301178: Hedra069
+    4301180: Hedra070
+    4301182: Hedra071
+    4301184: Hedra072
+    4301186: Plane040
+    4301188: Arc052
+    4301190: Arc053
+    4301192: Pyramid036
+    4301194: Pyramid037
+    4301196: Arc054
+    4301198: Sphere165
+    4301200: Sphere166
+    4301202: Sphere167
+    4301204: Sphere168
+    4301206: Sphere169
+    4301208: Cylinder158
+    4301210: Cylinder159
+    4301212: Cylinder160
+    4301214: Cylinder161
+    4301216: Sphere170
+    4301218: Sphere171
+    4301220: Sphere172
+    4301222: Sphere173
+    4301224: Box322
+    4301226: Box323
+    4301228: Box324
+    4301230: Box325
+    4301232: Sphere174
+    4301234: Sphere175
+    4301236: Sphere176
+    4301238: Sphere177
+    4301240: Sphere178
+    4301242: Cylinder162
+    4301244: Cylinder163
+    4301246: Cylinder164
+    4301248: Cylinder165
+    4301250: Sphere179
+    4301252: Sphere180
+    4301254: Sphere181
+    4301256: Sphere182
+    4301258: Box326
+    4301260: Box327
+    4301262: Box328
+    4301264: Box329
+    4301266: Box330
+    4301268: Box331
+    4301270: Cylinder166
+    4301272: Cylinder167
+    4301274: Cylinder168
+    4301276: Cylinder169
+    4301278: Box332
+    4301280: Box333
+    4301282: Box334
+    4301284: Box335
+    4301286: Box336
+    4301288: Box337
+    4301290: Cone035
+    4301292: Cone036
+    4301294: Cylinder170
+    4301296: Hedra073
+    4301298: Hedra074
+    4301300: Hedra075
+    4301302: Hedra076
+    4301304: Plane041
+    4301306: Arc055
+    4301308: Arc056
+    4301310: Pyramid038
+    4301312: Pyramid039
+    4301314: Arc057
+    4301316: Hedra077
+    4301318: Hedra078
+    4301320: Hedra079
+    4301322: Hedra080
+    4301324: Plane042
+    4301326: Arc058
+    4301328: Arc059
+    4301330: Pyramid040
+    4301332: Pyramid041
+    4301334: Arc060
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Balloon069
+        weight: 1
+      - path: Balloon069/balloon068
+        weight: 1
+      - path: Balloon069/balloon_end068
+        weight: 1
+      - path: Balloon069/Balloon_knot068
+        weight: 1
+      - path: Balloon070
+        weight: 1
+      - path: Balloon070/balloon069
+        weight: 1
+      - path: Balloon070/balloon_end069
+        weight: 1
+      - path: Balloon070/Balloon_knot069
+        weight: 1
+      - path: Balloon071
+        weight: 1
+      - path: Balloon071/balloon070
+        weight: 1
+      - path: Balloon071/balloon_end070
+        weight: 1
+      - path: Balloon071/Balloon_knot070
+        weight: 1
+      - path: Balloon072
+        weight: 1
+      - path: Balloon072/balloon071
+        weight: 1
+      - path: Balloon072/balloon_end071
+        weight: 1
+      - path: Balloon072/Balloon_knot071
+        weight: 1
+      - path: Balloon073
+        weight: 1
+      - path: Balloon073/balloon072
+        weight: 1
+      - path: Balloon073/balloon_end072
+        weight: 1
+      - path: Balloon073/Balloon_knot072
+        weight: 1
+      - path: Balloon074
+        weight: 1
+      - path: Balloon074/balloon073
+        weight: 1
+      - path: Balloon074/balloon_end073
+        weight: 1
+      - path: Balloon074/Balloon_knot073
+        weight: 1
+      - path: Balloon075
+        weight: 1
+      - path: Balloon075/balloon074
+        weight: 1
+      - path: Balloon075/balloon_end074
+        weight: 1
+      - path: Balloon075/Balloon_knot074
+        weight: 1
+      - path: Balloon076
+        weight: 1
+      - path: Balloon076/balloon075
+        weight: 1
+      - path: Balloon076/balloon_end075
+        weight: 1
+      - path: Balloon076/Balloon_knot075
+        weight: 1
+      - path: Balloon077
+        weight: 1
+      - path: Balloon077/balloon076
+        weight: 1
+      - path: Balloon077/balloon_end076
+        weight: 1
+      - path: Balloon077/Balloon_knot076
+        weight: 1
+      - path: Balloon078
+        weight: 1
+      - path: Balloon078/balloon077
+        weight: 1
+      - path: Balloon078/balloon_end077
+        weight: 1
+      - path: Balloon078/Balloon_knot077
+        weight: 1
+      - path: Balloon079
+        weight: 1
+      - path: Balloon079/balloon078
+        weight: 1
+      - path: Balloon079/balloon_end078
+        weight: 1
+      - path: Balloon079/Balloon_knot078
+        weight: 1
+      - path: Balloon080
+        weight: 1
+      - path: Balloon080/balloon079
+        weight: 1
+      - path: Balloon080/balloon_end079
+        weight: 1
+      - path: Balloon080/Balloon_knot079
+        weight: 1
+      - path: Balloon081
+        weight: 1
+      - path: Balloon081/balloon080
+        weight: 1
+      - path: Balloon081/balloon_end080
+        weight: 1
+      - path: Balloon081/Balloon_knot080
+        weight: 1
+      - path: Balloon082
+        weight: 1
+      - path: Balloon082/balloon081
+        weight: 1
+      - path: Balloon082/balloon_end081
+        weight: 1
+      - path: Balloon082/Balloon_knot081
+        weight: 1
+      - path: Balloon083
+        weight: 1
+      - path: Balloon083/balloon082
+        weight: 1
+      - path: Balloon083/balloon_end082
+        weight: 1
+      - path: Balloon083/Balloon_knot082
+        weight: 1
+      - path: Balloon084
+        weight: 1
+      - path: Balloon084/balloon083
+        weight: 1
+      - path: Balloon084/balloon_end083
+        weight: 1
+      - path: Balloon084/Balloon_knot083
+        weight: 1
+      - path: Balloon085
+        weight: 1
+      - path: Balloon085/balloon084
+        weight: 1
+      - path: Balloon085/balloon_end084
+        weight: 1
+      - path: Balloon085/Balloon_knot084
+        weight: 1
+      - path: Balloon086
+        weight: 1
+      - path: Balloon086/balloon085
+        weight: 1
+      - path: Balloon086/balloon_end085
+        weight: 1
+      - path: Balloon086/Balloon_knot085
+        weight: 1
+      - path: Balloon087
+        weight: 1
+      - path: Balloon087/balloon086
+        weight: 1
+      - path: Balloon087/balloon_end086
+        weight: 1
+      - path: Balloon087/Balloon_knot086
+        weight: 1
+      - path: Balloon088
+        weight: 1
+      - path: Balloon088/balloon087
+        weight: 1
+      - path: Balloon088/balloon_end087
+        weight: 1
+      - path: Balloon088/Balloon_knot087
+        weight: 1
+      - path: Balloon091
+        weight: 1
+      - path: Balloon091/balloon090
+        weight: 1
+      - path: Balloon091/balloon_end090
+        weight: 1
+      - path: Balloon091/Balloon_knot090
+        weight: 1
+      - path: Balloon092
+        weight: 1
+      - path: Balloon092/balloon091
+        weight: 1
+      - path: Balloon092/balloon_end091
+        weight: 1
+      - path: Balloon092/Balloon_knot091
+        weight: 1
+      - path: Balloon094
+        weight: 1
+      - path: Balloon094/balloon093
+        weight: 1
+      - path: Balloon094/balloon_end093
+        weight: 1
+      - path: Balloon094/Balloon_knot093
+        weight: 1
+      - path: Balloon096
+        weight: 1
+      - path: Balloon096/balloon095
+        weight: 1
+      - path: Balloon096/balloon_end095
+        weight: 1
+      - path: Balloon096/Balloon_knot095
+        weight: 1
+      - path: Balloon097
+        weight: 1
+      - path: Balloon097/balloon096
+        weight: 1
+      - path: Balloon097/balloon_end096
+        weight: 1
+      - path: Balloon097/Balloon_knot096
+        weight: 1
+      - path: Balloon099
+        weight: 1
+      - path: Balloon099/balloon098
+        weight: 1
+      - path: Balloon099/balloon_end098
+        weight: 1
+      - path: Balloon099/Balloon_knot098
+        weight: 1
+      - path: Balloon100
+        weight: 1
+      - path: Balloon100/balloon099
+        weight: 1
+      - path: Balloon100/balloon_end099
+        weight: 1
+      - path: Balloon100/Balloon_knot099
+        weight: 1
+      - path: Balloon101
+        weight: 1
+      - path: Balloon101/balloon100
+        weight: 1
+      - path: Balloon101/balloon_end100
+        weight: 1
+      - path: Balloon101/Balloon_knot100
+        weight: 1
+      - path: Balloon103
+        weight: 1
+      - path: Balloon103/balloon102
+        weight: 1
+      - path: Balloon103/balloon_end102
+        weight: 1
+      - path: Balloon103/Balloon_knot102
+        weight: 1
+      - path: Balloon104
+        weight: 1
+      - path: Balloon104/balloon103
+        weight: 1
+      - path: Balloon104/balloon_end103
+        weight: 1
+      - path: Balloon104/Balloon_knot103
+        weight: 1
+      - path: Balloon105
+        weight: 1
+      - path: Balloon105/balloon104
+        weight: 1
+      - path: Balloon105/balloon_end104
+        weight: 1
+      - path: Balloon105/Balloon_knot104
+        weight: 1
+      - path: Balloon106
+        weight: 1
+      - path: Balloon106/balloon120
+        weight: 1
+      - path: Balloon106/balloon_end105
+        weight: 1
+      - path: Balloon106/Balloon_knot105
+        weight: 1
+      - path: Balloon108
+        weight: 1
+      - path: Balloon108/balloon107
+        weight: 1
+      - path: Balloon108/balloon_end108
+        weight: 1
+      - path: Balloon108/Balloon_knot108
+        weight: 1
+      - path: Balloon109
+        weight: 1
+      - path: Balloon109/balloon108
+        weight: 1
+      - path: Balloon109/balloon_end109
+        weight: 1
+      - path: Balloon109/Balloon_knot109
+        weight: 1
+      - path: Balloon110
+        weight: 1
+      - path: Balloon110/balloon109
+        weight: 1
+      - path: Balloon110/balloon_end110
+        weight: 1
+      - path: Balloon110/Balloon_knot110
+        weight: 1
+      - path: Balloon111
+        weight: 1
+      - path: Balloon111/balloon105
+        weight: 1
+      - path: Balloon111/balloon_end106
+        weight: 1
+      - path: Balloon111/Balloon_knot106
+        weight: 1
+      - path: Balloon114
+        weight: 1
+      - path: Balloon114/balloon113
+        weight: 1
+      - path: Balloon114/balloon_end115
+        weight: 1
+      - path: Balloon114/Balloon_knot115
+        weight: 1
+      - path: Balloon117
+        weight: 1
+      - path: Balloon117/balloon116
+        weight: 1
+      - path: Balloon117/balloon_end118
+        weight: 1
+      - path: Balloon117/Balloon_knot118
+        weight: 1
+      - path: Balloon119
+        weight: 1
+      - path: Balloon119/balloon118
+        weight: 1
+      - path: Balloon119/balloon_end120
+        weight: 1
+      - path: Balloon119/Balloon_knot120
+        weight: 1
+      - path: Balloon120
+        weight: 1
+      - path: Balloon120/balloon119
+        weight: 1
+      - path: Balloon120/balloon_end121
+        weight: 1
+      - path: Balloon120/Balloon_knot121
+        weight: 1
+      - path: Balloon121
+        weight: 1
+      - path: Balloon121/balloon110
+        weight: 1
+      - path: Balloon121/balloon_end112
+        weight: 1
+      - path: Balloon121/Balloon_knot111
+        weight: 1
+      - path: Balloon122
+        weight: 1
+      - path: Balloon122/balloon124
+        weight: 1
+      - path: Balloon122/balloon_end111
+        weight: 1
+      - path: Balloon122/Balloon_knot112
+        weight: 1
+      - path: Balloon123
+        weight: 1
+      - path: Balloon123/balloon121
+        weight: 1
+      - path: Balloon123/balloon_end122
+        weight: 1
+      - path: Balloon123/Balloon_knot122
+        weight: 1
+      - path: Balloon124
+        weight: 1
+      - path: Balloon124/balloon122
+        weight: 1
+      - path: Balloon124/balloon_end123
+        weight: 1
+      - path: Balloon124/Balloon_knot123
+        weight: 1
+      - path: Balloon125
+        weight: 1
+      - path: Balloon125/balloon123
+        weight: 1
+      - path: Balloon125/balloon_end124
+        weight: 1
+      - path: Balloon125/Balloon_knot124
+        weight: 1
+      - path: Balloon126
+        weight: 1
+      - path: Balloon126/balloon126
+        weight: 1
+      - path: Balloon126/balloon_end127
+        weight: 1
+      - path: Balloon126/Balloon_knot125
+        weight: 1
+      - path: Balloon127
+        weight: 1
+      - path: Balloon127/balloon127
+        weight: 1
+      - path: Balloon127/balloon_end125
+        weight: 1
+      - path: Balloon127/Balloon_knot126
+        weight: 1
+      - path: Balloon128
+        weight: 1
+      - path: Balloon128/balloon125
+        weight: 1
+      - path: Balloon128/balloon_end126
+        weight: 1
+      - path: Balloon128/Balloon_knot127
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Box007
+        weight: 1
+      - path: Bucket
+        weight: 1
+      - path: Bucket006
+        weight: 1
+      - path: Bucket007
+        weight: 1
+      - path: Bucket008
+        weight: 1
+      - path: Bucket009
+        weight: 1
+      - path: Bucket010
+        weight: 1
+      - path: Bucket011
+        weight: 1
+      - path: Bucket012
+        weight: 1
+      - path: Bucket013
+        weight: 1
+      - path: Bucket014
+        weight: 1
+      - path: Bucket015
+        weight: 1
+      - path: Bucket018
+        weight: 1
+      - path: Bucket019
+        weight: 1
+      - path: Bucket020
+        weight: 1
+      - path: Bucket021
+        weight: 1
+      - path: Bucket022
+        weight: 1
+      - path: Bucket024
+        weight: 1
+      - path: Bucket025
+        weight: 1
+      - path: Bucket026
+        weight: 1
+      - path: Bucket027
+        weight: 1
+      - path: Bucket032
+        weight: 1
+      - path: Bucket033
+        weight: 1
+      - path: Bucket038
+        weight: 1
+      - path: Bucket039
+        weight: 1
+      - path: Bucket040
+        weight: 1
+      - path: Bucket041
+        weight: 1
+      - path: cloth
+        weight: 1
+      - path: Cylinder001
+        weight: 1
+      - path: Cylinder002
+        weight: 1
+      - path: Dart001
+        weight: 1
+      - path: Dart001/Dart_base001
+        weight: 1
+      - path: Dart001/Dart_Fin005
+        weight: 1
+      - path: Dart001/Dart_Fin006
+        weight: 1
+      - path: Dart001/Dart_Fin007
+        weight: 1
+      - path: Dart001/Dart_Fin008
+        weight: 1
+      - path: Dart002
+        weight: 1
+      - path: Dart002/Dart_base002
+        weight: 1
+      - path: Dart002/Dart_Fin009
+        weight: 1
+      - path: Dart002/Dart_Fin010
+        weight: 1
+      - path: Dart002/Dart_Fin011
+        weight: 1
+      - path: Dart002/Dart_Fin012
+        weight: 1
+      - path: Dart003
+        weight: 1
+      - path: Dart003/Dart_base003
+        weight: 1
+      - path: Dart003/Dart_Fin013
+        weight: 1
+      - path: Dart003/Dart_Fin014
+        weight: 1
+      - path: Dart003/Dart_Fin015
+        weight: 1
+      - path: Dart003/Dart_Fin016
+        weight: 1
+      - path: Dart004
+        weight: 1
+      - path: Dart004/Dart_base004
+        weight: 1
+      - path: Dart004/Dart_Fin017
+        weight: 1
+      - path: Dart004/Dart_Fin018
+        weight: 1
+      - path: Dart004/Dart_Fin019
+        weight: 1
+      - path: Dart004/Dart_Fin020
+        weight: 1
+      - path: Dart005
+        weight: 1
+      - path: Dart005/Dart_base005
+        weight: 1
+      - path: Dart005/Dart_Fin021
+        weight: 1
+      - path: Dart005/Dart_Fin022
+        weight: 1
+      - path: Dart005/Dart_Fin023
+        weight: 1
+      - path: Dart005/Dart_Fin024
+        weight: 1
+      - path: Dart006
+        weight: 1
+      - path: Dart006/Dart_base006
+        weight: 1
+      - path: Dart006/Dart_Fin025
+        weight: 1
+      - path: Dart006/Dart_Fin026
+        weight: 1
+      - path: Dart006/Dart_Fin027
+        weight: 1
+      - path: Dart006/Dart_Fin028
+        weight: 1
+      - path: Dart007
+        weight: 1
+      - path: Dart007/Dart_base007
+        weight: 1
+      - path: Dart007/Dart_Fin029
+        weight: 1
+      - path: Dart007/Dart_Fin030
+        weight: 1
+      - path: Dart007/Dart_Fin031
+        weight: 1
+      - path: Dart007/Dart_Fin032
+        weight: 1
+      - path: Dart008
+        weight: 1
+      - path: Dart008/Dart_base008
+        weight: 1
+      - path: Dart008/Dart_Fin033
+        weight: 1
+      - path: Dart008/Dart_Fin034
+        weight: 1
+      - path: Dart008/Dart_Fin035
+        weight: 1
+      - path: Dart008/Dart_Fin036
+        weight: 1
+      - path: Dart009
+        weight: 1
+      - path: Dart009/Dart_base009
+        weight: 1
+      - path: Dart009/Dart_Fin037
+        weight: 1
+      - path: Dart009/Dart_Fin038
+        weight: 1
+      - path: Dart009/Dart_Fin039
+        weight: 1
+      - path: Dart009/Dart_Fin040
+        weight: 1
+      - path: Dart012
+        weight: 1
+      - path: Dart012/Dart_base012
+        weight: 1
+      - path: Dart012/Dart_Fin049
+        weight: 1
+      - path: Dart012/Dart_Fin050
+        weight: 1
+      - path: Dart012/Dart_Fin051
+        weight: 1
+      - path: Dart012/Dart_Fin052
+        weight: 1
+      - path: Dart019
+        weight: 1
+      - path: Dart019/Dart_base021
+        weight: 1
+      - path: Dart019/Dart_Fin066
+        weight: 1
+      - path: Dart019/Dart_Fin067
+        weight: 1
+      - path: Dart019/Dart_Fin068
+        weight: 1
+      - path: Dart019/Dart_Fin069
+        weight: 1
+      - path: Dart023
+        weight: 1
+      - path: Dart023/Dart_base038
+        weight: 1
+      - path: Dart023/Dart_Fin093
+        weight: 1
+      - path: Dart023/Dart_Fin094
+        weight: 1
+      - path: Dart023/Dart_Fin095
+        weight: 1
+      - path: Dart023/Dart_Fin096
+        weight: 1
+      - path: Dart024
+        weight: 1
+      - path: Dart024/Dart_base028
+        weight: 1
+      - path: Dart024/Dart_Fin097
+        weight: 1
+      - path: Dart024/Dart_Fin098
+        weight: 1
+      - path: Dart024/Dart_Fin099
+        weight: 1
+      - path: Dart024/Dart_Fin101
+        weight: 1
+      - path: Dart027
+        weight: 1
+      - path: Dart027/Dart_base033
+        weight: 1
+      - path: Dart027/Dart_Fin126
+        weight: 1
+      - path: Dart027/Dart_Fin127
+        weight: 1
+      - path: Dart027/Dart_Fin128
+        weight: 1
+      - path: Dart027/Dart_Fin129
+        weight: 1
+      - path: Dart030
+        weight: 1
+      - path: Dart030/Dart_base036
+        weight: 1
+      - path: Dart030/Dart_Fin138
+        weight: 1
+      - path: Dart030/Dart_Fin139
+        weight: 1
+      - path: Dart030/Dart_Fin140
+        weight: 1
+      - path: Dart030/Dart_Fin141
+        weight: 1
+      - path: Dart033
+        weight: 1
+      - path: Dart033/Dart_base024
+        weight: 1
+      - path: Dart033/Dart_Fin148
+        weight: 1
+      - path: Dart033/Dart_Fin149
+        weight: 1
+      - path: Dart033/Dart_Fin150
+        weight: 1
+      - path: Dart033/Dart_Fin151
+        weight: 1
+      - path: Plane002
+        weight: 1
+      - path: Robot_againstWall001
+        weight: 1
+      - path: Robot_againstWall001/Arc031
+        weight: 1
+      - path: Robot_againstWall001/Arc032
+        weight: 1
+      - path: Robot_againstWall001/Arc033
+        weight: 1
+      - path: Robot_againstWall001/Arc034
+        weight: 1
+      - path: Robot_againstWall001/Arc035
+        weight: 1
+      - path: Robot_againstWall001/Arc036
+        weight: 1
+      - path: Robot_againstWall001/Arc037
+        weight: 1
+      - path: Robot_againstWall001/Arc038
+        weight: 1
+      - path: Robot_againstWall001/Arc039
+        weight: 1
+      - path: Robot_againstWall001/Arc040
+        weight: 1
+      - path: Robot_againstWall001/Arc041
+        weight: 1
+      - path: Robot_againstWall001/Arc042
+        weight: 1
+      - path: Robot_againstWall001/Arc043
+        weight: 1
+      - path: Robot_againstWall001/Arc044
+        weight: 1
+      - path: Robot_againstWall001/Arc045
+        weight: 1
+      - path: Robot_againstWall001/Arc046
+        weight: 1
+      - path: Robot_againstWall001/Arc047
+        weight: 1
+      - path: Robot_againstWall001/Arc048
+        weight: 1
+      - path: Robot_againstWall001/Arc049
+        weight: 1
+      - path: Robot_againstWall001/Arc050
+        weight: 1
+      - path: Robot_againstWall001/Arc051
+        weight: 1
+      - path: Robot_againstWall001/Arc052
+        weight: 1
+      - path: Robot_againstWall001/Arc053
+        weight: 1
+      - path: Robot_againstWall001/Arc054
+        weight: 1
+      - path: Robot_againstWall001/Arc055
+        weight: 1
+      - path: Robot_againstWall001/Arc056
+        weight: 1
+      - path: Robot_againstWall001/Arc057
+        weight: 1
+      - path: Robot_againstWall001/Arc058
+        weight: 1
+      - path: Robot_againstWall001/Arc059
+        weight: 1
+      - path: Robot_againstWall001/Arc060
+        weight: 1
+      - path: Robot_againstWall001/Box225
+        weight: 1
+      - path: Robot_againstWall001/Box226
+        weight: 1
+      - path: Robot_againstWall001/Box227
+        weight: 1
+      - path: Robot_againstWall001/Box228
+        weight: 1
+      - path: Robot_againstWall001/Box229
+        weight: 1
+      - path: Robot_againstWall001/Box230
+        weight: 1
+      - path: Robot_againstWall001/Box231
+        weight: 1
+      - path: Robot_againstWall001/Box232
+        weight: 1
+      - path: Robot_againstWall001/Box233
+        weight: 1
+      - path: Robot_againstWall001/Box234
+        weight: 1
+      - path: Robot_againstWall001/Box235
+        weight: 1
+      - path: Robot_againstWall001/Box236
+        weight: 1
+      - path: Robot_againstWall001/Box237
+        weight: 1
+      - path: Robot_againstWall001/Box238
+        weight: 1
+      - path: Robot_againstWall001/Box239
+        weight: 1
+      - path: Robot_againstWall001/Box240
+        weight: 1
+      - path: Robot_againstWall001/Box241
+        weight: 1
+      - path: Robot_againstWall001/Box242
+        weight: 1
+      - path: Robot_againstWall001/Box243
+        weight: 1
+      - path: Robot_againstWall001/Box244
+        weight: 1
+      - path: Robot_againstWall001/Box245
+        weight: 1
+      - path: Robot_againstWall001/Box246
+        weight: 1
+      - path: Robot_againstWall001/Box247
+        weight: 1
+      - path: Robot_againstWall001/Box248
+        weight: 1
+      - path: Robot_againstWall001/Box249
+        weight: 1
+      - path: Robot_againstWall001/Box250
+        weight: 1
+      - path: Robot_againstWall001/Box251
+        weight: 1
+      - path: Robot_againstWall001/Box252
+        weight: 1
+      - path: Robot_againstWall001/Box253
+        weight: 1
+      - path: Robot_againstWall001/Box254
+        weight: 1
+      - path: Robot_againstWall001/Box255
+        weight: 1
+      - path: Robot_againstWall001/Box256
+        weight: 1
+      - path: Robot_againstWall001/Box257
+        weight: 1
+      - path: Robot_againstWall001/Box258
+        weight: 1
+      - path: Robot_againstWall001/Box259
+        weight: 1
+      - path: Robot_againstWall001/Box260
+        weight: 1
+      - path: Robot_againstWall001/Box261
+        weight: 1
+      - path: Robot_againstWall001/Box262
+        weight: 1
+      - path: Robot_againstWall001/Box263
+        weight: 1
+      - path: Robot_againstWall001/Box264
+        weight: 1
+      - path: Robot_againstWall001/Box265
+        weight: 1
+      - path: Robot_againstWall001/Box266
+        weight: 1
+      - path: Robot_againstWall001/Box267
+        weight: 1
+      - path: Robot_againstWall001/Box268
+        weight: 1
+      - path: Robot_againstWall001/Box269
+        weight: 1
+      - path: Robot_againstWall001/Box270
+        weight: 1
+      - path: Robot_againstWall001/Box271
+        weight: 1
+      - path: Robot_againstWall001/Box272
+        weight: 1
+      - path: Robot_againstWall001/Box273
+        weight: 1
+      - path: Robot_againstWall001/Box274
+        weight: 1
+      - path: Robot_againstWall001/Box275
+        weight: 1
+      - path: Robot_againstWall001/Box276
+        weight: 1
+      - path: Robot_againstWall001/Box277
+        weight: 1
+      - path: Robot_againstWall001/Box278
+        weight: 1
+      - path: Robot_againstWall001/Box279
+        weight: 1
+      - path: Robot_againstWall001/Box280
+        weight: 1
+      - path: Robot_againstWall001/Box281
+        weight: 1
+      - path: Robot_againstWall001/Box282
+        weight: 1
+      - path: Robot_againstWall001/Box283
+        weight: 1
+      - path: Robot_againstWall001/Box284
+        weight: 1
+      - path: Robot_againstWall001/Box285
+        weight: 1
+      - path: Robot_againstWall001/Box286
+        weight: 1
+      - path: Robot_againstWall001/Box287
+        weight: 1
+      - path: Robot_againstWall001/Box288
+        weight: 1
+      - path: Robot_againstWall001/Box289
+        weight: 1
+      - path: Robot_againstWall001/Box290
+        weight: 1
+      - path: Robot_againstWall001/Box291
+        weight: 1
+      - path: Robot_againstWall001/Box292
+        weight: 1
+      - path: Robot_againstWall001/Box293
+        weight: 1
+      - path: Robot_againstWall001/Box294
+        weight: 1
+      - path: Robot_againstWall001/Box295
+        weight: 1
+      - path: Robot_againstWall001/Box296
+        weight: 1
+      - path: Robot_againstWall001/Box297
+        weight: 1
+      - path: Robot_againstWall001/Box298
+        weight: 1
+      - path: Robot_againstWall001/Box299
+        weight: 1
+      - path: Robot_againstWall001/Box300
+        weight: 1
+      - path: Robot_againstWall001/Box301
+        weight: 1
+      - path: Robot_againstWall001/Box302
+        weight: 1
+      - path: Robot_againstWall001/Box303
+        weight: 1
+      - path: Robot_againstWall001/Box304
+        weight: 1
+      - path: Robot_againstWall001/Box305
+        weight: 1
+      - path: Robot_againstWall001/Box306
+        weight: 1
+      - path: Robot_againstWall001/Box307
+        weight: 1
+      - path: Robot_againstWall001/Box308
+        weight: 1
+      - path: Robot_againstWall001/Box309
+        weight: 1
+      - path: Robot_againstWall001/Box310
+        weight: 1
+      - path: Robot_againstWall001/Box311
+        weight: 1
+      - path: Robot_againstWall001/Box312
+        weight: 1
+      - path: Robot_againstWall001/Box313
+        weight: 1
+      - path: Robot_againstWall001/Box314
+        weight: 1
+      - path: Robot_againstWall001/Box315
+        weight: 1
+      - path: Robot_againstWall001/Box316
+        weight: 1
+      - path: Robot_againstWall001/Box317
+        weight: 1
+      - path: Robot_againstWall001/Box318
+        weight: 1
+      - path: Robot_againstWall001/Box319
+        weight: 1
+      - path: Robot_againstWall001/Box320
+        weight: 1
+      - path: Robot_againstWall001/Box321
+        weight: 1
+      - path: Robot_againstWall001/Box322
+        weight: 1
+      - path: Robot_againstWall001/Box323
+        weight: 1
+      - path: Robot_againstWall001/Box324
+        weight: 1
+      - path: Robot_againstWall001/Box325
+        weight: 1
+      - path: Robot_againstWall001/Box326
+        weight: 1
+      - path: Robot_againstWall001/Box327
+        weight: 1
+      - path: Robot_againstWall001/Box328
+        weight: 1
+      - path: Robot_againstWall001/Box329
+        weight: 1
+      - path: Robot_againstWall001/Box330
+        weight: 1
+      - path: Robot_againstWall001/Box331
+        weight: 1
+      - path: Robot_againstWall001/Box332
+        weight: 1
+      - path: Robot_againstWall001/Box333
+        weight: 1
+      - path: Robot_againstWall001/Box334
+        weight: 1
+      - path: Robot_againstWall001/Box335
+        weight: 1
+      - path: Robot_againstWall001/Box336
+        weight: 1
+      - path: Robot_againstWall001/Box337
+        weight: 1
+      - path: Robot_againstWall001/Cone019
+        weight: 1
+      - path: Robot_againstWall001/Cone020
+        weight: 1
+      - path: Robot_againstWall001/Cone021
+        weight: 1
+      - path: Robot_againstWall001/Cone022
+        weight: 1
+      - path: Robot_againstWall001/Cone023
+        weight: 1
+      - path: Robot_againstWall001/Cone024
+        weight: 1
+      - path: Robot_againstWall001/Cone025
+        weight: 1
+      - path: Robot_againstWall001/Cone026
+        weight: 1
+      - path: Robot_againstWall001/Cone027
+        weight: 1
+      - path: Robot_againstWall001/Cone028
+        weight: 1
+      - path: Robot_againstWall001/Cone029
+        weight: 1
+      - path: Robot_againstWall001/Cone030
+        weight: 1
+      - path: Robot_againstWall001/Cone031
+        weight: 1
+      - path: Robot_againstWall001/Cone032
+        weight: 1
+      - path: Robot_againstWall001/Cone033
+        weight: 1
+      - path: Robot_againstWall001/Cone034
+        weight: 1
+      - path: Robot_againstWall001/Cone035
+        weight: 1
+      - path: Robot_againstWall001/Cone036
+        weight: 1
+      - path: Robot_againstWall001/Cylinder086
+        weight: 1
+      - path: Robot_againstWall001/Cylinder087
+        weight: 1
+      - path: Robot_againstWall001/Cylinder088
+        weight: 1
+      - path: Robot_againstWall001/Cylinder089
+        weight: 1
+      - path: Robot_againstWall001/Cylinder090
+        weight: 1
+      - path: Robot_againstWall001/Cylinder091
+        weight: 1
+      - path: Robot_againstWall001/Cylinder092
+        weight: 1
+      - path: Robot_againstWall001/Cylinder093
+        weight: 1
+      - path: Robot_againstWall001/Cylinder094
+        weight: 1
+      - path: Robot_againstWall001/Cylinder095
+        weight: 1
+      - path: Robot_againstWall001/Cylinder096
+        weight: 1
+      - path: Robot_againstWall001/Cylinder097
+        weight: 1
+      - path: Robot_againstWall001/Cylinder098
+        weight: 1
+      - path: Robot_againstWall001/Cylinder099
+        weight: 1
+      - path: Robot_againstWall001/Cylinder100
+        weight: 1
+      - path: Robot_againstWall001/Cylinder101
+        weight: 1
+      - path: Robot_againstWall001/Cylinder102
+        weight: 1
+      - path: Robot_againstWall001/Cylinder103
+        weight: 1
+      - path: Robot_againstWall001/Cylinder104
+        weight: 1
+      - path: Robot_againstWall001/Cylinder105
+        weight: 1
+      - path: Robot_againstWall001/Cylinder106
+        weight: 1
+      - path: Robot_againstWall001/Cylinder107
+        weight: 1
+      - path: Robot_againstWall001/Cylinder108
+        weight: 1
+      - path: Robot_againstWall001/Cylinder109
+        weight: 1
+      - path: Robot_againstWall001/Cylinder110
+        weight: 1
+      - path: Robot_againstWall001/Cylinder111
+        weight: 1
+      - path: Robot_againstWall001/Cylinder112
+        weight: 1
+      - path: Robot_againstWall001/Cylinder113
+        weight: 1
+      - path: Robot_againstWall001/Cylinder114
+        weight: 1
+      - path: Robot_againstWall001/Cylinder115
+        weight: 1
+      - path: Robot_againstWall001/Cylinder116
+        weight: 1
+      - path: Robot_againstWall001/Cylinder117
+        weight: 1
+      - path: Robot_againstWall001/Cylinder118
+        weight: 1
+      - path: Robot_againstWall001/Cylinder119
+        weight: 1
+      - path: Robot_againstWall001/Cylinder120
+        weight: 1
+      - path: Robot_againstWall001/Cylinder121
+        weight: 1
+      - path: Robot_againstWall001/Cylinder122
+        weight: 1
+      - path: Robot_againstWall001/Cylinder123
+        weight: 1
+      - path: Robot_againstWall001/Cylinder124
+        weight: 1
+      - path: Robot_againstWall001/Cylinder125
+        weight: 1
+      - path: Robot_againstWall001/Cylinder126
+        weight: 1
+      - path: Robot_againstWall001/Cylinder127
+        weight: 1
+      - path: Robot_againstWall001/Cylinder128
+        weight: 1
+      - path: Robot_againstWall001/Cylinder129
+        weight: 1
+      - path: Robot_againstWall001/Cylinder130
+        weight: 1
+      - path: Robot_againstWall001/Cylinder131
+        weight: 1
+      - path: Robot_againstWall001/Cylinder132
+        weight: 1
+      - path: Robot_againstWall001/Cylinder133
+        weight: 1
+      - path: Robot_againstWall001/Cylinder134
+        weight: 1
+      - path: Robot_againstWall001/Cylinder135
+        weight: 1
+      - path: Robot_againstWall001/Cylinder136
+        weight: 1
+      - path: Robot_againstWall001/Cylinder137
+        weight: 1
+      - path: Robot_againstWall001/Cylinder138
+        weight: 1
+      - path: Robot_againstWall001/Cylinder139
+        weight: 1
+      - path: Robot_againstWall001/Cylinder140
+        weight: 1
+      - path: Robot_againstWall001/Cylinder141
+        weight: 1
+      - path: Robot_againstWall001/Cylinder142
+        weight: 1
+      - path: Robot_againstWall001/Cylinder143
+        weight: 1
+      - path: Robot_againstWall001/Cylinder144
+        weight: 1
+      - path: Robot_againstWall001/Cylinder145
+        weight: 1
+      - path: Robot_againstWall001/Cylinder146
+        weight: 1
+      - path: Robot_againstWall001/Cylinder147
+        weight: 1
+      - path: Robot_againstWall001/Cylinder148
+        weight: 1
+      - path: Robot_againstWall001/Cylinder149
+        weight: 1
+      - path: Robot_againstWall001/Cylinder150
+        weight: 1
+      - path: Robot_againstWall001/Cylinder151
+        weight: 1
+      - path: Robot_againstWall001/Cylinder152
+        weight: 1
+      - path: Robot_againstWall001/Cylinder153
+        weight: 1
+      - path: Robot_againstWall001/Cylinder154
+        weight: 1
+      - path: Robot_againstWall001/Cylinder155
+        weight: 1
+      - path: Robot_againstWall001/Cylinder156
+        weight: 1
+      - path: Robot_againstWall001/Cylinder157
+        weight: 1
+      - path: Robot_againstWall001/Cylinder158
+        weight: 1
+      - path: Robot_againstWall001/Cylinder159
+        weight: 1
+      - path: Robot_againstWall001/Cylinder160
+        weight: 1
+      - path: Robot_againstWall001/Cylinder161
+        weight: 1
+      - path: Robot_againstWall001/Cylinder162
+        weight: 1
+      - path: Robot_againstWall001/Cylinder163
+        weight: 1
+      - path: Robot_againstWall001/Cylinder164
+        weight: 1
+      - path: Robot_againstWall001/Cylinder165
+        weight: 1
+      - path: Robot_againstWall001/Cylinder166
+        weight: 1
+      - path: Robot_againstWall001/Cylinder167
+        weight: 1
+      - path: Robot_againstWall001/Cylinder168
+        weight: 1
+      - path: Robot_againstWall001/Cylinder169
+        weight: 1
+      - path: Robot_againstWall001/Cylinder170
+        weight: 1
+      - path: Robot_againstWall001/Hedra041
+        weight: 1
+      - path: Robot_againstWall001/Hedra042
+        weight: 1
+      - path: Robot_againstWall001/Hedra043
+        weight: 1
+      - path: Robot_againstWall001/Hedra044
+        weight: 1
+      - path: Robot_againstWall001/Hedra045
+        weight: 1
+      - path: Robot_againstWall001/Hedra046
+        weight: 1
+      - path: Robot_againstWall001/Hedra047
+        weight: 1
+      - path: Robot_againstWall001/Hedra048
+        weight: 1
+      - path: Robot_againstWall001/Hedra049
+        weight: 1
+      - path: Robot_againstWall001/Hedra050
+        weight: 1
+      - path: Robot_againstWall001/Hedra051
+        weight: 1
+      - path: Robot_againstWall001/Hedra052
+        weight: 1
+      - path: Robot_againstWall001/Hedra053
+        weight: 1
+      - path: Robot_againstWall001/Hedra054
+        weight: 1
+      - path: Robot_againstWall001/Hedra055
+        weight: 1
+      - path: Robot_againstWall001/Hedra056
+        weight: 1
+      - path: Robot_againstWall001/Hedra057
+        weight: 1
+      - path: Robot_againstWall001/Hedra058
+        weight: 1
+      - path: Robot_againstWall001/Hedra059
+        weight: 1
+      - path: Robot_againstWall001/Hedra060
+        weight: 1
+      - path: Robot_againstWall001/Hedra061
+        weight: 1
+      - path: Robot_againstWall001/Hedra062
+        weight: 1
+      - path: Robot_againstWall001/Hedra063
+        weight: 1
+      - path: Robot_againstWall001/Hedra064
+        weight: 1
+      - path: Robot_againstWall001/Hedra065
+        weight: 1
+      - path: Robot_againstWall001/Hedra066
+        weight: 1
+      - path: Robot_againstWall001/Hedra067
+        weight: 1
+      - path: Robot_againstWall001/Hedra068
+        weight: 1
+      - path: Robot_againstWall001/Hedra069
+        weight: 1
+      - path: Robot_againstWall001/Hedra070
+        weight: 1
+      - path: Robot_againstWall001/Hedra071
+        weight: 1
+      - path: Robot_againstWall001/Hedra072
+        weight: 1
+      - path: Robot_againstWall001/Hedra073
+        weight: 1
+      - path: Robot_againstWall001/Hedra074
+        weight: 1
+      - path: Robot_againstWall001/Hedra075
+        weight: 1
+      - path: Robot_againstWall001/Hedra076
+        weight: 1
+      - path: Robot_againstWall001/Hedra077
+        weight: 1
+      - path: Robot_againstWall001/Hedra078
+        weight: 1
+      - path: Robot_againstWall001/Hedra079
+        weight: 1
+      - path: Robot_againstWall001/Hedra080
+        weight: 1
+      - path: Robot_againstWall001/Plane033
+        weight: 1
+      - path: Robot_againstWall001/Plane034
+        weight: 1
+      - path: Robot_againstWall001/Plane035
+        weight: 1
+      - path: Robot_againstWall001/Plane036
+        weight: 1
+      - path: Robot_againstWall001/Plane037
+        weight: 1
+      - path: Robot_againstWall001/Plane038
+        weight: 1
+      - path: Robot_againstWall001/Plane039
+        weight: 1
+      - path: Robot_againstWall001/Plane040
+        weight: 1
+      - path: Robot_againstWall001/Plane041
+        weight: 1
+      - path: Robot_againstWall001/Plane042
+        weight: 1
+      - path: Robot_againstWall001/Pyramid022
+        weight: 1
+      - path: Robot_againstWall001/Pyramid023
+        weight: 1
+      - path: Robot_againstWall001/Pyramid024
+        weight: 1
+      - path: Robot_againstWall001/Pyramid025
+        weight: 1
+      - path: Robot_againstWall001/Pyramid026
+        weight: 1
+      - path: Robot_againstWall001/Pyramid027
+        weight: 1
+      - path: Robot_againstWall001/Pyramid028
+        weight: 1
+      - path: Robot_againstWall001/Pyramid029
+        weight: 1
+      - path: Robot_againstWall001/Pyramid030
+        weight: 1
+      - path: Robot_againstWall001/Pyramid031
+        weight: 1
+      - path: Robot_againstWall001/Pyramid032
+        weight: 1
+      - path: Robot_againstWall001/Pyramid033
+        weight: 1
+      - path: Robot_againstWall001/Pyramid034
+        weight: 1
+      - path: Robot_againstWall001/Pyramid035
+        weight: 1
+      - path: Robot_againstWall001/Pyramid036
+        weight: 1
+      - path: Robot_againstWall001/Pyramid037
+        weight: 1
+      - path: Robot_againstWall001/Pyramid038
+        weight: 1
+      - path: Robot_againstWall001/Pyramid039
+        weight: 1
+      - path: Robot_againstWall001/Pyramid040
+        weight: 1
+      - path: Robot_againstWall001/Pyramid041
+        weight: 1
+      - path: Robot_againstWall001/Sphere093
+        weight: 1
+      - path: Robot_againstWall001/Sphere094
+        weight: 1
+      - path: Robot_againstWall001/Sphere095
+        weight: 1
+      - path: Robot_againstWall001/Sphere096
+        weight: 1
+      - path: Robot_againstWall001/Sphere097
+        weight: 1
+      - path: Robot_againstWall001/Sphere098
+        weight: 1
+      - path: Robot_againstWall001/Sphere099
+        weight: 1
+      - path: Robot_againstWall001/Sphere100
+        weight: 1
+      - path: Robot_againstWall001/Sphere101
+        weight: 1
+      - path: Robot_againstWall001/Sphere102
+        weight: 1
+      - path: Robot_againstWall001/Sphere103
+        weight: 1
+      - path: Robot_againstWall001/Sphere104
+        weight: 1
+      - path: Robot_againstWall001/Sphere105
+        weight: 1
+      - path: Robot_againstWall001/Sphere106
+        weight: 1
+      - path: Robot_againstWall001/Sphere107
+        weight: 1
+      - path: Robot_againstWall001/Sphere108
+        weight: 1
+      - path: Robot_againstWall001/Sphere109
+        weight: 1
+      - path: Robot_againstWall001/Sphere110
+        weight: 1
+      - path: Robot_againstWall001/Sphere111
+        weight: 1
+      - path: Robot_againstWall001/Sphere112
+        weight: 1
+      - path: Robot_againstWall001/Sphere113
+        weight: 1
+      - path: Robot_againstWall001/Sphere114
+        weight: 1
+      - path: Robot_againstWall001/Sphere115
+        weight: 1
+      - path: Robot_againstWall001/Sphere116
+        weight: 1
+      - path: Robot_againstWall001/Sphere117
+        weight: 1
+      - path: Robot_againstWall001/Sphere118
+        weight: 1
+      - path: Robot_againstWall001/Sphere119
+        weight: 1
+      - path: Robot_againstWall001/Sphere120
+        weight: 1
+      - path: Robot_againstWall001/Sphere121
+        weight: 1
+      - path: Robot_againstWall001/Sphere122
+        weight: 1
+      - path: Robot_againstWall001/Sphere123
+        weight: 1
+      - path: Robot_againstWall001/Sphere124
+        weight: 1
+      - path: Robot_againstWall001/Sphere125
+        weight: 1
+      - path: Robot_againstWall001/Sphere126
+        weight: 1
+      - path: Robot_againstWall001/Sphere127
+        weight: 1
+      - path: Robot_againstWall001/Sphere128
+        weight: 1
+      - path: Robot_againstWall001/Sphere129
+        weight: 1
+      - path: Robot_againstWall001/Sphere130
+        weight: 1
+      - path: Robot_againstWall001/Sphere131
+        weight: 1
+      - path: Robot_againstWall001/Sphere132
+        weight: 1
+      - path: Robot_againstWall001/Sphere133
+        weight: 1
+      - path: Robot_againstWall001/Sphere134
+        weight: 1
+      - path: Robot_againstWall001/Sphere135
+        weight: 1
+      - path: Robot_againstWall001/Sphere136
+        weight: 1
+      - path: Robot_againstWall001/Sphere137
+        weight: 1
+      - path: Robot_againstWall001/Sphere138
+        weight: 1
+      - path: Robot_againstWall001/Sphere139
+        weight: 1
+      - path: Robot_againstWall001/Sphere140
+        weight: 1
+      - path: Robot_againstWall001/Sphere141
+        weight: 1
+      - path: Robot_againstWall001/Sphere142
+        weight: 1
+      - path: Robot_againstWall001/Sphere143
+        weight: 1
+      - path: Robot_againstWall001/Sphere144
+        weight: 1
+      - path: Robot_againstWall001/Sphere145
+        weight: 1
+      - path: Robot_againstWall001/Sphere146
+        weight: 1
+      - path: Robot_againstWall001/Sphere147
+        weight: 1
+      - path: Robot_againstWall001/Sphere148
+        weight: 1
+      - path: Robot_againstWall001/Sphere149
+        weight: 1
+      - path: Robot_againstWall001/Sphere150
+        weight: 1
+      - path: Robot_againstWall001/Sphere151
+        weight: 1
+      - path: Robot_againstWall001/Sphere152
+        weight: 1
+      - path: Robot_againstWall001/Sphere153
+        weight: 1
+      - path: Robot_againstWall001/Sphere154
+        weight: 1
+      - path: Robot_againstWall001/Sphere155
+        weight: 1
+      - path: Robot_againstWall001/Sphere156
+        weight: 1
+      - path: Robot_againstWall001/Sphere157
+        weight: 1
+      - path: Robot_againstWall001/Sphere158
+        weight: 1
+      - path: Robot_againstWall001/Sphere159
+        weight: 1
+      - path: Robot_againstWall001/Sphere160
+        weight: 1
+      - path: Robot_againstWall001/Sphere161
+        weight: 1
+      - path: Robot_againstWall001/Sphere162
+        weight: 1
+      - path: Robot_againstWall001/Sphere163
+        weight: 1
+      - path: Robot_againstWall001/Sphere164
+        weight: 1
+      - path: Robot_againstWall001/Sphere165
+        weight: 1
+      - path: Robot_againstWall001/Sphere166
+        weight: 1
+      - path: Robot_againstWall001/Sphere167
+        weight: 1
+      - path: Robot_againstWall001/Sphere168
+        weight: 1
+      - path: Robot_againstWall001/Sphere169
+        weight: 1
+      - path: Robot_againstWall001/Sphere170
+        weight: 1
+      - path: Robot_againstWall001/Sphere171
+        weight: 1
+      - path: Robot_againstWall001/Sphere172
+        weight: 1
+      - path: Robot_againstWall001/Sphere173
+        weight: 1
+      - path: Robot_againstWall001/Sphere174
+        weight: 1
+      - path: Robot_againstWall001/Sphere175
+        weight: 1
+      - path: Robot_againstWall001/Sphere176
+        weight: 1
+      - path: Robot_againstWall001/Sphere177
+        weight: 1
+      - path: Robot_againstWall001/Sphere178
+        weight: 1
+      - path: Robot_againstWall001/Sphere179
+        weight: 1
+      - path: Robot_againstWall001/Sphere180
+        weight: 1
+      - path: Robot_againstWall001/Sphere181
+        weight: 1
+      - path: Robot_againstWall001/Sphere182
+        weight: 1
+      - path: Table
+        weight: 1
+      - path: tent_pole
+        weight: 1
+      - path: tent_pole001
+        weight: 1
+      - path: tent_pole002
+        weight: 1
+      - path: tent_pole003
+        weight: 1
+      - path: tent_pole004
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

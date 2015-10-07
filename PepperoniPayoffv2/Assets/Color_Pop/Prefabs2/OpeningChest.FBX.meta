@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: 658e7602fe97af7418ecf34c5c696dcf
+timeCreated: 1443195066
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Box002
+    100002: Box002 1
+    100004: Chains
+    100006: Cone023
+    100008: Cone024
+    100010: Cone025
+    100012: Cone026
+    100014: Cone027
+    100016: Cone028
+    100018: Cone029
+    100020: Cone030
+    100022: //RootNode
+    100024: Torus001
+    100026: Torus002
+    400000: Box002
+    400002: Box002 1
+    400004: Chains
+    400006: Cone023
+    400008: Cone024
+    400010: Cone025
+    400012: Cone026
+    400014: Cone027
+    400016: Cone028
+    400018: Cone029
+    400020: Cone030
+    400022: //RootNode
+    400024: Torus001
+    400026: Torus002
+    2300000: Box002
+    2300002: Box002 1
+    2300004: Cone023
+    2300006: Cone024
+    2300008: Cone025
+    2300010: Cone026
+    2300012: Cone027
+    2300014: Cone028
+    2300016: Cone029
+    2300018: Cone030
+    2300020: Torus001
+    2300022: Torus002
+    3300000: Box002
+    3300002: Box002 1
+    3300004: Cone023
+    3300006: Cone024
+    3300008: Cone025
+    3300010: Cone026
+    3300012: Cone027
+    3300014: Cone028
+    3300016: Cone029
+    3300018: Cone030
+    3300020: Torus001
+    3300022: Torus002
+    4300000: Torus002
+    4300002: Torus001
+    4300004: Box002
+    4300006: Box002
+    4300008: Cone024
+    4300010: Cone029
+    4300012: Cone026
+    4300014: Cone025
+    4300016: Cone028
+    4300018: Cone027
+    4300020: Cone023
+    4300022: Cone030
+    7400000: Take 001
+    7400002: Open
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box002
+        weight: 1
+      - path: Box002 1
+        weight: 1
+      - path: Chains
+        weight: 1
+      - path: Chains/Cone023
+        weight: 1
+      - path: Chains/Cone024
+        weight: 1
+      - path: Chains/Cone025
+        weight: 1
+      - path: Chains/Cone026
+        weight: 1
+      - path: Chains/Cone027
+        weight: 1
+      - path: Chains/Cone028
+        weight: 1
+      - path: Chains/Cone029
+        weight: 1
+      - path: Chains/Cone030
+        weight: 1
+      - path: Torus001
+        weight: 1
+      - path: Torus002
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Open
+      takeName: Take 001
+      firstFrame: 51
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box002
+        weight: 1
+      - path: Box002 1
+        weight: 1
+      - path: Chains
+        weight: 1
+      - path: Chains/Cone023
+        weight: 1
+      - path: Chains/Cone024
+        weight: 1
+      - path: Chains/Cone025
+        weight: 1
+      - path: Chains/Cone026
+        weight: 1
+      - path: Chains/Cone027
+        weight: 1
+      - path: Chains/Cone028
+        weight: 1
+      - path: Chains/Cone029
+        weight: 1
+      - path: Chains/Cone030
+        weight: 1
+      - path: Torus001
+        weight: 1
+      - path: Torus002
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 24
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

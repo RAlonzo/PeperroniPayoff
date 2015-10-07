@@ -1,0 +1,113 @@
+fileFormatVersion: 2
+guid: d8f77437e0a56b84799f65378014c40c
+timeCreated: 1443533782
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Circle002
+    100002: Dartboard
+    100004: //RootNode
+    100006: DartLargeRing
+    100008: InsideInnerRing
+    100010: InsideOutterRing
+    100012: LargeInnerRing
+    100014: MediumInnerRing
+    100016: MediumRingOutter
+    400000: Circle002
+    400002: Dartboard
+    400004: //RootNode
+    400006: DartLargeRing
+    400008: InsideInnerRing
+    400010: InsideOutterRing
+    400012: LargeInnerRing
+    400014: MediumInnerRing
+    400016: MediumRingOutter
+    2300000: Circle002
+    2300002: Dartboard
+    2300004: DartLargeRing
+    2300006: InsideInnerRing
+    2300008: InsideOutterRing
+    2300010: LargeInnerRing
+    2300012: MediumInnerRing
+    2300014: MediumRingOutter
+    3300000: Circle002
+    3300002: Dartboard
+    3300004: DartLargeRing
+    3300006: InsideInnerRing
+    3300008: InsideOutterRing
+    3300010: LargeInnerRing
+    3300012: MediumInnerRing
+    3300014: MediumRingOutter
+    4300000: Dartboard
+    4300002: DartLargeRing
+    4300004: LargeInnerRing
+    4300006: MediumRingOutter
+    4300008: MediumInnerRing
+    4300010: InsideOutterRing
+    4300012: InsideInnerRing
+    4300014: Circle002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

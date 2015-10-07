@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: 29e3706e152fdd345a18e9f184e26e19
+timeCreated: 1442173962
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Flag
+    100002: Flag001
+    100004: Flag002
+    100006: Flag003
+    100008: Flag004
+    100010: Flag005
+    100012: Flag006
+    100014: Flag007
+    100016: Flag008
+    100018: Flag009
+    100020: Flag010
+    100022: Flag011
+    100024: Flag012
+    100026: Flag013
+    100028: Flag014
+    100030: Flag015
+    100032: Flag016
+    100034: Flag017
+    100036: Flag018
+    100038: Flag019
+    100040: Flag020
+    100042: Flag021
+    100044: //RootNode
+    100046: Line001
+    400000: Flag
+    400002: Flag001
+    400004: Flag002
+    400006: Flag003
+    400008: Flag004
+    400010: Flag005
+    400012: Flag006
+    400014: Flag007
+    400016: Flag008
+    400018: Flag009
+    400020: Flag010
+    400022: Flag011
+    400024: Flag012
+    400026: Flag013
+    400028: Flag014
+    400030: Flag015
+    400032: Flag016
+    400034: Flag017
+    400036: Flag018
+    400038: Flag019
+    400040: Flag020
+    400042: Flag021
+    400044: //RootNode
+    400046: Line001
+    2300000: Flag
+    2300002: Flag001
+    2300004: Flag002
+    2300006: Flag003
+    2300008: Flag004
+    2300010: Flag005
+    2300012: Flag006
+    2300014: Flag007
+    2300016: Flag008
+    2300018: Flag009
+    2300020: Flag010
+    2300022: Flag011
+    2300024: Flag012
+    2300026: Flag013
+    2300028: Flag014
+    2300030: Flag015
+    2300032: Flag016
+    2300034: Flag017
+    2300036: Flag018
+    2300038: Flag019
+    2300040: Flag020
+    2300042: Flag021
+    3300000: Flag
+    3300002: Flag001
+    3300004: Flag002
+    3300006: Flag003
+    3300008: Flag004
+    3300010: Flag005
+    3300012: Flag006
+    3300014: Flag007
+    3300016: Flag008
+    3300018: Flag009
+    3300020: Flag010
+    3300022: Flag011
+    3300024: Flag012
+    3300026: Flag013
+    3300028: Flag014
+    3300030: Flag015
+    3300032: Flag016
+    3300034: Flag017
+    3300036: Flag018
+    3300038: Flag019
+    3300040: Flag020
+    3300042: Flag021
+    4300000: Flag
+    4300002: Flag020
+    4300004: Flag001
+    4300006: Flag002
+    4300008: Flag003
+    4300010: Flag004
+    4300012: Flag005
+    4300014: Flag006
+    4300016: Flag007
+    4300018: Flag008
+    4300020: Flag009
+    4300022: Flag010
+    4300024: Flag011
+    4300026: Flag012
+    4300028: Flag013
+    4300030: Flag014
+    4300032: Flag015
+    4300034: Flag016
+    4300036: Flag017
+    4300038: Flag018
+    4300040: Flag019
+    4300042: Flag021
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
